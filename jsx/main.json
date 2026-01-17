@@ -3260,7 +3260,7 @@
                               "kind": "literal",
                               "literal": {
                                 "kind": "number",
-                                "number": 0.0
+                                "number": 0
                               }
                             }
                           }
@@ -3439,7 +3439,7 @@
                               "kind": "literal",
                               "literal": {
                                 "kind": "number",
-                                "number": 0.0
+                                "number": 0
                               }
                             }
                           }
@@ -3636,7 +3636,7 @@
                                   "kind": "literal",
                                   "literal": {
                                     "kind": "number",
-                                    "number": 0.0
+                                    "number": 0
                                   }
                                 }
                               }
@@ -3949,7 +3949,7 @@
                               "kind": "literal",
                               "literal": {
                                 "kind": "number",
-                                "number": 0.0
+                                "number": 0
                               }
                             }
                           }
@@ -5319,5 +5319,6 @@
         ]
       }
     }
-  ]
+  ],
+  "readme": "<div align=\"center\">\n    <img src=\"https://i.imgur.com/C3gWxwc.png\" width=\"50%\">\n    <p align=\"center\">\n        <b>A Discord.js framework that just works.</b>\n    </p>\n    <br>\n</div>\n\n<h3 align=\"center\">\n    <a href=\"https://discord.gg/KxfPZYuTGV\">\n        <img src=\"https://img.shields.io/discord/1453743492722458708?color=5865F2&logo=discord&logoColor=white\">\n    </a>\n    <a href=\"https://npmjs.org/package/@reciple/jsx\">\n        <img src=\"https://img.shields.io/npm/v/@reciple/jsx?label=npm\">\n    </a>\n    <a href=\"https://github.com/reciplejs/reciple/tree/main/packages/jsx\">\n        <img src=\"https://img.shields.io/npm/dt/@reciple/jsx?maxAge=3600\">\n    </a>\n    <a href=\"https://www.codefactor.io/repository/github/reciplejs/reciple\">\n        <img src=\"https://www.codefactor.io/repository/github/reciplejs/reciple/badge\">\n    </a>\n    <br>\n    <div style=\"padding-top: 1rem\">\n        <a href=\"https://discord.gg/KxfPZYuTGV\">\n            <img src=\"http://invidget.switchblade.xyz/KxfPZYuTGV\">\n        </a>\n    </div>\n</h3>\n\n## About\n\n`@reciple/jsx` A JSX wrapper for [Discord.js](https://discord.js.org/) builders.\n\n## Installation\n\n```bash\nnpm install @reciple/jsx discord.js\nyarn add @reciple/jsx discord.js\npnpm add @reciple/jsx discord.js\nbun install @reciple/jsx discord.js\ndeno install npm:@reciple/jsx discord.js\n```\n\n## Configuration\n\nYou must set `react-jsx` as [**jsx**](https://www.typescriptlang.org/tsconfig#jsx) then set `@reciple/jsx` as [**jsxImportSource**](https://www.typescriptlang.org/tsconfig#jsxImportSource) to your tsconfig.json or bundler config to use components from `@reciple/jsx`.\n\n```json\n{\n    \"compilerOptions\": {\n        ...\n        \"jsx\": \"react-jsx\",\n        \"jsxImportSource\": \"@reciple/jsx\"\n    }\n}\n```\n\n## Usage\n```js\nawait channel.send({\n    embeds: [\n        <Embed color=\"Blue\" timestamp={null}>\n            <EmbedTitle>My Embed</EmbedTitle>\n            <EmbedDescription>Lorem ipsum dolor sit amet consectetur adipiscing elit</EmbedDescription>\n            <EmbedImage url={\"https://i.imgur.com/C3gWxwc.png\"}/>\n        </Embed>\n    ]\n});\n```\n\n## Links\n\n- [Website](https://reciple.js.org)\n- [Discord](https://discord.gg/KxfPZYuTGV)\n- [Github](https://github.com/reciplejs/reciple/tree/main/packages/jsx)\n- [NPM](https://npmjs.org/package/@reciple/jsx)\n"
 }
