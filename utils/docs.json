@@ -1,0 +1,1631 @@
+{
+  "version": 1,
+  "nodes": [
+    {
+      "name": "PackageJsonBuilder",
+      "isDefault": false,
+      "location": {
+        "filename": "./utils/src/classes/PackageJsonBuilder.ts",
+        "line": 6,
+        "col": 0,
+        "byteIndex": 210
+      },
+      "declarationKind": "export",
+      "kind": "class",
+      "classDef": {
+        "isAbstract": false,
+        "constructors": [
+          {
+            "accessibility": null,
+            "hasBody": true,
+            "name": "constructor",
+            "params": [
+              {
+                "kind": "identifier",
+                "name": "data",
+                "optional": true,
+                "tsType": {
+                  "repr": "Partial",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": [
+                      {
+                        "repr": "PackageJson",
+                        "kind": "typeRef",
+                        "typeRef": {
+                          "typeParams": null,
+                          "typeName": "PackageJson"
+                        }
+                      }
+                    ],
+                    "typeName": "Partial"
+                  }
+                }
+              }
+            ],
+            "location": {
+              "filename": "./utils/src/classes/PackageJsonBuilder.ts",
+              "line": 9,
+              "col": 4,
+              "byteIndex": 312
+            }
+          }
+        ],
+        "properties": [
+          {
+            "tsType": {
+              "repr": "PackageJson",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "PackageJson"
+              }
+            },
+            "readonly": false,
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "data",
+            "location": {
+              "filename": "./utils/src/classes/PackageJsonBuilder.ts",
+              "line": 7,
+              "col": 4,
+              "byteIndex": 248
+            }
+          }
+        ],
+        "indexSignatures": [],
+        "methods": [
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "toJSON",
+            "kind": "method",
+            "functionDef": {
+              "params": [],
+              "returnType": {
+                "repr": "PackageJson",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": null,
+                  "typeName": "PackageJson"
+                }
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "./utils/src/classes/PackageJsonBuilder.ts",
+              "line": 13,
+              "col": 4,
+              "byteIndex": 406
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "write",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "filepath",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                },
+                {
+                  "kind": "identifier",
+                  "name": "overwrite",
+                  "optional": true,
+                  "tsType": {
+                    "repr": "boolean",
+                    "kind": "keyword",
+                    "keyword": "boolean"
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "Promise",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": [
+                    {
+                      "repr": "void",
+                      "kind": "keyword",
+                      "keyword": "void"
+                    }
+                  ],
+                  "typeName": "Promise"
+                }
+              },
+              "hasBody": true,
+              "isAsync": true,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "./utils/src/classes/PackageJsonBuilder.ts",
+              "line": 17,
+              "col": 4,
+              "byteIndex": 474
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "read",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "filepath",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "Promise",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": [
+                    {
+                      "repr": "this",
+                      "kind": "this",
+                      "this": true
+                    }
+                  ],
+                  "typeName": "Promise"
+                }
+              },
+              "hasBody": true,
+              "isAsync": true,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "./utils/src/classes/PackageJsonBuilder.ts",
+              "line": 25,
+              "col": 4,
+              "byteIndex": 818
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "merge",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "data",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "Partial",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": [
+                        {
+                          "repr": "PackageJson",
+                          "kind": "typeRef",
+                          "typeRef": {
+                            "typeParams": null,
+                            "typeName": "PackageJson"
+                          }
+                        }
+                      ],
+                      "typeName": "Partial"
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "this",
+                "kind": "this",
+                "this": true
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "./utils/src/classes/PackageJsonBuilder.ts",
+              "line": 30,
+              "col": 4,
+              "byteIndex": 956
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "remove",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "key",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "",
+                    "kind": "typeOperator",
+                    "typeOperator": {
+                      "operator": "keyof",
+                      "tsType": {
+                        "repr": "PackageJson",
+                        "kind": "typeRef",
+                        "typeRef": {
+                          "typeParams": null,
+                          "typeName": "PackageJson"
+                        }
+                      }
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "this",
+                "kind": "this",
+                "this": true
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "./utils/src/classes/PackageJsonBuilder.ts",
+              "line": 35,
+              "col": 4,
+              "byteIndex": 1082
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "setScripts",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "scripts",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "Record",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": [
+                        {
+                          "repr": "string",
+                          "kind": "keyword",
+                          "keyword": "string"
+                        },
+                        {
+                          "repr": "string",
+                          "kind": "keyword",
+                          "keyword": "string"
+                        }
+                      ],
+                      "typeName": "Record"
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "this",
+                "kind": "this",
+                "this": true
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "./utils/src/classes/PackageJsonBuilder.ts",
+              "line": 40,
+              "col": 4,
+              "byteIndex": 1191
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "addScript",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "name",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                },
+                {
+                  "kind": "identifier",
+                  "name": "script",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "this",
+                "kind": "this",
+                "this": true
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "./utils/src/classes/PackageJsonBuilder.ts",
+              "line": 45,
+              "col": 4,
+              "byteIndex": 1319
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "removeScript",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "name",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "this",
+                "kind": "this",
+                "this": true
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "./utils/src/classes/PackageJsonBuilder.ts",
+              "line": 51,
+              "col": 4,
+              "byteIndex": 1482
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "setDependencies",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "dependencies",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "Record",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": [
+                        {
+                          "repr": "string",
+                          "kind": "keyword",
+                          "keyword": "string"
+                        },
+                        {
+                          "repr": "string",
+                          "kind": "keyword",
+                          "keyword": "string"
+                        }
+                      ],
+                      "typeName": "Record"
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "this",
+                "kind": "this",
+                "this": true
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "./utils/src/classes/PackageJsonBuilder.ts",
+              "line": 57,
+              "col": 4,
+              "byteIndex": 1630
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "addDependency",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "name",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                },
+                {
+                  "kind": "identifier",
+                  "name": "version",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "this",
+                "kind": "this",
+                "this": true
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "./utils/src/classes/PackageJsonBuilder.ts",
+              "line": 62,
+              "col": 4,
+              "byteIndex": 1778
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "removeDependency",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "name",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "this",
+                "kind": "this",
+                "this": true
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "./utils/src/classes/PackageJsonBuilder.ts",
+              "line": 68,
+              "col": 4,
+              "byteIndex": 1957
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": true,
+            "name": "read",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "filepath",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                },
+                {
+                  "kind": "identifier",
+                  "name": "createIfNotExists",
+                  "optional": true,
+                  "tsType": {
+                    "repr": "",
+                    "kind": "union",
+                    "union": [
+                      {
+                        "repr": "boolean",
+                        "kind": "keyword",
+                        "keyword": "boolean"
+                      },
+                      {
+                        "repr": "Partial",
+                        "kind": "typeRef",
+                        "typeRef": {
+                          "typeParams": [
+                            {
+                              "repr": "PackageJson",
+                              "kind": "typeRef",
+                              "typeRef": {
+                                "typeParams": null,
+                                "typeName": "PackageJson"
+                              }
+                            }
+                          ],
+                          "typeName": "Partial"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "Promise",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": [
+                    {
+                      "repr": "PackageJsonBuilder",
+                      "kind": "typeRef",
+                      "typeRef": {
+                        "typeParams": null,
+                        "typeName": "PackageJsonBuilder"
+                      }
+                    }
+                  ],
+                  "typeName": "Promise"
+                }
+              },
+              "hasBody": true,
+              "isAsync": true,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "./utils/src/classes/PackageJsonBuilder.ts",
+              "line": 74,
+              "col": 4,
+              "byteIndex": 2119
+            }
+          }
+        ],
+        "extends": null,
+        "implements": [],
+        "typeParams": [],
+        "superTypeParams": []
+      }
+    },
+    {
+      "name": "PackageJsonBuilder",
+      "isDefault": false,
+      "location": {
+        "filename": "./utils/src/classes/PackageJsonBuilder.ts",
+        "line": 92,
+        "col": 0,
+        "byteIndex": 2870
+      },
+      "declarationKind": "export",
+      "kind": "namespace",
+      "namespaceDef": {
+        "elements": [
+          {
+            "name": "defaultData",
+            "isDefault": false,
+            "location": {
+              "filename": "./utils/src/classes/PackageJsonBuilder.ts",
+              "line": 93,
+              "col": 17,
+              "byteIndex": 2925
+            },
+            "declarationKind": "export",
+            "kind": "variable",
+            "variableDef": {
+              "tsType": {
+                "repr": "PackageJson",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": null,
+                  "typeName": "PackageJson"
+                }
+              },
+              "kind": "const"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "isDebugging",
+      "isDefault": false,
+      "location": {
+        "filename": "./utils/src/helpers/functions.ts",
+        "line": 4,
+        "col": 0,
+        "byteIndex": 109
+      },
+      "declarationKind": "export",
+      "kind": "function",
+      "functionDef": {
+        "params": [],
+        "returnType": {
+          "repr": "boolean",
+          "kind": "keyword",
+          "keyword": "boolean"
+        },
+        "hasBody": true,
+        "isAsync": false,
+        "isGenerator": false,
+        "typeParams": []
+      }
+    },
+    {
+      "name": "recursiveDefaults",
+      "isDefault": false,
+      "location": {
+        "filename": "./utils/src/helpers/functions.ts",
+        "line": 8,
+        "col": 0,
+        "byteIndex": 239
+      },
+      "declarationKind": "export",
+      "kind": "function",
+      "functionDef": {
+        "params": [
+          {
+            "kind": "identifier",
+            "name": "data",
+            "optional": false,
+            "tsType": {
+              "repr": "",
+              "kind": "union",
+              "union": [
+                {
+                  "repr": "RecursiveDefault",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": [
+                      {
+                        "repr": "T",
+                        "kind": "typeRef",
+                        "typeRef": {
+                          "typeParams": null,
+                          "typeName": "T"
+                        }
+                      }
+                    ],
+                    "typeName": "RecursiveDefault"
+                  }
+                },
+                {
+                  "repr": "T",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": null,
+                    "typeName": "T"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "returnType": {
+          "repr": "",
+          "kind": "union",
+          "union": [
+            {
+              "repr": "T",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "T"
+              }
+            },
+            {
+              "repr": "undefined",
+              "kind": "keyword",
+              "keyword": "undefined"
+            }
+          ]
+        },
+        "hasBody": true,
+        "isAsync": false,
+        "isGenerator": false,
+        "typeParams": [
+          {
+            "name": "T",
+            "default": {
+              "repr": "unknown",
+              "kind": "keyword",
+              "keyword": "unknown"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "escapeRegexp",
+      "isDefault": false,
+      "location": {
+        "filename": "./utils/src/helpers/functions.ts",
+        "line": 18,
+        "col": 0,
+        "byteIndex": 542
+      },
+      "declarationKind": "export",
+      "kind": "function",
+      "functionDef": {
+        "params": [
+          {
+            "kind": "identifier",
+            "name": "str",
+            "optional": false,
+            "tsType": {
+              "repr": "string",
+              "kind": "keyword",
+              "keyword": "string"
+            }
+          }
+        ],
+        "returnType": {
+          "repr": "string",
+          "kind": "keyword",
+          "keyword": "string"
+        },
+        "hasBody": true,
+        "isAsync": false,
+        "isGenerator": false,
+        "typeParams": []
+      }
+    },
+    {
+      "name": "sortRecordByKey",
+      "isDefault": false,
+      "location": {
+        "filename": "./utils/src/helpers/functions.ts",
+        "line": 22,
+        "col": 0,
+        "byteIndex": 675
+      },
+      "declarationKind": "export",
+      "kind": "function",
+      "functionDef": {
+        "params": [
+          {
+            "kind": "identifier",
+            "name": "record",
+            "optional": false,
+            "tsType": {
+              "repr": "T",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "T"
+              }
+            }
+          },
+          {
+            "kind": "identifier",
+            "name": "sort",
+            "optional": true,
+            "tsType": {
+              "repr": "",
+              "kind": "fnOrConstructor",
+              "fnOrConstructor": {
+                "constructor": false,
+                "tsType": {
+                  "repr": "number",
+                  "kind": "keyword",
+                  "keyword": "number"
+                },
+                "params": [
+                  {
+                    "kind": "identifier",
+                    "name": "a",
+                    "optional": false,
+                    "tsType": {
+                      "repr": "",
+                      "kind": "typeOperator",
+                      "typeOperator": {
+                        "operator": "keyof",
+                        "tsType": {
+                          "repr": "T",
+                          "kind": "typeRef",
+                          "typeRef": {
+                            "typeParams": null,
+                            "typeName": "T"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "kind": "identifier",
+                    "name": "b",
+                    "optional": false,
+                    "tsType": {
+                      "repr": "",
+                      "kind": "typeOperator",
+                      "typeOperator": {
+                        "operator": "keyof",
+                        "tsType": {
+                          "repr": "T",
+                          "kind": "typeRef",
+                          "typeRef": {
+                            "typeParams": null,
+                            "typeName": "T"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "typeParams": []
+              }
+            }
+          }
+        ],
+        "returnType": {
+          "repr": "T",
+          "kind": "typeRef",
+          "typeRef": {
+            "typeParams": null,
+            "typeName": "T"
+          }
+        },
+        "hasBody": true,
+        "isAsync": false,
+        "isGenerator": false,
+        "typeParams": [
+          {
+            "name": "T",
+            "constraint": {
+              "repr": "Record",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": [
+                  {
+                    "repr": "any",
+                    "kind": "keyword",
+                    "keyword": "any"
+                  },
+                  {
+                    "repr": "any",
+                    "kind": "keyword",
+                    "keyword": "any"
+                  }
+                ],
+                "typeName": "Record"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "resolveDate",
+      "isDefault": false,
+      "location": {
+        "filename": "./utils/src/helpers/functions.ts",
+        "line": 31,
+        "col": 0,
+        "byteIndex": 970
+      },
+      "declarationKind": "export",
+      "kind": "function",
+      "functionDef": {
+        "params": [
+          {
+            "kind": "identifier",
+            "name": "resolvable",
+            "optional": false,
+            "tsType": {
+              "repr": "DateResolvable",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "DateResolvable"
+              }
+            }
+          }
+        ],
+        "returnType": {
+          "repr": "Date",
+          "kind": "typeRef",
+          "typeRef": {
+            "typeParams": null,
+            "typeName": "Date"
+          }
+        },
+        "hasBody": true,
+        "isAsync": false,
+        "isGenerator": false,
+        "typeParams": []
+      }
+    },
+    {
+      "name": "isDateResolvable",
+      "isDefault": false,
+      "location": {
+        "filename": "./utils/src/helpers/functions.ts",
+        "line": 38,
+        "col": 0,
+        "byteIndex": 1294
+      },
+      "declarationKind": "export",
+      "kind": "function",
+      "functionDef": {
+        "params": [
+          {
+            "kind": "identifier",
+            "name": "value",
+            "optional": false,
+            "tsType": {
+              "repr": "unknown",
+              "kind": "keyword",
+              "keyword": "unknown"
+            }
+          }
+        ],
+        "returnType": {
+          "repr": "value is \u001b[0m\u001b[38;5;12mDateResolvable\u001b[0m",
+          "kind": "typePredicate",
+          "typePredicate": {
+            "asserts": false,
+            "param": {
+              "type": "identifier",
+              "name": "value"
+            },
+            "type": {
+              "repr": "DateResolvable",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "DateResolvable"
+              }
+            }
+          }
+        },
+        "hasBody": true,
+        "isAsync": false,
+        "isGenerator": false,
+        "typeParams": []
+      }
+    },
+    {
+      "name": "resolveEnvProtocol",
+      "isDefault": false,
+      "location": {
+        "filename": "./utils/src/helpers/functions.ts",
+        "line": 42,
+        "col": 0,
+        "byteIndex": 1465
+      },
+      "declarationKind": "export",
+      "kind": "function",
+      "functionDef": {
+        "params": [
+          {
+            "kind": "identifier",
+            "name": "string",
+            "optional": false,
+            "tsType": {
+              "repr": "string",
+              "kind": "keyword",
+              "keyword": "string"
+            }
+          },
+          {
+            "kind": "assign",
+            "left": {
+              "kind": "identifier",
+              "name": "env",
+              "optional": false,
+              "tsType": {
+                "repr": "NodeJS.ProcessEnv",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": null,
+                  "typeName": "NodeJS.ProcessEnv"
+                }
+              }
+            },
+            "right": "[process.env]",
+            "tsType": null
+          }
+        ],
+        "returnType": {
+          "repr": "",
+          "kind": "union",
+          "union": [
+            {
+              "repr": "string",
+              "kind": "keyword",
+              "keyword": "string"
+            },
+            {
+              "repr": "undefined",
+              "kind": "keyword",
+              "keyword": "undefined"
+            }
+          ]
+        },
+        "hasBody": true,
+        "isAsync": false,
+        "isGenerator": false,
+        "typeParams": []
+      }
+    },
+    {
+      "name": "DateResolvable",
+      "isDefault": false,
+      "location": {
+        "filename": "./utils/src/helpers/types.ts",
+        "line": 1,
+        "col": 0,
+        "byteIndex": 0
+      },
+      "declarationKind": "export",
+      "kind": "typeAlias",
+      "typeAliasDef": {
+        "tsType": {
+          "repr": "",
+          "kind": "union",
+          "union": [
+            {
+              "repr": "Date",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "Date"
+              }
+            },
+            {
+              "repr": "number",
+              "kind": "keyword",
+              "keyword": "number"
+            },
+            {
+              "repr": "string",
+              "kind": "keyword",
+              "keyword": "string"
+            }
+          ]
+        },
+        "typeParams": []
+      }
+    },
+    {
+      "name": "Awaitable",
+      "isDefault": false,
+      "location": {
+        "filename": "./utils/src/helpers/types.ts",
+        "line": 3,
+        "col": 0,
+        "byteIndex": 50
+      },
+      "declarationKind": "export",
+      "kind": "typeAlias",
+      "typeAliasDef": {
+        "tsType": {
+          "repr": "",
+          "kind": "union",
+          "union": [
+            {
+              "repr": "PromiseLike",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": [
+                  {
+                    "repr": "T",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": null,
+                      "typeName": "T"
+                    }
+                  }
+                ],
+                "typeName": "PromiseLike"
+              }
+            },
+            {
+              "repr": "T",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "T"
+              }
+            }
+          ]
+        },
+        "typeParams": [
+          {
+            "name": "T"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecursiveDefault",
+      "isDefault": false,
+      "location": {
+        "filename": "./utils/src/helpers/types.ts",
+        "line": 4,
+        "col": 0,
+        "byteIndex": 95
+      },
+      "declarationKind": "export",
+      "kind": "interface",
+      "interfaceDef": {
+        "extends": [],
+        "constructors": [],
+        "methods": [],
+        "properties": [
+          {
+            "name": "default",
+            "location": {
+              "filename": "./utils/src/helpers/types.ts",
+              "line": 5,
+              "col": 4,
+              "byteIndex": 148
+            },
+            "params": [],
+            "computed": false,
+            "optional": true,
+            "tsType": {
+              "repr": "",
+              "kind": "union",
+              "union": [
+                {
+                  "repr": "T",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": null,
+                    "typeName": "T"
+                  }
+                },
+                {
+                  "repr": "RecursiveDefault",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": [
+                      {
+                        "repr": "T",
+                        "kind": "typeRef",
+                        "typeRef": {
+                          "typeParams": null,
+                          "typeName": "T"
+                        }
+                      }
+                    ],
+                    "typeName": "RecursiveDefault"
+                  }
+                }
+              ]
+            },
+            "typeParams": []
+          }
+        ],
+        "callSignatures": [],
+        "indexSignatures": [],
+        "typeParams": [
+          {
+            "name": "T",
+            "default": {
+              "repr": "unknown",
+              "kind": "keyword",
+              "keyword": "unknown"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Format",
+      "isDefault": false,
+      "location": {
+        "filename": "./utils/src/structures/Format.ts",
+        "line": 1,
+        "col": 0,
+        "byteIndex": 0
+      },
+      "declarationKind": "export",
+      "kind": "namespace",
+      "namespaceDef": {
+        "elements": [
+          {
+            "name": "bytes",
+            "isDefault": false,
+            "location": {
+              "filename": "./utils/src/structures/Format.ts",
+              "line": 2,
+              "col": 4,
+              "byteIndex": 30
+            },
+            "declarationKind": "export",
+            "kind": "function",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "bytes",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "number",
+                    "kind": "keyword",
+                    "keyword": "number"
+                  }
+                },
+                {
+                  "kind": "assign",
+                  "left": {
+                    "kind": "identifier",
+                    "name": "decimals",
+                    "optional": false,
+                    "tsType": {
+                      "repr": "number",
+                      "kind": "keyword",
+                      "keyword": "number"
+                    }
+                  },
+                  "right": "2",
+                  "tsType": null
+                }
+              ],
+              "returnType": {
+                "repr": "string",
+                "kind": "keyword",
+                "keyword": "string"
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            }
+          },
+          {
+            "name": "duration",
+            "isDefault": false,
+            "location": {
+              "filename": "./utils/src/structures/Format.ts",
+              "line": 14,
+              "col": 4,
+              "byteIndex": 436
+            },
+            "declarationKind": "export",
+            "kind": "function",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "duration",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "number",
+                    "kind": "keyword",
+                    "keyword": "number"
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "string",
+                "kind": "keyword",
+                "keyword": "string"
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            }
+          },
+          {
+            "name": "plural",
+            "isDefault": false,
+            "location": {
+              "filename": "./utils/src/structures/Format.ts",
+              "line": 33,
+              "col": 4,
+              "byteIndex": 1107
+            },
+            "declarationKind": "export",
+            "kind": "function",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "count",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "number",
+                    "kind": "keyword",
+                    "keyword": "number"
+                  }
+                },
+                {
+                  "kind": "identifier",
+                  "name": "singular",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                },
+                {
+                  "kind": "identifier",
+                  "name": "plural",
+                  "optional": true,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "string",
+                "kind": "keyword",
+                "keyword": "string"
+              },
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            }
+          },
+          {
+            "name": "plural",
+            "isDefault": false,
+            "location": {
+              "filename": "./utils/src/structures/Format.ts",
+              "line": 34,
+              "col": 4,
+              "byteIndex": 1192
+            },
+            "declarationKind": "export",
+            "kind": "function",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "isPlural",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "boolean",
+                    "kind": "keyword",
+                    "keyword": "boolean"
+                  }
+                },
+                {
+                  "kind": "identifier",
+                  "name": "singular",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                },
+                {
+                  "kind": "identifier",
+                  "name": "plural",
+                  "optional": true,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "string",
+                "kind": "keyword",
+                "keyword": "string"
+              },
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            }
+          },
+          {
+            "name": "plural",
+            "isDefault": false,
+            "location": {
+              "filename": "./utils/src/structures/Format.ts",
+              "line": 35,
+              "col": 4,
+              "byteIndex": 1281
+            },
+            "declarationKind": "export",
+            "kind": "function",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "countOrCondition",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "",
+                    "kind": "union",
+                    "union": [
+                      {
+                        "repr": "number",
+                        "kind": "keyword",
+                        "keyword": "number"
+                      },
+                      {
+                        "repr": "boolean",
+                        "kind": "keyword",
+                        "keyword": "boolean"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "kind": "identifier",
+                  "name": "singular",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                },
+                {
+                  "kind": "identifier",
+                  "name": "plural",
+                  "optional": true,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "string",
+                "kind": "keyword",
+                "keyword": "string"
+              },
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            }
+          },
+          {
+            "name": "plural",
+            "isDefault": false,
+            "location": {
+              "filename": "./utils/src/structures/Format.ts",
+              "line": 36,
+              "col": 4,
+              "byteIndex": 1385
+            },
+            "declarationKind": "export",
+            "kind": "function",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "countOrCondition",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "",
+                    "kind": "union",
+                    "union": [
+                      {
+                        "repr": "number",
+                        "kind": "keyword",
+                        "keyword": "number"
+                      },
+                      {
+                        "repr": "boolean",
+                        "kind": "keyword",
+                        "keyword": "boolean"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "kind": "identifier",
+                  "name": "singular",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                },
+                {
+                  "kind": "identifier",
+                  "name": "plural",
+                  "optional": true,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "string",
+                "kind": "keyword",
+                "keyword": "string"
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
