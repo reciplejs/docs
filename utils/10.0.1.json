@@ -6,16 +6,28 @@
       "isDefault": false,
       "location": {
         "filename": "./utils/src/classes/PackageJsonBuilder.ts",
-        "line": 6,
+        "line": 9,
         "col": 0,
-        "byteIndex": 210
+        "byteIndex": 250
       },
       "declarationKind": "export",
+      "jsDoc": {
+        "doc": "A package.json builder class"
+      },
       "kind": "class",
       "classDef": {
         "isAbstract": false,
         "constructors": [
           {
+            "jsDoc": {
+              "tags": [
+                {
+                  "kind": "param",
+                  "name": "data",
+                  "doc": "The initial package.json data"
+                }
+              ]
+            },
             "accessibility": null,
             "hasBody": true,
             "name": "constructor",
@@ -45,14 +57,17 @@
             ],
             "location": {
               "filename": "./utils/src/classes/PackageJsonBuilder.ts",
-              "line": 9,
+              "line": 18,
               "col": 4,
-              "byteIndex": 312
+              "byteIndex": 469
             }
           }
         ],
         "properties": [
           {
+            "jsDoc": {
+              "doc": "The package.json data object"
+            },
             "tsType": {
               "repr": "PackageJson",
               "kind": "typeRef",
@@ -69,15 +84,24 @@
             "name": "data",
             "location": {
               "filename": "./utils/src/classes/PackageJsonBuilder.ts",
-              "line": 7,
+              "line": 13,
               "col": 4,
-              "byteIndex": 248
+              "byteIndex": 340
             }
           }
         ],
         "indexSignatures": [],
         "methods": [
           {
+            "jsDoc": {
+              "doc": "Returns the package.json data",
+              "tags": [
+                {
+                  "kind": "return",
+                  "doc": "The package.json data object"
+                }
+              ]
+            },
             "accessibility": "public",
             "optional": false,
             "isAbstract": false,
@@ -101,12 +125,31 @@
             },
             "location": {
               "filename": "./utils/src/classes/PackageJsonBuilder.ts",
-              "line": 13,
+              "line": 26,
               "col": 4,
-              "byteIndex": 406
+              "byteIndex": 661
             }
           },
           {
+            "jsDoc": {
+              "doc": "Writes the package.json data to the given filepath",
+              "tags": [
+                {
+                  "kind": "param",
+                  "name": "filepath",
+                  "doc": "The filepath to write the package.json data to"
+                },
+                {
+                  "kind": "param",
+                  "name": "overwrite",
+                  "doc": "Whether to overwrite the file if it already exists"
+                },
+                {
+                  "kind": "return",
+                  "doc": "A promise that resolves when the file has been written"
+                }
+              ]
+            },
             "accessibility": "public",
             "optional": false,
             "isAbstract": false,
@@ -157,12 +200,26 @@
             },
             "location": {
               "filename": "./utils/src/classes/PackageJsonBuilder.ts",
-              "line": 17,
+              "line": 36,
               "col": 4,
-              "byteIndex": 474
+              "byteIndex": 1019
             }
           },
           {
+            "jsDoc": {
+              "doc": "Reads the package.json data from the given filepath",
+              "tags": [
+                {
+                  "kind": "param",
+                  "name": "filepath",
+                  "doc": "The filepath to read the package.json data from"
+                },
+                {
+                  "kind": "return",
+                  "doc": "A promise that resolves when the file has been read"
+                }
+              ]
+            },
             "accessibility": "public",
             "optional": false,
             "isAbstract": false,
@@ -203,12 +260,26 @@
             },
             "location": {
               "filename": "./utils/src/classes/PackageJsonBuilder.ts",
-              "line": 25,
+              "line": 49,
               "col": 4,
-              "byteIndex": 818
+              "byteIndex": 1577
             }
           },
           {
+            "jsDoc": {
+              "doc": "Merges the given package.json data into the current package.json data",
+              "tags": [
+                {
+                  "kind": "param",
+                  "name": "data",
+                  "doc": "The package.json data to merge"
+                },
+                {
+                  "kind": "return",
+                  "doc": "The current package.json builder"
+                }
+              ]
+            },
             "accessibility": "public",
             "optional": false,
             "isAbstract": false,
@@ -252,12 +323,26 @@
             },
             "location": {
               "filename": "./utils/src/classes/PackageJsonBuilder.ts",
-              "line": 30,
+              "line": 59,
               "col": 4,
-              "byteIndex": 956
+              "byteIndex": 1907
             }
           },
           {
+            "jsDoc": {
+              "doc": "Removes the given key from the package.json data",
+              "tags": [
+                {
+                  "kind": "param",
+                  "name": "key",
+                  "doc": "The key to remove"
+                },
+                {
+                  "kind": "return",
+                  "doc": "The current package.json builder"
+                }
+              ]
+            },
             "accessibility": "public",
             "optional": false,
             "isAbstract": false,
@@ -299,12 +384,26 @@
             },
             "location": {
               "filename": "./utils/src/classes/PackageJsonBuilder.ts",
-              "line": 35,
+              "line": 69,
               "col": 4,
-              "byteIndex": 1082
+              "byteIndex": 2190
             }
           },
           {
+            "jsDoc": {
+              "doc": "Sets the package.json scripts",
+              "tags": [
+                {
+                  "kind": "param",
+                  "name": "scripts",
+                  "doc": "The scripts to set"
+                },
+                {
+                  "kind": "return",
+                  "doc": "The current package.json builder"
+                }
+              ]
+            },
             "accessibility": "public",
             "optional": false,
             "isAbstract": false,
@@ -350,12 +449,31 @@
             },
             "location": {
               "filename": "./utils/src/classes/PackageJsonBuilder.ts",
-              "line": 40,
+              "line": 79,
               "col": 4,
-              "byteIndex": 1191
+              "byteIndex": 2442
             }
           },
           {
+            "jsDoc": {
+              "doc": "Adds a script to the package.json",
+              "tags": [
+                {
+                  "kind": "param",
+                  "name": "name",
+                  "doc": "The name of the script"
+                },
+                {
+                  "kind": "param",
+                  "name": "script",
+                  "doc": "The script that will be executed"
+                },
+                {
+                  "kind": "return",
+                  "doc": "The current package.json builder"
+                }
+              ]
+            },
             "accessibility": "public",
             "optional": false,
             "isAbstract": false,
@@ -397,12 +515,26 @@
             },
             "location": {
               "filename": "./utils/src/classes/PackageJsonBuilder.ts",
-              "line": 45,
+              "line": 90,
               "col": 4,
-              "byteIndex": 1319
+              "byteIndex": 2772
             }
           },
           {
+            "jsDoc": {
+              "doc": "Removes a script from the package.json",
+              "tags": [
+                {
+                  "kind": "param",
+                  "name": "name",
+                  "doc": "The name of the script"
+                },
+                {
+                  "kind": "return",
+                  "doc": "The current package.json builder"
+                }
+              ]
+            },
             "accessibility": "public",
             "optional": false,
             "isAbstract": false,
@@ -434,12 +566,26 @@
             },
             "location": {
               "filename": "./utils/src/classes/PackageJsonBuilder.ts",
-              "line": 51,
+              "line": 101,
               "col": 4,
-              "byteIndex": 1482
+              "byteIndex": 3088
             }
           },
           {
+            "jsDoc": {
+              "doc": "Sets the package.json dependencies",
+              "tags": [
+                {
+                  "kind": "param",
+                  "name": "dependencies",
+                  "doc": "The dependencies to set"
+                },
+                {
+                  "kind": "return",
+                  "doc": "The current package.json builder"
+                }
+              ]
+            },
             "accessibility": "public",
             "optional": false,
             "isAbstract": false,
@@ -485,12 +631,37 @@
             },
             "location": {
               "filename": "./utils/src/classes/PackageJsonBuilder.ts",
-              "line": 57,
+              "line": 112,
               "col": 4,
-              "byteIndex": 1630
+              "byteIndex": 3394
             }
           },
           {
+            "jsDoc": {
+              "doc": "Adds a dependency to the package.json",
+              "tags": [
+                {
+                  "kind": "param",
+                  "name": "name",
+                  "doc": "The name of the dependency"
+                },
+                {
+                  "kind": "param",
+                  "name": "version",
+                  "doc": "The version of the dependency"
+                },
+                {
+                  "kind": "param",
+                  "name": "dev",
+                  "default": "false",
+                  "doc": "Whether the dependency is a dev dependency"
+                },
+                {
+                  "kind": "return",
+                  "doc": "The current package.json builder"
+                }
+              ]
+            },
             "accessibility": "public",
             "optional": false,
             "isAbstract": false,
@@ -518,6 +689,21 @@
                     "kind": "keyword",
                     "keyword": "string"
                   }
+                },
+                {
+                  "kind": "assign",
+                  "left": {
+                    "kind": "identifier",
+                    "name": "dev",
+                    "optional": false,
+                    "tsType": {
+                      "repr": "boolean",
+                      "kind": "keyword",
+                      "keyword": "boolean"
+                    }
+                  },
+                  "right": "false",
+                  "tsType": null
                 }
               ],
               "returnType": {
@@ -532,12 +718,32 @@
             },
             "location": {
               "filename": "./utils/src/classes/PackageJsonBuilder.ts",
-              "line": 62,
+              "line": 124,
               "col": 4,
-              "byteIndex": 1778
+              "byteIndex": 3819
             }
           },
           {
+            "jsDoc": {
+              "doc": "Removes a dependency from the package.json",
+              "tags": [
+                {
+                  "kind": "param",
+                  "name": "name",
+                  "doc": "The name of the dependency"
+                },
+                {
+                  "kind": "param",
+                  "name": "dev",
+                  "default": "false",
+                  "doc": "Whether the dependency is a dev dependency"
+                },
+                {
+                  "kind": "return",
+                  "doc": "The current package.json builder"
+                }
+              ]
+            },
             "accessibility": "public",
             "optional": false,
             "isAbstract": false,
@@ -555,6 +761,21 @@
                     "kind": "keyword",
                     "keyword": "string"
                   }
+                },
+                {
+                  "kind": "assign",
+                  "left": {
+                    "kind": "identifier",
+                    "name": "dev",
+                    "optional": false,
+                    "tsType": {
+                      "repr": "boolean",
+                      "kind": "keyword",
+                      "keyword": "boolean"
+                    }
+                  },
+                  "right": "false",
+                  "tsType": null
                 }
               ],
               "returnType": {
@@ -569,12 +790,31 @@
             },
             "location": {
               "filename": "./utils/src/classes/PackageJsonBuilder.ts",
-              "line": 68,
+              "line": 136,
               "col": 4,
-              "byteIndex": 1957
+              "byteIndex": 4250
             }
           },
           {
+            "jsDoc": {
+              "doc": "Reads the package.json data from the given filepath and creates it if it doesn't exist",
+              "tags": [
+                {
+                  "kind": "param",
+                  "name": "filepath",
+                  "doc": "The filepath to read the package.json data from"
+                },
+                {
+                  "kind": "param",
+                  "name": "createIfNotExists",
+                  "doc": "Whether to create the package.json file if it doesn't exist"
+                },
+                {
+                  "kind": "return",
+                  "doc": "A promise that resolves to a package.json builder"
+                }
+              ]
+            },
             "accessibility": "public",
             "optional": false,
             "isAbstract": false,
@@ -651,9 +891,9 @@
             },
             "location": {
               "filename": "./utils/src/classes/PackageJsonBuilder.ts",
-              "line": 74,
+              "line": 148,
               "col": 4,
-              "byteIndex": 2119
+              "byteIndex": 4773
             }
           }
         ],
@@ -668,9 +908,9 @@
       "isDefault": false,
       "location": {
         "filename": "./utils/src/classes/PackageJsonBuilder.ts",
-        "line": 92,
+        "line": 166,
         "col": 0,
-        "byteIndex": 2870
+        "byteIndex": 5524
       },
       "declarationKind": "export",
       "kind": "namespace",
@@ -681,11 +921,14 @@
             "isDefault": false,
             "location": {
               "filename": "./utils/src/classes/PackageJsonBuilder.ts",
-              "line": 93,
+              "line": 170,
               "col": 17,
-              "byteIndex": 2925
+              "byteIndex": 5632
             },
             "declarationKind": "export",
+            "jsDoc": {
+              "doc": "The default package.json data"
+            },
             "kind": "variable",
             "variableDef": {
               "tsType": {
@@ -707,11 +950,20 @@
       "isDefault": false,
       "location": {
         "filename": "./utils/src/helpers/functions.ts",
-        "line": 4,
+        "line": 8,
         "col": 0,
-        "byteIndex": 109
+        "byteIndex": 210
       },
       "declarationKind": "export",
+      "jsDoc": {
+        "doc": "Checks if the process is being debugged",
+        "tags": [
+          {
+            "kind": "return",
+            "doc": "Whether the process is being debugged"
+          }
+        ]
+      },
       "kind": "function",
       "functionDef": {
         "params": [],
@@ -731,11 +983,25 @@
       "isDefault": false,
       "location": {
         "filename": "./utils/src/helpers/functions.ts",
-        "line": 8,
+        "line": 17,
         "col": 0,
-        "byteIndex": 239
+        "byteIndex": 480
       },
       "declarationKind": "export",
+      "jsDoc": {
+        "doc": "Recursively gets the default value of an object",
+        "tags": [
+          {
+            "kind": "param",
+            "name": "data",
+            "doc": "The object to get the default value"
+          },
+          {
+            "kind": "return",
+            "doc": "The default value"
+          }
+        ]
+      },
       "kind": "function",
       "functionDef": {
         "params": [
@@ -815,11 +1081,25 @@
       "isDefault": false,
       "location": {
         "filename": "./utils/src/helpers/functions.ts",
-        "line": 18,
+        "line": 32,
         "col": 0,
-        "byteIndex": 542
+        "byteIndex": 909
       },
       "declarationKind": "export",
+      "jsDoc": {
+        "doc": "Escapes a string for use in a regular expression",
+        "tags": [
+          {
+            "kind": "param",
+            "name": "str",
+            "doc": "The string to escape"
+          },
+          {
+            "kind": "return",
+            "doc": "The escaped string"
+          }
+        ]
+      },
       "kind": "function",
       "functionDef": {
         "params": [
@@ -850,11 +1130,30 @@
       "isDefault": false,
       "location": {
         "filename": "./utils/src/helpers/functions.ts",
-        "line": 22,
+        "line": 42,
         "col": 0,
-        "byteIndex": 675
+        "byteIndex": 1204
       },
       "declarationKind": "export",
+      "jsDoc": {
+        "doc": "Sorts a record by key using the given sort function",
+        "tags": [
+          {
+            "kind": "param",
+            "name": "record",
+            "doc": "The record to sort"
+          },
+          {
+            "kind": "param",
+            "name": "sort",
+            "doc": "The sort function"
+          },
+          {
+            "kind": "return",
+            "doc": "The sorted record"
+          }
+        ]
+      },
       "kind": "function",
       "functionDef": {
         "params": [
@@ -974,11 +1273,25 @@
       "isDefault": false,
       "location": {
         "filename": "./utils/src/helpers/functions.ts",
-        "line": 31,
+        "line": 56,
         "col": 0,
-        "byteIndex": 970
+        "byteIndex": 1628
       },
       "declarationKind": "export",
+      "jsDoc": {
+        "doc": "Resolves a date from a Date, number, or string",
+        "tags": [
+          {
+            "kind": "param",
+            "name": "resolvable",
+            "doc": "The date to resolve"
+          },
+          {
+            "kind": "return",
+            "doc": "The resolved date"
+          }
+        ]
+      },
       "kind": "function",
       "functionDef": {
         "params": [
@@ -1015,11 +1328,25 @@
       "isDefault": false,
       "location": {
         "filename": "./utils/src/helpers/functions.ts",
-        "line": 38,
+        "line": 68,
         "col": 0,
-        "byteIndex": 1294
+        "byteIndex": 2104
       },
       "declarationKind": "export",
+      "jsDoc": {
+        "doc": "Checks if a value is a Date, number, or string",
+        "tags": [
+          {
+            "kind": "param",
+            "name": "value",
+            "doc": "The value to check"
+          },
+          {
+            "kind": "return",
+            "doc": "Whether the value is a Date, number, or string"
+          }
+        ]
+      },
       "kind": "function",
       "functionDef": {
         "params": [
@@ -1064,11 +1391,30 @@
       "isDefault": false,
       "location": {
         "filename": "./utils/src/helpers/functions.ts",
-        "line": 42,
+        "line": 78,
         "col": 0,
-        "byteIndex": 1465
+        "byteIndex": 2477
       },
       "declarationKind": "export",
+      "jsDoc": {
+        "doc": "Resolves an environment variable from a string",
+        "tags": [
+          {
+            "kind": "param",
+            "name": "string",
+            "doc": "A string that starts with \"env:\""
+          },
+          {
+            "kind": "param",
+            "name": "env",
+            "doc": "The current environment variables"
+          },
+          {
+            "kind": "return",
+            "doc": "The resolved environment variable"
+          }
+        ]
+      },
       "kind": "function",
       "functionDef": {
         "params": [
