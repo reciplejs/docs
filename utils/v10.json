@@ -5,7 +5,7 @@
       "name": "PackageJsonBuilder",
       "isDefault": false,
       "location": {
-        "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+        "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/classes/PackageJsonBuilder.ts",
         "line": 9,
         "col": 0,
         "byteIndex": 250
@@ -56,7 +56,7 @@
               }
             ],
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/classes/PackageJsonBuilder.ts",
               "line": 18,
               "col": 4,
               "byteIndex": 469
@@ -83,7 +83,7 @@
             "isStatic": false,
             "name": "data",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/classes/PackageJsonBuilder.ts",
               "line": 13,
               "col": 4,
               "byteIndex": 340
@@ -124,7 +124,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/classes/PackageJsonBuilder.ts",
               "line": 26,
               "col": 4,
               "byteIndex": 661
@@ -199,7 +199,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/classes/PackageJsonBuilder.ts",
               "line": 36,
               "col": 4,
               "byteIndex": 1019
@@ -259,7 +259,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/classes/PackageJsonBuilder.ts",
               "line": 49,
               "col": 4,
               "byteIndex": 1577
@@ -322,7 +322,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/classes/PackageJsonBuilder.ts",
               "line": 59,
               "col": 4,
               "byteIndex": 1907
@@ -383,7 +383,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/classes/PackageJsonBuilder.ts",
               "line": 69,
               "col": 4,
               "byteIndex": 2190
@@ -448,7 +448,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/classes/PackageJsonBuilder.ts",
               "line": 79,
               "col": 4,
               "byteIndex": 2442
@@ -514,7 +514,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/classes/PackageJsonBuilder.ts",
               "line": 90,
               "col": 4,
               "byteIndex": 2772
@@ -565,7 +565,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/classes/PackageJsonBuilder.ts",
               "line": 101,
               "col": 4,
               "byteIndex": 3088
@@ -630,7 +630,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/classes/PackageJsonBuilder.ts",
               "line": 112,
               "col": 4,
               "byteIndex": 3394
@@ -717,7 +717,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/classes/PackageJsonBuilder.ts",
               "line": 124,
               "col": 4,
               "byteIndex": 3819
@@ -789,7 +789,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/classes/PackageJsonBuilder.ts",
               "line": 136,
               "col": 4,
               "byteIndex": 4250
@@ -890,7 +890,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/classes/PackageJsonBuilder.ts",
               "line": 148,
               "col": 4,
               "byteIndex": 4773
@@ -907,7 +907,7 @@
       "name": "PackageJsonBuilder",
       "isDefault": false,
       "location": {
-        "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+        "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/classes/PackageJsonBuilder.ts",
         "line": 166,
         "col": 0,
         "byteIndex": 5524
@@ -920,7 +920,7 @@
             "name": "defaultData",
             "isDefault": false,
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/classes/PackageJsonBuilder.ts",
               "line": 170,
               "col": 17,
               "byteIndex": 5632
@@ -949,7 +949,7 @@
       "name": "isDebugging",
       "isDefault": false,
       "location": {
-        "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/helpers/functions.ts",
+        "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/helpers/functions.ts",
         "line": 8,
         "col": 0,
         "byteIndex": 210
@@ -982,7 +982,7 @@
       "name": "recursiveDefaults",
       "isDefault": false,
       "location": {
-        "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/helpers/functions.ts",
+        "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/helpers/functions.ts",
         "line": 17,
         "col": 0,
         "byteIndex": 480
@@ -1080,7 +1080,7 @@
       "name": "escapeRegexp",
       "isDefault": false,
       "location": {
-        "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/helpers/functions.ts",
+        "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/helpers/functions.ts",
         "line": 32,
         "col": 0,
         "byteIndex": 909
@@ -1129,7 +1129,7 @@
       "name": "sortRecordByKey",
       "isDefault": false,
       "location": {
-        "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/helpers/functions.ts",
+        "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/helpers/functions.ts",
         "line": 42,
         "col": 0,
         "byteIndex": 1204
@@ -1272,7 +1272,7 @@
       "name": "resolveDate",
       "isDefault": false,
       "location": {
-        "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/helpers/functions.ts",
+        "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/helpers/functions.ts",
         "line": 56,
         "col": 0,
         "byteIndex": 1628
@@ -1327,7 +1327,7 @@
       "name": "isDateResolvable",
       "isDefault": false,
       "location": {
-        "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/helpers/functions.ts",
+        "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/helpers/functions.ts",
         "line": 68,
         "col": 0,
         "byteIndex": 2104
@@ -1390,7 +1390,7 @@
       "name": "resolveEnvProtocol",
       "isDefault": false,
       "location": {
-        "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/helpers/functions.ts",
+        "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/helpers/functions.ts",
         "line": 78,
         "col": 0,
         "byteIndex": 2477
@@ -1473,7 +1473,7 @@
       "name": "DateResolvable",
       "isDefault": false,
       "location": {
-        "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/helpers/types.ts",
+        "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/helpers/types.ts",
         "line": 1,
         "col": 0,
         "byteIndex": 0
@@ -1512,7 +1512,7 @@
       "name": "Awaitable",
       "isDefault": false,
       "location": {
-        "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/helpers/types.ts",
+        "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/helpers/types.ts",
         "line": 3,
         "col": 0,
         "byteIndex": 50
@@ -1562,7 +1562,7 @@
       "name": "RecursiveDefault",
       "isDefault": false,
       "location": {
-        "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/helpers/types.ts",
+        "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/helpers/types.ts",
         "line": 4,
         "col": 0,
         "byteIndex": 95
@@ -1577,7 +1577,7 @@
           {
             "name": "default",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/helpers/types.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/helpers/types.ts",
               "line": 5,
               "col": 4,
               "byteIndex": 148
@@ -1637,7 +1637,7 @@
       "name": "Format",
       "isDefault": false,
       "location": {
-        "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/structures/Format.ts",
+        "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/structures/Format.ts",
         "line": 1,
         "col": 0,
         "byteIndex": 0
@@ -1650,7 +1650,7 @@
             "name": "bytes",
             "isDefault": false,
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/structures/Format.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/structures/Format.ts",
               "line": 2,
               "col": 4,
               "byteIndex": 30
@@ -1700,7 +1700,7 @@
             "name": "duration",
             "isDefault": false,
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/structures/Format.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/structures/Format.ts",
               "line": 14,
               "col": 4,
               "byteIndex": 436
@@ -1735,7 +1735,7 @@
             "name": "plural",
             "isDefault": false,
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/structures/Format.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/structures/Format.ts",
               "line": 33,
               "col": 4,
               "byteIndex": 1107
@@ -1789,7 +1789,7 @@
             "name": "plural",
             "isDefault": false,
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/structures/Format.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/structures/Format.ts",
               "line": 34,
               "col": 4,
               "byteIndex": 1192
@@ -1843,7 +1843,7 @@
             "name": "plural",
             "isDefault": false,
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/structures/Format.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/structures/Format.ts",
               "line": 35,
               "col": 4,
               "byteIndex": 1281
@@ -1908,7 +1908,7 @@
             "name": "plural",
             "isDefault": false,
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/structures/Format.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/b2a9e522f86d00b35c617c8a65595fce6cb3c6cd/packages/utils/src/structures/Format.ts",
               "line": 36,
               "col": 4,
               "byteIndex": 1385
