@@ -1,0 +1,1978 @@
+{
+  "version": 1,
+  "nodes": [
+    {
+      "name": "PackageJsonBuilder",
+      "isDefault": false,
+      "location": {
+        "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+        "line": 9,
+        "col": 0,
+        "byteIndex": 250
+      },
+      "declarationKind": "export",
+      "jsDoc": {
+        "doc": "A package.json builder class"
+      },
+      "kind": "class",
+      "classDef": {
+        "isAbstract": false,
+        "constructors": [
+          {
+            "jsDoc": {
+              "tags": [
+                {
+                  "kind": "param",
+                  "name": "data",
+                  "doc": "The initial package.json data"
+                }
+              ]
+            },
+            "accessibility": null,
+            "hasBody": true,
+            "name": "constructor",
+            "params": [
+              {
+                "kind": "identifier",
+                "name": "data",
+                "optional": true,
+                "tsType": {
+                  "repr": "Partial",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": [
+                      {
+                        "repr": "PackageJson",
+                        "kind": "typeRef",
+                        "typeRef": {
+                          "typeParams": null,
+                          "typeName": "PackageJson"
+                        }
+                      }
+                    ],
+                    "typeName": "Partial"
+                  }
+                }
+              }
+            ],
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "line": 18,
+              "col": 4,
+              "byteIndex": 469
+            }
+          }
+        ],
+        "properties": [
+          {
+            "jsDoc": {
+              "doc": "The package.json data object"
+            },
+            "tsType": {
+              "repr": "PackageJson",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "PackageJson"
+              }
+            },
+            "readonly": false,
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "data",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "line": 13,
+              "col": 4,
+              "byteIndex": 340
+            }
+          }
+        ],
+        "indexSignatures": [],
+        "methods": [
+          {
+            "jsDoc": {
+              "doc": "Returns the package.json data",
+              "tags": [
+                {
+                  "kind": "return",
+                  "doc": "The package.json data object"
+                }
+              ]
+            },
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "toJSON",
+            "kind": "method",
+            "functionDef": {
+              "params": [],
+              "returnType": {
+                "repr": "PackageJson",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": null,
+                  "typeName": "PackageJson"
+                }
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "line": 26,
+              "col": 4,
+              "byteIndex": 661
+            }
+          },
+          {
+            "jsDoc": {
+              "doc": "Writes the package.json data to the given filepath",
+              "tags": [
+                {
+                  "kind": "param",
+                  "name": "filepath",
+                  "doc": "The filepath to write the package.json data to"
+                },
+                {
+                  "kind": "param",
+                  "name": "overwrite",
+                  "doc": "Whether to overwrite the file if it already exists"
+                },
+                {
+                  "kind": "return",
+                  "doc": "A promise that resolves when the file has been written"
+                }
+              ]
+            },
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "write",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "filepath",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                },
+                {
+                  "kind": "identifier",
+                  "name": "overwrite",
+                  "optional": true,
+                  "tsType": {
+                    "repr": "boolean",
+                    "kind": "keyword",
+                    "keyword": "boolean"
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "Promise",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": [
+                    {
+                      "repr": "void",
+                      "kind": "keyword",
+                      "keyword": "void"
+                    }
+                  ],
+                  "typeName": "Promise"
+                }
+              },
+              "hasBody": true,
+              "isAsync": true,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "line": 36,
+              "col": 4,
+              "byteIndex": 1019
+            }
+          },
+          {
+            "jsDoc": {
+              "doc": "Reads the package.json data from the given filepath",
+              "tags": [
+                {
+                  "kind": "param",
+                  "name": "filepath",
+                  "doc": "The filepath to read the package.json data from"
+                },
+                {
+                  "kind": "return",
+                  "doc": "A promise that resolves when the file has been read"
+                }
+              ]
+            },
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "read",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "filepath",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "Promise",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": [
+                    {
+                      "repr": "this",
+                      "kind": "this",
+                      "this": true
+                    }
+                  ],
+                  "typeName": "Promise"
+                }
+              },
+              "hasBody": true,
+              "isAsync": true,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "line": 49,
+              "col": 4,
+              "byteIndex": 1577
+            }
+          },
+          {
+            "jsDoc": {
+              "doc": "Merges the given package.json data into the current package.json data",
+              "tags": [
+                {
+                  "kind": "param",
+                  "name": "data",
+                  "doc": "The package.json data to merge"
+                },
+                {
+                  "kind": "return",
+                  "doc": "The current package.json builder"
+                }
+              ]
+            },
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "merge",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "data",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "Partial",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": [
+                        {
+                          "repr": "PackageJson",
+                          "kind": "typeRef",
+                          "typeRef": {
+                            "typeParams": null,
+                            "typeName": "PackageJson"
+                          }
+                        }
+                      ],
+                      "typeName": "Partial"
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "this",
+                "kind": "this",
+                "this": true
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "line": 59,
+              "col": 4,
+              "byteIndex": 1907
+            }
+          },
+          {
+            "jsDoc": {
+              "doc": "Removes the given key from the package.json data",
+              "tags": [
+                {
+                  "kind": "param",
+                  "name": "key",
+                  "doc": "The key to remove"
+                },
+                {
+                  "kind": "return",
+                  "doc": "The current package.json builder"
+                }
+              ]
+            },
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "remove",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "key",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "",
+                    "kind": "typeOperator",
+                    "typeOperator": {
+                      "operator": "keyof",
+                      "tsType": {
+                        "repr": "PackageJson",
+                        "kind": "typeRef",
+                        "typeRef": {
+                          "typeParams": null,
+                          "typeName": "PackageJson"
+                        }
+                      }
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "this",
+                "kind": "this",
+                "this": true
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "line": 69,
+              "col": 4,
+              "byteIndex": 2190
+            }
+          },
+          {
+            "jsDoc": {
+              "doc": "Sets the package.json scripts",
+              "tags": [
+                {
+                  "kind": "param",
+                  "name": "scripts",
+                  "doc": "The scripts to set"
+                },
+                {
+                  "kind": "return",
+                  "doc": "The current package.json builder"
+                }
+              ]
+            },
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "setScripts",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "scripts",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "Record",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": [
+                        {
+                          "repr": "string",
+                          "kind": "keyword",
+                          "keyword": "string"
+                        },
+                        {
+                          "repr": "string",
+                          "kind": "keyword",
+                          "keyword": "string"
+                        }
+                      ],
+                      "typeName": "Record"
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "this",
+                "kind": "this",
+                "this": true
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "line": 79,
+              "col": 4,
+              "byteIndex": 2442
+            }
+          },
+          {
+            "jsDoc": {
+              "doc": "Adds a script to the package.json",
+              "tags": [
+                {
+                  "kind": "param",
+                  "name": "name",
+                  "doc": "The name of the script"
+                },
+                {
+                  "kind": "param",
+                  "name": "script",
+                  "doc": "The script that will be executed"
+                },
+                {
+                  "kind": "return",
+                  "doc": "The current package.json builder"
+                }
+              ]
+            },
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "addScript",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "name",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                },
+                {
+                  "kind": "identifier",
+                  "name": "script",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "this",
+                "kind": "this",
+                "this": true
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "line": 90,
+              "col": 4,
+              "byteIndex": 2772
+            }
+          },
+          {
+            "jsDoc": {
+              "doc": "Removes a script from the package.json",
+              "tags": [
+                {
+                  "kind": "param",
+                  "name": "name",
+                  "doc": "The name of the script"
+                },
+                {
+                  "kind": "return",
+                  "doc": "The current package.json builder"
+                }
+              ]
+            },
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "removeScript",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "name",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "this",
+                "kind": "this",
+                "this": true
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "line": 101,
+              "col": 4,
+              "byteIndex": 3088
+            }
+          },
+          {
+            "jsDoc": {
+              "doc": "Sets the package.json dependencies",
+              "tags": [
+                {
+                  "kind": "param",
+                  "name": "dependencies",
+                  "doc": "The dependencies to set"
+                },
+                {
+                  "kind": "return",
+                  "doc": "The current package.json builder"
+                }
+              ]
+            },
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "setDependencies",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "dependencies",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "Record",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": [
+                        {
+                          "repr": "string",
+                          "kind": "keyword",
+                          "keyword": "string"
+                        },
+                        {
+                          "repr": "string",
+                          "kind": "keyword",
+                          "keyword": "string"
+                        }
+                      ],
+                      "typeName": "Record"
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "this",
+                "kind": "this",
+                "this": true
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "line": 112,
+              "col": 4,
+              "byteIndex": 3394
+            }
+          },
+          {
+            "jsDoc": {
+              "doc": "Adds a dependency to the package.json",
+              "tags": [
+                {
+                  "kind": "param",
+                  "name": "name",
+                  "doc": "The name of the dependency"
+                },
+                {
+                  "kind": "param",
+                  "name": "version",
+                  "doc": "The version of the dependency"
+                },
+                {
+                  "kind": "param",
+                  "name": "dev",
+                  "default": "false",
+                  "doc": "Whether the dependency is a dev dependency"
+                },
+                {
+                  "kind": "return",
+                  "doc": "The current package.json builder"
+                }
+              ]
+            },
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "addDependency",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "name",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                },
+                {
+                  "kind": "identifier",
+                  "name": "version",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                },
+                {
+                  "kind": "assign",
+                  "left": {
+                    "kind": "identifier",
+                    "name": "dev",
+                    "optional": false,
+                    "tsType": {
+                      "repr": "boolean",
+                      "kind": "keyword",
+                      "keyword": "boolean"
+                    }
+                  },
+                  "right": "false",
+                  "tsType": null
+                }
+              ],
+              "returnType": {
+                "repr": "this",
+                "kind": "this",
+                "this": true
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "line": 124,
+              "col": 4,
+              "byteIndex": 3819
+            }
+          },
+          {
+            "jsDoc": {
+              "doc": "Removes a dependency from the package.json",
+              "tags": [
+                {
+                  "kind": "param",
+                  "name": "name",
+                  "doc": "The name of the dependency"
+                },
+                {
+                  "kind": "param",
+                  "name": "dev",
+                  "default": "false",
+                  "doc": "Whether the dependency is a dev dependency"
+                },
+                {
+                  "kind": "return",
+                  "doc": "The current package.json builder"
+                }
+              ]
+            },
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "removeDependency",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "name",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                },
+                {
+                  "kind": "assign",
+                  "left": {
+                    "kind": "identifier",
+                    "name": "dev",
+                    "optional": false,
+                    "tsType": {
+                      "repr": "boolean",
+                      "kind": "keyword",
+                      "keyword": "boolean"
+                    }
+                  },
+                  "right": "false",
+                  "tsType": null
+                }
+              ],
+              "returnType": {
+                "repr": "this",
+                "kind": "this",
+                "this": true
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "line": 136,
+              "col": 4,
+              "byteIndex": 4250
+            }
+          },
+          {
+            "jsDoc": {
+              "doc": "Reads the package.json data from the given filepath and creates it if it doesn't exist",
+              "tags": [
+                {
+                  "kind": "param",
+                  "name": "filepath",
+                  "doc": "The filepath to read the package.json data from"
+                },
+                {
+                  "kind": "param",
+                  "name": "createIfNotExists",
+                  "doc": "Whether to create the package.json file if it doesn't exist"
+                },
+                {
+                  "kind": "return",
+                  "doc": "A promise that resolves to a package.json builder"
+                }
+              ]
+            },
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": true,
+            "name": "read",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "filepath",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                },
+                {
+                  "kind": "identifier",
+                  "name": "createIfNotExists",
+                  "optional": true,
+                  "tsType": {
+                    "repr": "",
+                    "kind": "union",
+                    "union": [
+                      {
+                        "repr": "boolean",
+                        "kind": "keyword",
+                        "keyword": "boolean"
+                      },
+                      {
+                        "repr": "Partial",
+                        "kind": "typeRef",
+                        "typeRef": {
+                          "typeParams": [
+                            {
+                              "repr": "PackageJson",
+                              "kind": "typeRef",
+                              "typeRef": {
+                                "typeParams": null,
+                                "typeName": "PackageJson"
+                              }
+                            }
+                          ],
+                          "typeName": "Partial"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "Promise",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": [
+                    {
+                      "repr": "PackageJsonBuilder",
+                      "kind": "typeRef",
+                      "typeRef": {
+                        "typeParams": null,
+                        "typeName": "PackageJsonBuilder"
+                      }
+                    }
+                  ],
+                  "typeName": "Promise"
+                }
+              },
+              "hasBody": true,
+              "isAsync": true,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "line": 148,
+              "col": 4,
+              "byteIndex": 4773
+            }
+          }
+        ],
+        "extends": null,
+        "implements": [],
+        "typeParams": [],
+        "superTypeParams": []
+      }
+    },
+    {
+      "name": "PackageJsonBuilder",
+      "isDefault": false,
+      "location": {
+        "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+        "line": 166,
+        "col": 0,
+        "byteIndex": 5524
+      },
+      "declarationKind": "export",
+      "kind": "namespace",
+      "namespaceDef": {
+        "elements": [
+          {
+            "name": "defaultData",
+            "isDefault": false,
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/classes/PackageJsonBuilder.ts",
+              "line": 170,
+              "col": 17,
+              "byteIndex": 5632
+            },
+            "declarationKind": "export",
+            "jsDoc": {
+              "doc": "The default package.json data"
+            },
+            "kind": "variable",
+            "variableDef": {
+              "tsType": {
+                "repr": "PackageJson",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": null,
+                  "typeName": "PackageJson"
+                }
+              },
+              "kind": "const"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "isDebugging",
+      "isDefault": false,
+      "location": {
+        "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/helpers/functions.ts",
+        "line": 8,
+        "col": 0,
+        "byteIndex": 210
+      },
+      "declarationKind": "export",
+      "jsDoc": {
+        "doc": "Checks if the process is being debugged",
+        "tags": [
+          {
+            "kind": "return",
+            "doc": "Whether the process is being debugged"
+          }
+        ]
+      },
+      "kind": "function",
+      "functionDef": {
+        "params": [],
+        "returnType": {
+          "repr": "boolean",
+          "kind": "keyword",
+          "keyword": "boolean"
+        },
+        "hasBody": true,
+        "isAsync": false,
+        "isGenerator": false,
+        "typeParams": []
+      }
+    },
+    {
+      "name": "recursiveDefaults",
+      "isDefault": false,
+      "location": {
+        "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/helpers/functions.ts",
+        "line": 17,
+        "col": 0,
+        "byteIndex": 480
+      },
+      "declarationKind": "export",
+      "jsDoc": {
+        "doc": "Recursively gets the default value of an object",
+        "tags": [
+          {
+            "kind": "param",
+            "name": "data",
+            "doc": "The object to get the default value"
+          },
+          {
+            "kind": "return",
+            "doc": "The default value"
+          }
+        ]
+      },
+      "kind": "function",
+      "functionDef": {
+        "params": [
+          {
+            "kind": "identifier",
+            "name": "data",
+            "optional": false,
+            "tsType": {
+              "repr": "",
+              "kind": "union",
+              "union": [
+                {
+                  "repr": "RecursiveDefault",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": [
+                      {
+                        "repr": "T",
+                        "kind": "typeRef",
+                        "typeRef": {
+                          "typeParams": null,
+                          "typeName": "T"
+                        }
+                      }
+                    ],
+                    "typeName": "RecursiveDefault"
+                  }
+                },
+                {
+                  "repr": "T",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": null,
+                    "typeName": "T"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "returnType": {
+          "repr": "",
+          "kind": "union",
+          "union": [
+            {
+              "repr": "T",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "T"
+              }
+            },
+            {
+              "repr": "undefined",
+              "kind": "keyword",
+              "keyword": "undefined"
+            }
+          ]
+        },
+        "hasBody": true,
+        "isAsync": false,
+        "isGenerator": false,
+        "typeParams": [
+          {
+            "name": "T",
+            "default": {
+              "repr": "unknown",
+              "kind": "keyword",
+              "keyword": "unknown"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "escapeRegexp",
+      "isDefault": false,
+      "location": {
+        "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/helpers/functions.ts",
+        "line": 32,
+        "col": 0,
+        "byteIndex": 909
+      },
+      "declarationKind": "export",
+      "jsDoc": {
+        "doc": "Escapes a string for use in a regular expression",
+        "tags": [
+          {
+            "kind": "param",
+            "name": "str",
+            "doc": "The string to escape"
+          },
+          {
+            "kind": "return",
+            "doc": "The escaped string"
+          }
+        ]
+      },
+      "kind": "function",
+      "functionDef": {
+        "params": [
+          {
+            "kind": "identifier",
+            "name": "str",
+            "optional": false,
+            "tsType": {
+              "repr": "string",
+              "kind": "keyword",
+              "keyword": "string"
+            }
+          }
+        ],
+        "returnType": {
+          "repr": "string",
+          "kind": "keyword",
+          "keyword": "string"
+        },
+        "hasBody": true,
+        "isAsync": false,
+        "isGenerator": false,
+        "typeParams": []
+      }
+    },
+    {
+      "name": "sortRecordByKey",
+      "isDefault": false,
+      "location": {
+        "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/helpers/functions.ts",
+        "line": 42,
+        "col": 0,
+        "byteIndex": 1204
+      },
+      "declarationKind": "export",
+      "jsDoc": {
+        "doc": "Sorts a record by key using the given sort function",
+        "tags": [
+          {
+            "kind": "param",
+            "name": "record",
+            "doc": "The record to sort"
+          },
+          {
+            "kind": "param",
+            "name": "sort",
+            "doc": "The sort function"
+          },
+          {
+            "kind": "return",
+            "doc": "The sorted record"
+          }
+        ]
+      },
+      "kind": "function",
+      "functionDef": {
+        "params": [
+          {
+            "kind": "identifier",
+            "name": "record",
+            "optional": false,
+            "tsType": {
+              "repr": "T",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "T"
+              }
+            }
+          },
+          {
+            "kind": "identifier",
+            "name": "sort",
+            "optional": true,
+            "tsType": {
+              "repr": "",
+              "kind": "fnOrConstructor",
+              "fnOrConstructor": {
+                "constructor": false,
+                "tsType": {
+                  "repr": "number",
+                  "kind": "keyword",
+                  "keyword": "number"
+                },
+                "params": [
+                  {
+                    "kind": "identifier",
+                    "name": "a",
+                    "optional": false,
+                    "tsType": {
+                      "repr": "",
+                      "kind": "typeOperator",
+                      "typeOperator": {
+                        "operator": "keyof",
+                        "tsType": {
+                          "repr": "T",
+                          "kind": "typeRef",
+                          "typeRef": {
+                            "typeParams": null,
+                            "typeName": "T"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "kind": "identifier",
+                    "name": "b",
+                    "optional": false,
+                    "tsType": {
+                      "repr": "",
+                      "kind": "typeOperator",
+                      "typeOperator": {
+                        "operator": "keyof",
+                        "tsType": {
+                          "repr": "T",
+                          "kind": "typeRef",
+                          "typeRef": {
+                            "typeParams": null,
+                            "typeName": "T"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "typeParams": []
+              }
+            }
+          }
+        ],
+        "returnType": {
+          "repr": "T",
+          "kind": "typeRef",
+          "typeRef": {
+            "typeParams": null,
+            "typeName": "T"
+          }
+        },
+        "hasBody": true,
+        "isAsync": false,
+        "isGenerator": false,
+        "typeParams": [
+          {
+            "name": "T",
+            "constraint": {
+              "repr": "Record",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": [
+                  {
+                    "repr": "any",
+                    "kind": "keyword",
+                    "keyword": "any"
+                  },
+                  {
+                    "repr": "any",
+                    "kind": "keyword",
+                    "keyword": "any"
+                  }
+                ],
+                "typeName": "Record"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "resolveDate",
+      "isDefault": false,
+      "location": {
+        "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/helpers/functions.ts",
+        "line": 56,
+        "col": 0,
+        "byteIndex": 1628
+      },
+      "declarationKind": "export",
+      "jsDoc": {
+        "doc": "Resolves a date from a Date, number, or string",
+        "tags": [
+          {
+            "kind": "param",
+            "name": "resolvable",
+            "doc": "The date to resolve"
+          },
+          {
+            "kind": "return",
+            "doc": "The resolved date"
+          }
+        ]
+      },
+      "kind": "function",
+      "functionDef": {
+        "params": [
+          {
+            "kind": "identifier",
+            "name": "resolvable",
+            "optional": false,
+            "tsType": {
+              "repr": "DateResolvable",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "DateResolvable"
+              }
+            }
+          }
+        ],
+        "returnType": {
+          "repr": "Date",
+          "kind": "typeRef",
+          "typeRef": {
+            "typeParams": null,
+            "typeName": "Date"
+          }
+        },
+        "hasBody": true,
+        "isAsync": false,
+        "isGenerator": false,
+        "typeParams": []
+      }
+    },
+    {
+      "name": "isDateResolvable",
+      "isDefault": false,
+      "location": {
+        "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/helpers/functions.ts",
+        "line": 68,
+        "col": 0,
+        "byteIndex": 2104
+      },
+      "declarationKind": "export",
+      "jsDoc": {
+        "doc": "Checks if a value is a Date, number, or string",
+        "tags": [
+          {
+            "kind": "param",
+            "name": "value",
+            "doc": "The value to check"
+          },
+          {
+            "kind": "return",
+            "doc": "Whether the value is a Date, number, or string"
+          }
+        ]
+      },
+      "kind": "function",
+      "functionDef": {
+        "params": [
+          {
+            "kind": "identifier",
+            "name": "value",
+            "optional": false,
+            "tsType": {
+              "repr": "unknown",
+              "kind": "keyword",
+              "keyword": "unknown"
+            }
+          }
+        ],
+        "returnType": {
+          "repr": "value is \u001b[0m\u001b[38;5;12mDateResolvable\u001b[0m",
+          "kind": "typePredicate",
+          "typePredicate": {
+            "asserts": false,
+            "param": {
+              "type": "identifier",
+              "name": "value"
+            },
+            "type": {
+              "repr": "DateResolvable",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "DateResolvable"
+              }
+            }
+          }
+        },
+        "hasBody": true,
+        "isAsync": false,
+        "isGenerator": false,
+        "typeParams": []
+      }
+    },
+    {
+      "name": "resolveEnvProtocol",
+      "isDefault": false,
+      "location": {
+        "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/helpers/functions.ts",
+        "line": 78,
+        "col": 0,
+        "byteIndex": 2477
+      },
+      "declarationKind": "export",
+      "jsDoc": {
+        "doc": "Resolves an environment variable from a string",
+        "tags": [
+          {
+            "kind": "param",
+            "name": "string",
+            "doc": "A string that starts with \"env:\""
+          },
+          {
+            "kind": "param",
+            "name": "env",
+            "doc": "The current environment variables"
+          },
+          {
+            "kind": "return",
+            "doc": "The resolved environment variable"
+          }
+        ]
+      },
+      "kind": "function",
+      "functionDef": {
+        "params": [
+          {
+            "kind": "identifier",
+            "name": "string",
+            "optional": false,
+            "tsType": {
+              "repr": "string",
+              "kind": "keyword",
+              "keyword": "string"
+            }
+          },
+          {
+            "kind": "assign",
+            "left": {
+              "kind": "identifier",
+              "name": "env",
+              "optional": false,
+              "tsType": {
+                "repr": "NodeJS.ProcessEnv",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": null,
+                  "typeName": "NodeJS.ProcessEnv"
+                }
+              }
+            },
+            "right": "[process.env]",
+            "tsType": null
+          }
+        ],
+        "returnType": {
+          "repr": "",
+          "kind": "union",
+          "union": [
+            {
+              "repr": "string",
+              "kind": "keyword",
+              "keyword": "string"
+            },
+            {
+              "repr": "undefined",
+              "kind": "keyword",
+              "keyword": "undefined"
+            }
+          ]
+        },
+        "hasBody": true,
+        "isAsync": false,
+        "isGenerator": false,
+        "typeParams": []
+      }
+    },
+    {
+      "name": "DateResolvable",
+      "isDefault": false,
+      "location": {
+        "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/helpers/types.ts",
+        "line": 1,
+        "col": 0,
+        "byteIndex": 0
+      },
+      "declarationKind": "export",
+      "kind": "typeAlias",
+      "typeAliasDef": {
+        "tsType": {
+          "repr": "",
+          "kind": "union",
+          "union": [
+            {
+              "repr": "Date",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "Date"
+              }
+            },
+            {
+              "repr": "number",
+              "kind": "keyword",
+              "keyword": "number"
+            },
+            {
+              "repr": "string",
+              "kind": "keyword",
+              "keyword": "string"
+            }
+          ]
+        },
+        "typeParams": []
+      }
+    },
+    {
+      "name": "Awaitable",
+      "isDefault": false,
+      "location": {
+        "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/helpers/types.ts",
+        "line": 3,
+        "col": 0,
+        "byteIndex": 50
+      },
+      "declarationKind": "export",
+      "kind": "typeAlias",
+      "typeAliasDef": {
+        "tsType": {
+          "repr": "",
+          "kind": "union",
+          "union": [
+            {
+              "repr": "PromiseLike",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": [
+                  {
+                    "repr": "T",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": null,
+                      "typeName": "T"
+                    }
+                  }
+                ],
+                "typeName": "PromiseLike"
+              }
+            },
+            {
+              "repr": "T",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "T"
+              }
+            }
+          ]
+        },
+        "typeParams": [
+          {
+            "name": "T"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecursiveDefault",
+      "isDefault": false,
+      "location": {
+        "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/helpers/types.ts",
+        "line": 4,
+        "col": 0,
+        "byteIndex": 95
+      },
+      "declarationKind": "export",
+      "kind": "interface",
+      "interfaceDef": {
+        "extends": [],
+        "constructors": [],
+        "methods": [],
+        "properties": [
+          {
+            "name": "default",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/helpers/types.ts",
+              "line": 5,
+              "col": 4,
+              "byteIndex": 148
+            },
+            "params": [],
+            "computed": false,
+            "optional": true,
+            "tsType": {
+              "repr": "",
+              "kind": "union",
+              "union": [
+                {
+                  "repr": "T",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": null,
+                    "typeName": "T"
+                  }
+                },
+                {
+                  "repr": "RecursiveDefault",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": [
+                      {
+                        "repr": "T",
+                        "kind": "typeRef",
+                        "typeRef": {
+                          "typeParams": null,
+                          "typeName": "T"
+                        }
+                      }
+                    ],
+                    "typeName": "RecursiveDefault"
+                  }
+                }
+              ]
+            },
+            "typeParams": []
+          }
+        ],
+        "callSignatures": [],
+        "indexSignatures": [],
+        "typeParams": [
+          {
+            "name": "T",
+            "default": {
+              "repr": "unknown",
+              "kind": "keyword",
+              "keyword": "unknown"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Format",
+      "isDefault": false,
+      "location": {
+        "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/structures/Format.ts",
+        "line": 1,
+        "col": 0,
+        "byteIndex": 0
+      },
+      "declarationKind": "export",
+      "kind": "namespace",
+      "namespaceDef": {
+        "elements": [
+          {
+            "name": "bytes",
+            "isDefault": false,
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/structures/Format.ts",
+              "line": 2,
+              "col": 4,
+              "byteIndex": 30
+            },
+            "declarationKind": "export",
+            "kind": "function",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "bytes",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "number",
+                    "kind": "keyword",
+                    "keyword": "number"
+                  }
+                },
+                {
+                  "kind": "assign",
+                  "left": {
+                    "kind": "identifier",
+                    "name": "decimals",
+                    "optional": false,
+                    "tsType": {
+                      "repr": "number",
+                      "kind": "keyword",
+                      "keyword": "number"
+                    }
+                  },
+                  "right": "2",
+                  "tsType": null
+                }
+              ],
+              "returnType": {
+                "repr": "string",
+                "kind": "keyword",
+                "keyword": "string"
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            }
+          },
+          {
+            "name": "duration",
+            "isDefault": false,
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/structures/Format.ts",
+              "line": 14,
+              "col": 4,
+              "byteIndex": 436
+            },
+            "declarationKind": "export",
+            "kind": "function",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "duration",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "number",
+                    "kind": "keyword",
+                    "keyword": "number"
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "string",
+                "kind": "keyword",
+                "keyword": "string"
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            }
+          },
+          {
+            "name": "plural",
+            "isDefault": false,
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/structures/Format.ts",
+              "line": 33,
+              "col": 4,
+              "byteIndex": 1107
+            },
+            "declarationKind": "export",
+            "kind": "function",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "count",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "number",
+                    "kind": "keyword",
+                    "keyword": "number"
+                  }
+                },
+                {
+                  "kind": "identifier",
+                  "name": "singular",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                },
+                {
+                  "kind": "identifier",
+                  "name": "plural",
+                  "optional": true,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "string",
+                "kind": "keyword",
+                "keyword": "string"
+              },
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            }
+          },
+          {
+            "name": "plural",
+            "isDefault": false,
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/structures/Format.ts",
+              "line": 34,
+              "col": 4,
+              "byteIndex": 1192
+            },
+            "declarationKind": "export",
+            "kind": "function",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "isPlural",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "boolean",
+                    "kind": "keyword",
+                    "keyword": "boolean"
+                  }
+                },
+                {
+                  "kind": "identifier",
+                  "name": "singular",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                },
+                {
+                  "kind": "identifier",
+                  "name": "plural",
+                  "optional": true,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "string",
+                "kind": "keyword",
+                "keyword": "string"
+              },
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            }
+          },
+          {
+            "name": "plural",
+            "isDefault": false,
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/structures/Format.ts",
+              "line": 35,
+              "col": 4,
+              "byteIndex": 1281
+            },
+            "declarationKind": "export",
+            "kind": "function",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "countOrCondition",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "",
+                    "kind": "union",
+                    "union": [
+                      {
+                        "repr": "number",
+                        "kind": "keyword",
+                        "keyword": "number"
+                      },
+                      {
+                        "repr": "boolean",
+                        "kind": "keyword",
+                        "keyword": "boolean"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "kind": "identifier",
+                  "name": "singular",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                },
+                {
+                  "kind": "identifier",
+                  "name": "plural",
+                  "optional": true,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "string",
+                "kind": "keyword",
+                "keyword": "string"
+              },
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            }
+          },
+          {
+            "name": "plural",
+            "isDefault": false,
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/d2336ec59b850bd37aa238e3b7b5cfa717ba17a7/packages/utils/src/structures/Format.ts",
+              "line": 36,
+              "col": 4,
+              "byteIndex": 1385
+            },
+            "declarationKind": "export",
+            "kind": "function",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "countOrCondition",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "",
+                    "kind": "union",
+                    "union": [
+                      {
+                        "repr": "number",
+                        "kind": "keyword",
+                        "keyword": "number"
+                      },
+                      {
+                        "repr": "boolean",
+                        "kind": "keyword",
+                        "keyword": "boolean"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "kind": "identifier",
+                  "name": "singular",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                },
+                {
+                  "kind": "identifier",
+                  "name": "plural",
+                  "optional": true,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "string",
+                "kind": "keyword",
+                "keyword": "string"
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "readme": "<div align=\"center\">\n    <img src=\"https://i.imgur.com/C3gWxwc.png\" width=\"50%\">\n    <p align=\"center\">\n        <b>A Discord.js framework that just works.</b>\n    </p>\n    <br>\n</div>\n\n<h3 align=\"center\">\n    <a href=\"https://discord.gg/KxfPZYuTGV\">\n        <img src=\"https://img.shields.io/discord/1453743492722458708?color=5865F2&logo=discord&logoColor=white\">\n    </a>\n    <a href=\"https://npmjs.org/package/@reciple/utils\">\n        <img src=\"https://img.shields.io/npm/v/@reciple/utils?label=npm\">\n    </a>\n    <a href=\"https://github.com/reciplejs/reciple/tree/main/packages/utils\">\n        <img src=\"https://img.shields.io/npm/dt/@reciple/utils?maxAge=3600\">\n    </a>\n    <a href=\"https://www.codefactor.io/repository/github/reciplejs/reciple\">\n        <img src=\"https://www.codefactor.io/repository/github/reciplejs/reciple/badge\">\n    </a>\n    <br>\n    <div style=\"padding-top: 1rem\">\n        <a href=\"https://discord.gg/KxfPZYuTGV\">\n            <img src=\"http://invidget.switchblade.xyz/KxfPZYuTGV\">\n        </a>\n    </div>\n</h3>\n\n## About\n\n`@reciple/utils` A utility library used by reciple packages.\n\n## Installation\n\n```bash\nnpm install @reciple/utils\nyarn add @reciple/utils\npnpm add @reciple/utils\nbun install @reciple/utils\ndeno install npm:@reciple/utils\n```\n\n## Usage\n```js\nimport { isDebugging, Format } from \"@reciple/utils\";\n\nconsole.log(isDebugging() ? \"Debugging\" : \"Not debugging\"); // Not debugging\nconsole.log(Format.bytes(1024 * 1024 * 1024)); // 1GB\nconsole.log(Format.duration(1000 * 60 * 60 * 24)); // 1d\nconsole.log(Format.plural(2, \"hour\")); // 2 hours\n```\n\n## Links\n\n- [Website](https://reciple.js.org)\n- [Discord](https://discord.gg/KxfPZYuTGV)\n- [Github](https://github.com/reciplejs/reciple/tree/main/packages/utils)\n- [NPM](https://npmjs.org/package/@reciple/utils)\n"
+}
