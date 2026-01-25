@@ -5,7 +5,7 @@
       "name": "InteractionListenerBuilder",
       "isDefault": false,
       "location": {
-        "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/builders/InteractionListenerBuilder.ts",
+        "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/builders/InteractionListenerBuilder.ts",
         "line": 4,
         "col": 0,
         "byteIndex": 142
@@ -53,7 +53,7 @@
               }
             ],
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/builders/InteractionListenerBuilder.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/builders/InteractionListenerBuilder.ts",
               "line": 7,
               "col": 4,
               "byteIndex": 292
@@ -95,7 +95,7 @@
             "isStatic": false,
             "name": "data",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/builders/InteractionListenerBuilder.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/builders/InteractionListenerBuilder.ts",
               "line": 5,
               "col": 4,
               "byteIndex": 223
@@ -162,7 +162,7 @@
               ]
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/builders/InteractionListenerBuilder.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/builders/InteractionListenerBuilder.ts",
               "line": 11,
               "col": 4,
               "byteIndex": 404
@@ -199,7 +199,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/builders/InteractionListenerBuilder.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/builders/InteractionListenerBuilder.ts",
               "line": 16,
               "col": 4,
               "byteIndex": 553
@@ -263,7 +263,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/builders/InteractionListenerBuilder.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/builders/InteractionListenerBuilder.ts",
               "line": 21,
               "col": 4,
               "byteIndex": 654
@@ -327,7 +327,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/builders/InteractionListenerBuilder.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/builders/InteractionListenerBuilder.ts",
               "line": 26,
               "col": 4,
               "byteIndex": 792
@@ -365,7 +365,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/builders/InteractionListenerBuilder.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/builders/InteractionListenerBuilder.ts",
               "line": 31,
               "col": 4,
               "byteIndex": 935
@@ -394,7 +394,7 @@
       "name": "RecipleAnticrash",
       "isDefault": false,
       "location": {
-        "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+        "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleAnticrash.ts",
         "line": 5,
         "col": 0,
         "byteIndex": 290
@@ -424,7 +424,7 @@
               }
             ],
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleAnticrash.ts",
               "line": 13,
               "col": 4,
               "byteIndex": 652
@@ -445,7 +445,7 @@
             "isStatic": false,
             "name": "id",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleAnticrash.ts",
               "line": 6,
               "col": 4,
               "byteIndex": 381
@@ -482,7 +482,7 @@
             "isStatic": false,
             "name": "baseReportMessageOptions",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleAnticrash.ts",
               "line": 8,
               "col": 4,
               "byteIndex": 443
@@ -505,7 +505,7 @@
             "isStatic": false,
             "name": "reportChannels",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleAnticrash.ts",
               "line": 9,
               "col": 4,
               "byteIndex": 535
@@ -520,7 +520,7 @@
             "isStatic": false,
             "name": "logger",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleAnticrash.ts",
               "line": 11,
               "col": 4,
               "byteIndex": 578
@@ -578,7 +578,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleAnticrash.ts",
               "line": 21,
               "col": 4,
               "byteIndex": 846
@@ -636,7 +636,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleAnticrash.ts",
               "line": 29,
               "col": 4,
               "byteIndex": 1260
@@ -691,7 +691,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleAnticrash.ts",
               "line": 31,
               "col": 4,
               "byteIndex": 1338
@@ -744,7 +744,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleAnticrash.ts",
               "line": 39,
               "col": 4,
               "byteIndex": 1758
@@ -803,7 +803,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleAnticrash.ts",
               "line": 56,
               "col": 4,
               "byteIndex": 2409
@@ -910,7 +910,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleAnticrash.ts",
               "line": 92,
               "col": 4,
               "byteIndex": 3812
@@ -964,7 +964,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleAnticrash.ts",
               "line": 108,
               "col": 4,
               "byteIndex": 4505
@@ -990,7 +990,7 @@
       "name": "RecipleAnticrash",
       "isDefault": false,
       "location": {
-        "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+        "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleAnticrash.ts",
         "line": 113,
         "col": 0,
         "byteIndex": 4629
@@ -1003,7 +1003,7 @@
             "name": "Options",
             "isDefault": false,
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleAnticrash.ts",
               "line": 114,
               "col": 4,
               "byteIndex": 4669
@@ -1018,7 +1018,7 @@
                 {
                   "name": "baseReportMessageOptions",
                   "location": {
-                    "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+                    "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleAnticrash.ts",
                     "line": 115,
                     "col": 8,
                     "byteIndex": 4704
@@ -1086,7 +1086,7 @@
                 {
                   "name": "reportChannels",
                   "location": {
-                    "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+                    "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleAnticrash.ts",
                     "line": 116,
                     "col": 8,
                     "byteIndex": 4808
@@ -1119,7 +1119,7 @@
                                 {
                                   "name": "id",
                                   "location": {
-                                    "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+                                    "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleAnticrash.ts",
                                     "line": 116,
                                     "col": 35,
                                     "byteIndex": 4835
@@ -1193,7 +1193,7 @@
             "name": "Report",
             "isDefault": false,
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleAnticrash.ts",
               "line": 119,
               "col": 4,
               "byteIndex": 4917
@@ -1208,7 +1208,7 @@
                 {
                   "name": "message",
                   "location": {
-                    "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+                    "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleAnticrash.ts",
                     "line": 120,
                     "col": 8,
                     "byteIndex": 4951
@@ -1229,7 +1229,7 @@
                 {
                   "name": "stackTrace",
                   "location": {
-                    "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+                    "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleAnticrash.ts",
                     "line": 121,
                     "col": 8,
                     "byteIndex": 4978
@@ -1247,7 +1247,7 @@
                 {
                   "name": "timestamp",
                   "location": {
-                    "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+                    "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleAnticrash.ts",
                     "line": 122,
                     "col": 8,
                     "byteIndex": 5006
@@ -1272,7 +1272,7 @@
             "name": "BaseMessageOptions",
             "isDefault": false,
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleAnticrash.ts",
               "line": 125,
               "col": 4,
               "byteIndex": 5036
@@ -1296,7 +1296,7 @@
                 {
                   "name": "replaceEmbeds",
                   "location": {
-                    "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+                    "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleAnticrash.ts",
                     "line": 126,
                     "col": 8,
                     "byteIndex": 5112
@@ -1328,7 +1328,7 @@
                 {
                   "name": "replaceFiles",
                   "location": {
-                    "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+                    "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleAnticrash.ts",
                     "line": 127,
                     "col": 8,
                     "byteIndex": 5153
@@ -1370,7 +1370,7 @@
       "name": "RecipleInteractionEvents",
       "isDefault": false,
       "location": {
-        "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+        "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
         "line": 6,
         "col": 0,
         "byteIndex": 288
@@ -1405,7 +1405,7 @@
               }
             ],
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
               "line": 15,
               "col": 4,
               "byteIndex": 878
@@ -1426,7 +1426,7 @@
             "isStatic": false,
             "name": "id",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
               "line": 7,
               "col": 4,
               "byteIndex": 423
@@ -1448,7 +1448,7 @@
             "isStatic": false,
             "name": "event",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
               "line": 8,
               "col": 4,
               "byteIndex": 493
@@ -1482,7 +1482,7 @@
             "isStatic": false,
             "name": "moduleEventListenersProperty",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
               "line": 9,
               "col": 4,
               "byteIndex": 542
@@ -1533,7 +1533,7 @@
             "isStatic": false,
             "name": "ignoredModules",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
               "line": 10,
               "col": 4,
               "byteIndex": 617
@@ -1578,7 +1578,7 @@
             "isStatic": false,
             "name": "listeners",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
               "line": 11,
               "col": 4,
               "byteIndex": 688
@@ -1593,7 +1593,7 @@
             "isStatic": false,
             "name": "logger",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
               "line": 13,
               "col": 4,
               "byteIndex": 796
@@ -1631,7 +1631,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
               "line": 21,
               "col": 4,
               "byteIndex": 1007
@@ -1689,7 +1689,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
               "line": 39,
               "col": 4,
               "byteIndex": 1690
@@ -1729,7 +1729,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
               "line": 57,
               "col": 4,
               "byteIndex": 2502
@@ -1764,7 +1764,7 @@
       "name": "RecipleInteractionEvents",
       "isDefault": false,
       "location": {
-        "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+        "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
         "line": 93,
         "col": 0,
         "byteIndex": 4307
@@ -1777,7 +1777,7 @@
             "name": "Options",
             "isDefault": false,
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
               "line": 94,
               "col": 4,
               "byteIndex": 4355
@@ -1795,7 +1795,7 @@
                     "doc": "The property that is scanned from modules to get interaction listeners."
                   },
                   "location": {
-                    "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+                    "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
                     "line": 98,
                     "col": 8,
                     "byteIndex": 4497
@@ -1831,7 +1831,7 @@
                     "doc": "Filter modules that should be ignored."
                   },
                   "location": {
-                    "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+                    "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
                     "line": 102,
                     "col": 8,
                     "byteIndex": 4627
@@ -1888,7 +1888,7 @@
             "name": "ListenerModule",
             "isDefault": false,
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
               "line": 105,
               "col": 4,
               "byteIndex": 4698
@@ -1975,7 +1975,7 @@
             "name": "getInteractionTypeFromInteraction",
             "isDefault": false,
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
               "line": 107,
               "col": 4,
               "byteIndex": 4845
@@ -2019,7 +2019,7 @@
       "name": "RecipleRegistryCache",
       "isDefault": false,
       "location": {
-        "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+        "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
         "line": 6,
         "col": 0,
         "byteIndex": 252
@@ -2049,7 +2049,7 @@
               }
             ],
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
               "line": 17,
               "col": 4,
               "byteIndex": 774
@@ -2070,7 +2070,7 @@
             "isStatic": false,
             "name": "id",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
               "line": 7,
               "col": 4,
               "byteIndex": 351
@@ -2089,7 +2089,7 @@
             "isStatic": false,
             "name": "createCacheEntryEvenIfDisabled",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
               "line": 9,
               "col": 4,
               "byteIndex": 418
@@ -2108,7 +2108,7 @@
             "isStatic": false,
             "name": "cacheDir",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
               "line": 10,
               "col": 4,
               "byteIndex": 477
@@ -2127,7 +2127,7 @@
             "isStatic": false,
             "name": "maxCacheAgeMs",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
               "line": 11,
               "col": 4,
               "byteIndex": 561
@@ -2146,7 +2146,7 @@
             "isStatic": false,
             "name": "cacheEnabledEnv",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
               "line": 12,
               "col": 4,
               "byteIndex": 596
@@ -2165,7 +2165,7 @@
             "isStatic": false,
             "name": "cached",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
               "line": 13,
               "col": 4,
               "byteIndex": 659
@@ -2180,7 +2180,7 @@
             "isStatic": false,
             "name": "logger",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
               "line": 15,
               "col": 4,
               "byteIndex": 696
@@ -2209,7 +2209,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
               "line": 22,
               "col": 4,
               "byteIndex": 900
@@ -2244,7 +2244,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
               "line": 26,
               "col": 4,
               "byteIndex": 1023
@@ -2293,7 +2293,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
               "line": 64,
               "col": 4,
               "byteIndex": 2429
@@ -2342,7 +2342,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
               "line": 71,
               "col": 4,
               "byteIndex": 2712
@@ -2377,7 +2377,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
               "line": 81,
               "col": 4,
               "byteIndex": 3169
@@ -2415,7 +2415,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
               "line": 85,
               "col": 4,
               "byteIndex": 3280
@@ -2468,7 +2468,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
               "line": 107,
               "col": 4,
               "byteIndex": 4232
@@ -2494,7 +2494,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
               "line": 130,
               "col": 4,
               "byteIndex": 5348
@@ -2520,7 +2520,7 @@
       "name": "RecipleRegistryCache",
       "isDefault": false,
       "location": {
-        "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+        "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
         "line": 139,
         "col": 0,
         "byteIndex": 5615
@@ -2533,7 +2533,7 @@
             "name": "Options",
             "isDefault": false,
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
               "line": 140,
               "col": 4,
               "byteIndex": 5659
@@ -2556,7 +2556,7 @@
                     ]
                   },
                   "location": {
-                    "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+                    "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
                     "line": 144,
                     "col": 8,
                     "byteIndex": 5743
@@ -2582,7 +2582,7 @@
                     ]
                   },
                   "location": {
-                    "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+                    "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
                     "line": 148,
                     "col": 8,
                     "byteIndex": 5864
@@ -2608,7 +2608,7 @@
                     ]
                   },
                   "location": {
-                    "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+                    "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
                     "line": 152,
                     "col": 8,
                     "byteIndex": 5972
@@ -2634,7 +2634,7 @@
                     ]
                   },
                   "location": {
-                    "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+                    "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
                     "line": 156,
                     "col": 8,
                     "byteIndex": 6073
@@ -2659,7 +2659,7 @@
             "name": "CacheEntry",
             "isDefault": false,
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
               "line": 159,
               "col": 4,
               "byteIndex": 6110
@@ -2674,7 +2674,7 @@
                 {
                   "name": "commandsHash",
                   "location": {
-                    "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+                    "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
                     "line": 160,
                     "col": 8,
                     "byteIndex": 6148
@@ -2692,7 +2692,7 @@
                 {
                   "name": "configHash",
                   "location": {
-                    "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+                    "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
                     "line": 161,
                     "col": 8,
                     "byteIndex": 6178
@@ -2710,7 +2710,7 @@
                 {
                   "name": "createdAt",
                   "location": {
-                    "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+                    "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
                     "line": 162,
                     "col": 8,
                     "byteIndex": 6206
@@ -2735,7 +2735,7 @@
             "name": "CommandData",
             "isDefault": false,
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
               "line": 165,
               "col": 4,
               "byteIndex": 6236
@@ -2775,7 +2775,7 @@
             "name": "checkClientIfEnabled",
             "isDefault": false,
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
               "line": 167,
               "col": 4,
               "byteIndex": 6313
@@ -2813,7 +2813,7 @@
             "name": "createCommandsHash",
             "isDefault": false,
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
               "line": 176,
               "col": 4,
               "byteIndex": 6732
@@ -2872,7 +2872,7 @@
             "name": "createConfigHash",
             "isDefault": false,
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
               "line": 184,
               "col": 4,
               "byteIndex": 6973
@@ -2910,7 +2910,7 @@
             "name": "stringifyValue",
             "isDefault": false,
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
               "line": 193,
               "col": 4,
               "byteIndex": 7276
@@ -2948,7 +2948,7 @@
       "name": "InteractionListener",
       "isDefault": false,
       "location": {
-        "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/InteractionListener.ts",
+        "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/InteractionListener.ts",
         "line": 6,
         "col": 0,
         "byteIndex": 292
@@ -2987,7 +2987,7 @@
               }
             ],
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/InteractionListener.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/InteractionListener.ts",
               "line": 12,
               "col": 4,
               "byteIndex": 583
@@ -3008,7 +3008,7 @@
             "isStatic": false,
             "name": "id",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/InteractionListener.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/InteractionListener.ts",
               "line": 7,
               "col": 4,
               "byteIndex": 404
@@ -3027,7 +3027,7 @@
             "isStatic": false,
             "name": "moduleId",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/InteractionListener.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/InteractionListener.ts",
               "line": 8,
               "col": 4,
               "byteIndex": 477
@@ -3049,7 +3049,7 @@
             "isStatic": false,
             "name": "type",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/InteractionListener.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/InteractionListener.ts",
               "line": 9,
               "col": 4,
               "byteIndex": 516
@@ -3068,7 +3068,7 @@
             "isStatic": false,
             "name": "once",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/InteractionListener.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/InteractionListener.ts",
               "line": 10,
               "col": 4,
               "byteIndex": 546
@@ -3120,7 +3120,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/InteractionListener.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/InteractionListener.ts",
               "line": 16,
               "col": 4,
               "byteIndex": 724
@@ -3178,7 +3178,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/InteractionListener.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/InteractionListener.ts",
               "line": 20,
               "col": 4,
               "byteIndex": 826
@@ -3216,7 +3216,7 @@
               "typeParams": []
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/InteractionListener.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/InteractionListener.ts",
               "line": 24,
               "col": 4,
               "byteIndex": 948
@@ -3289,7 +3289,7 @@
               ]
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/InteractionListener.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/InteractionListener.ts",
               "line": 33,
               "col": 4,
               "byteIndex": 1158
@@ -3336,7 +3336,7 @@
       "name": "InteractionListener",
       "isDefault": false,
       "location": {
-        "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/InteractionListener.ts",
+        "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/InteractionListener.ts",
         "line": 38,
         "col": 0,
         "byteIndex": 1379
@@ -3349,7 +3349,7 @@
             "name": "Resolvable",
             "isDefault": false,
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/classes/InteractionListener.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/classes/InteractionListener.ts",
               "line": 39,
               "col": 4,
               "byteIndex": 1422
@@ -3445,7 +3445,7 @@
       "name": "InteractionListenerType",
       "isDefault": false,
       "location": {
-        "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/helpers/constants.ts",
+        "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/helpers/constants.ts",
         "line": 1,
         "col": 0,
         "byteIndex": 0
@@ -3465,7 +3465,7 @@
               }
             },
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/helpers/constants.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/helpers/constants.ts",
               "line": 2,
               "col": 4,
               "byteIndex": 42
@@ -3474,7 +3474,7 @@
           {
             "name": "ContextMenu",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/helpers/constants.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/helpers/constants.ts",
               "line": 3,
               "col": 4,
               "byteIndex": 64
@@ -3483,7 +3483,7 @@
           {
             "name": "ChatInput",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/helpers/constants.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/helpers/constants.ts",
               "line": 4,
               "col": 4,
               "byteIndex": 81
@@ -3492,7 +3492,7 @@
           {
             "name": "Button",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/helpers/constants.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/helpers/constants.ts",
               "line": 5,
               "col": 4,
               "byteIndex": 96
@@ -3501,7 +3501,7 @@
           {
             "name": "ModalSubmit",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/helpers/constants.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/helpers/constants.ts",
               "line": 6,
               "col": 4,
               "byteIndex": 108
@@ -3510,7 +3510,7 @@
           {
             "name": "SelectMenu",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/helpers/constants.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/helpers/constants.ts",
               "line": 7,
               "col": 4,
               "byteIndex": 125
@@ -3519,7 +3519,7 @@
           {
             "name": "PrimaryEntryPoint",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/helpers/constants.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/helpers/constants.ts",
               "line": 8,
               "col": 4,
               "byteIndex": 141
@@ -3532,7 +3532,7 @@
       "name": "InteractionListenerData",
       "isDefault": false,
       "location": {
-        "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/helpers/types.ts",
+        "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/helpers/types.ts",
         "line": 4,
         "col": 0,
         "byteIndex": 313
@@ -3547,7 +3547,7 @@
           {
             "name": "type",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/helpers/types.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/helpers/types.ts",
               "line": 5,
               "col": 4,
               "byteIndex": 421
@@ -3568,7 +3568,7 @@
           {
             "name": "once",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/helpers/types.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/helpers/types.ts",
               "line": 6,
               "col": 4,
               "byteIndex": 434
@@ -3586,7 +3586,7 @@
           {
             "name": "filter",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/helpers/types.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/helpers/types.ts",
               "line": 7,
               "col": 4,
               "byteIndex": 454
@@ -3645,7 +3645,7 @@
           {
             "name": "execute",
             "location": {
-              "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/helpers/types.ts",
+              "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/helpers/types.ts",
               "line": 8,
               "col": 4,
               "byteIndex": 536
@@ -3731,7 +3731,7 @@
       "name": "AnyCommandInteraction",
       "isDefault": false,
       "location": {
-        "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/helpers/types.ts",
+        "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/helpers/types.ts",
         "line": 11,
         "col": 0,
         "byteIndex": 614
@@ -3784,7 +3784,7 @@
       "name": "AnyComponentInteraction",
       "isDefault": false,
       "location": {
-        "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/helpers/types.ts",
+        "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/helpers/types.ts",
         "line": 12,
         "col": 0,
         "byteIndex": 769
@@ -3829,7 +3829,7 @@
       "name": "InteractionFromListenerType",
       "isDefault": false,
       "location": {
-        "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/helpers/types.ts",
+        "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/helpers/types.ts",
         "line": 14,
         "col": 0,
         "byteIndex": 875
@@ -4074,7 +4074,7 @@
       "name": "ListenerTypeFromInteraction",
       "isDefault": false,
       "location": {
-        "filename": "https://github.com/reciplejs/reciple/blob/43dcaa6009a2f6d9592d9be03cae1456a0f41470/packages/modules/src/helpers/types.ts",
+        "filename": "https://github.com/reciplejs/reciple/blob/ef2ef8e31cbcccce914b8bddbbbb29f13f1afb19/packages/modules/src/helpers/types.ts",
         "line": 30,
         "col": 0,
         "byteIndex": 1723
