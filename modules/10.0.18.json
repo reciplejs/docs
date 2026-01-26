@@ -1,0 +1,4329 @@
+{
+  "version": 1,
+  "nodes": [
+    {
+      "name": "InteractionListenerBuilder",
+      "isDefault": false,
+      "location": {
+        "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/builders/InteractionListenerBuilder.ts",
+        "line": 4,
+        "col": 0,
+        "byteIndex": 142
+      },
+      "declarationKind": "export",
+      "kind": "class",
+      "classDef": {
+        "isAbstract": false,
+        "constructors": [
+          {
+            "accessibility": "public",
+            "hasBody": true,
+            "name": "constructor",
+            "params": [
+              {
+                "kind": "identifier",
+                "name": "data",
+                "optional": true,
+                "tsType": {
+                  "repr": "Partial",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": [
+                      {
+                        "repr": "InteractionListenerData",
+                        "kind": "typeRef",
+                        "typeRef": {
+                          "typeParams": [
+                            {
+                              "repr": "T",
+                              "kind": "typeRef",
+                              "typeRef": {
+                                "typeParams": null,
+                                "typeName": "T"
+                              }
+                            }
+                          ],
+                          "typeName": "InteractionListenerData"
+                        }
+                      }
+                    ],
+                    "typeName": "Partial"
+                  }
+                }
+              }
+            ],
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/builders/InteractionListenerBuilder.ts",
+              "line": 7,
+              "col": 4,
+              "byteIndex": 292
+            }
+          }
+        ],
+        "properties": [
+          {
+            "tsType": {
+              "repr": "Partial",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": [
+                  {
+                    "repr": "InteractionListenerData",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": [
+                        {
+                          "repr": "T",
+                          "kind": "typeRef",
+                          "typeRef": {
+                            "typeParams": null,
+                            "typeName": "T"
+                          }
+                        }
+                      ],
+                      "typeName": "InteractionListenerData"
+                    }
+                  }
+                ],
+                "typeName": "Partial"
+              }
+            },
+            "readonly": true,
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "data",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/builders/InteractionListenerBuilder.ts",
+              "line": 5,
+              "col": 4,
+              "byteIndex": 223
+            }
+          }
+        ],
+        "indexSignatures": [],
+        "methods": [
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "setType",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "type",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "Type",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": null,
+                      "typeName": "Type"
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "InteractionListenerBuilder",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": [
+                    {
+                      "repr": "Type",
+                      "kind": "typeRef",
+                      "typeRef": {
+                        "typeParams": null,
+                        "typeName": "Type"
+                      }
+                    }
+                  ],
+                  "typeName": "InteractionListenerBuilder"
+                }
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": [
+                {
+                  "name": "Type",
+                  "constraint": {
+                    "repr": "T",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": null,
+                      "typeName": "T"
+                    }
+                  }
+                }
+              ]
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/builders/InteractionListenerBuilder.ts",
+              "line": 11,
+              "col": 4,
+              "byteIndex": 404
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "setOnce",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "once",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "boolean",
+                    "kind": "keyword",
+                    "keyword": "boolean"
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "this",
+                "kind": "this",
+                "this": true
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/builders/InteractionListenerBuilder.ts",
+              "line": 16,
+              "col": 4,
+              "byteIndex": 553
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "setFilter",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "filter",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "",
+                    "kind": "indexedAccess",
+                    "indexedAccess": {
+                      "readonly": false,
+                      "objType": {
+                        "repr": "InteractionListenerData",
+                        "kind": "typeRef",
+                        "typeRef": {
+                          "typeParams": [
+                            {
+                              "repr": "T",
+                              "kind": "typeRef",
+                              "typeRef": {
+                                "typeParams": null,
+                                "typeName": "T"
+                              }
+                            }
+                          ],
+                          "typeName": "InteractionListenerData"
+                        }
+                      },
+                      "indexType": {
+                        "repr": "filter",
+                        "kind": "literal",
+                        "literal": {
+                          "kind": "string",
+                          "string": "filter"
+                        }
+                      }
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "this",
+                "kind": "this",
+                "this": true
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/builders/InteractionListenerBuilder.ts",
+              "line": 21,
+              "col": 4,
+              "byteIndex": 654
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "setExecute",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "execute",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "",
+                    "kind": "indexedAccess",
+                    "indexedAccess": {
+                      "readonly": false,
+                      "objType": {
+                        "repr": "InteractionListenerData",
+                        "kind": "typeRef",
+                        "typeRef": {
+                          "typeParams": [
+                            {
+                              "repr": "T",
+                              "kind": "typeRef",
+                              "typeRef": {
+                                "typeParams": null,
+                                "typeName": "T"
+                              }
+                            }
+                          ],
+                          "typeName": "InteractionListenerData"
+                        }
+                      },
+                      "indexType": {
+                        "repr": "execute",
+                        "kind": "literal",
+                        "literal": {
+                          "kind": "string",
+                          "string": "execute"
+                        }
+                      }
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "this",
+                "kind": "this",
+                "this": true
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/builders/InteractionListenerBuilder.ts",
+              "line": 26,
+              "col": 4,
+              "byteIndex": 792
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "toJSON",
+            "kind": "method",
+            "functionDef": {
+              "params": [],
+              "returnType": {
+                "repr": "InteractionListenerData",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": [
+                    {
+                      "repr": "T",
+                      "kind": "typeRef",
+                      "typeRef": {
+                        "typeParams": null,
+                        "typeName": "T"
+                      }
+                    }
+                  ],
+                  "typeName": "InteractionListenerData"
+                }
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/builders/InteractionListenerBuilder.ts",
+              "line": 31,
+              "col": 4,
+              "byteIndex": 935
+            }
+          }
+        ],
+        "extends": null,
+        "implements": [],
+        "typeParams": [
+          {
+            "name": "T",
+            "constraint": {
+              "repr": "InteractionListenerType",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "InteractionListenerType"
+              }
+            }
+          }
+        ],
+        "superTypeParams": []
+      }
+    },
+    {
+      "name": "RecipleAnticrash",
+      "isDefault": false,
+      "location": {
+        "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+        "line": 5,
+        "col": 0,
+        "byteIndex": 290
+      },
+      "declarationKind": "export",
+      "kind": "class",
+      "classDef": {
+        "isAbstract": false,
+        "constructors": [
+          {
+            "accessibility": null,
+            "hasBody": true,
+            "name": "constructor",
+            "params": [
+              {
+                "kind": "identifier",
+                "name": "options",
+                "optional": true,
+                "tsType": {
+                  "repr": "RecipleAnticrash.Options",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": null,
+                    "typeName": "RecipleAnticrash.Options"
+                  }
+                }
+              }
+            ],
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "line": 13,
+              "col": 4,
+              "byteIndex": 652
+            }
+          }
+        ],
+        "properties": [
+          {
+            "tsType": {
+              "repr": "string",
+              "kind": "keyword",
+              "keyword": "string"
+            },
+            "readonly": true,
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "id",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "line": 6,
+              "col": 4,
+              "byteIndex": 381
+            }
+          },
+          {
+            "tsType": {
+              "repr": "",
+              "kind": "indexedAccess",
+              "indexedAccess": {
+                "readonly": false,
+                "objType": {
+                  "repr": "RecipleAnticrash.Options",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": null,
+                    "typeName": "RecipleAnticrash.Options"
+                  }
+                },
+                "indexType": {
+                  "repr": "baseReportMessageOptions",
+                  "kind": "literal",
+                  "literal": {
+                    "kind": "string",
+                    "string": "baseReportMessageOptions"
+                  }
+                }
+              }
+            },
+            "readonly": false,
+            "accessibility": "public",
+            "optional": true,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "baseReportMessageOptions",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "line": 8,
+              "col": 4,
+              "byteIndex": 443
+            }
+          },
+          {
+            "tsType": {
+              "repr": "",
+              "kind": "array",
+              "array": {
+                "repr": "string",
+                "kind": "keyword",
+                "keyword": "string"
+              }
+            },
+            "readonly": false,
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "reportChannels",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "line": 9,
+              "col": 4,
+              "byteIndex": 535
+            }
+          },
+          {
+            "tsType": null,
+            "readonly": true,
+            "accessibility": "private",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "logger",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "line": 11,
+              "col": 4,
+              "byteIndex": 578
+            }
+          }
+        ],
+        "indexSignatures": [],
+        "methods": [
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "onEnable",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "data",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "BaseModule.EventData",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": [
+                        {
+                          "repr": "boolean",
+                          "kind": "keyword",
+                          "keyword": "boolean"
+                        }
+                      ],
+                      "typeName": "BaseModule.EventData"
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "Promise",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": [
+                    {
+                      "repr": "void",
+                      "kind": "keyword",
+                      "keyword": "void"
+                    }
+                  ],
+                  "typeName": "Promise"
+                }
+              },
+              "hasBody": true,
+              "isAsync": true,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "line": 21,
+              "col": 4,
+              "byteIndex": 846
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "onReady",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "data",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "BaseModule.EventData",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": [
+                        {
+                          "repr": "true",
+                          "kind": "literal",
+                          "literal": {
+                            "kind": "boolean",
+                            "boolean": true
+                          }
+                        }
+                      ],
+                      "typeName": "BaseModule.EventData"
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "Promise",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": [
+                    {
+                      "repr": "void",
+                      "kind": "keyword",
+                      "keyword": "void"
+                    }
+                  ],
+                  "typeName": "Promise"
+                }
+              },
+              "hasBody": true,
+              "isAsync": true,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "line": 29,
+              "col": 4,
+              "byteIndex": 1260
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "onDisable",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "data",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "BaseModule.EventData",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": [
+                        {
+                          "repr": "boolean",
+                          "kind": "keyword",
+                          "keyword": "boolean"
+                        }
+                      ],
+                      "typeName": "BaseModule.EventData"
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "Promise",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": [
+                    {
+                      "repr": "void",
+                      "kind": "keyword",
+                      "keyword": "void"
+                    }
+                  ],
+                  "typeName": "Promise"
+                }
+              },
+              "hasBody": true,
+              "isAsync": true,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "line": 31,
+              "col": 4,
+              "byteIndex": 1338
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "report",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "reason",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "any",
+                    "kind": "keyword",
+                    "keyword": "any"
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "Promise",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": [
+                    {
+                      "repr": "",
+                      "kind": "array",
+                      "array": {
+                        "repr": "RecipleAnticrash.Report",
+                        "kind": "typeRef",
+                        "typeRef": {
+                          "typeParams": null,
+                          "typeName": "RecipleAnticrash.Report"
+                        }
+                      }
+                    }
+                  ],
+                  "typeName": "Promise"
+                }
+              },
+              "hasBody": true,
+              "isAsync": true,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "line": 39,
+              "col": 4,
+              "byteIndex": 1758
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "createReportMessageOptions",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "reason",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "any",
+                    "kind": "keyword",
+                    "keyword": "any"
+                  }
+                },
+                {
+                  "kind": "identifier",
+                  "name": "stack",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "Promise",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": [
+                    {
+                      "repr": "DJSBaseMessageOptions",
+                      "kind": "typeRef",
+                      "typeRef": {
+                        "typeParams": null,
+                        "typeName": "DJSBaseMessageOptions"
+                      }
+                    }
+                  ],
+                  "typeName": "Promise"
+                }
+              },
+              "hasBody": true,
+              "isAsync": true,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "line": 56,
+              "col": 4,
+              "byteIndex": 2409
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "resolveChannel",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "resolvable",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "",
+                    "kind": "indexedAccess",
+                    "indexedAccess": {
+                      "readonly": false,
+                      "objType": {
+                        "repr": "Exclude",
+                        "kind": "typeRef",
+                        "typeRef": {
+                          "typeParams": [
+                            {
+                              "repr": "",
+                              "kind": "indexedAccess",
+                              "indexedAccess": {
+                                "readonly": false,
+                                "objType": {
+                                  "repr": "RecipleAnticrash.Options",
+                                  "kind": "typeRef",
+                                  "typeRef": {
+                                    "typeParams": null,
+                                    "typeName": "RecipleAnticrash.Options"
+                                  }
+                                },
+                                "indexType": {
+                                  "repr": "reportChannels",
+                                  "kind": "literal",
+                                  "literal": {
+                                    "kind": "string",
+                                    "string": "reportChannels"
+                                  }
+                                }
+                              }
+                            },
+                            {
+                              "repr": "undefined",
+                              "kind": "keyword",
+                              "keyword": "undefined"
+                            }
+                          ],
+                          "typeName": "Exclude"
+                        }
+                      },
+                      "indexType": {
+                        "repr": "0",
+                        "kind": "literal",
+                        "literal": {
+                          "kind": "number",
+                          "number": 0
+                        }
+                      }
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "Promise",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": [
+                    {
+                      "repr": "",
+                      "kind": "union",
+                      "union": [
+                        {
+                          "repr": "SendableChannels",
+                          "kind": "typeRef",
+                          "typeRef": {
+                            "typeParams": null,
+                            "typeName": "SendableChannels"
+                          }
+                        },
+                        {
+                          "repr": "null",
+                          "kind": "keyword",
+                          "keyword": "null"
+                        }
+                      ]
+                    }
+                  ],
+                  "typeName": "Promise"
+                }
+              },
+              "hasBody": true,
+              "isAsync": true,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "line": 92,
+              "col": 4,
+              "byteIndex": 3812
+            }
+          },
+          {
+            "accessibility": "private",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "_captureErrorEvent",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "rest",
+                  "arg": {
+                    "kind": "identifier",
+                    "name": "args",
+                    "optional": false,
+                    "tsType": null
+                  },
+                  "tsType": {
+                    "repr": "",
+                    "kind": "array",
+                    "array": {
+                      "repr": "any",
+                      "kind": "keyword",
+                      "keyword": "any"
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "Promise",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": [
+                    {
+                      "repr": "void",
+                      "kind": "keyword",
+                      "keyword": "void"
+                    }
+                  ],
+                  "typeName": "Promise"
+                }
+              },
+              "hasBody": true,
+              "isAsync": true,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "line": 108,
+              "col": 4,
+              "byteIndex": 4505
+            }
+          }
+        ],
+        "extends": "BaseModule",
+        "implements": [
+          {
+            "repr": "[RecipleAnticrash.Options]",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": null,
+              "typeName": "[RecipleAnticrash.Options]"
+            }
+          }
+        ],
+        "typeParams": [],
+        "superTypeParams": []
+      }
+    },
+    {
+      "name": "RecipleAnticrash",
+      "isDefault": false,
+      "location": {
+        "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+        "line": 113,
+        "col": 0,
+        "byteIndex": 4629
+      },
+      "declarationKind": "export",
+      "kind": "namespace",
+      "namespaceDef": {
+        "elements": [
+          {
+            "name": "Options",
+            "isDefault": false,
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "line": 114,
+              "col": 4,
+              "byteIndex": 4669
+            },
+            "declarationKind": "export",
+            "kind": "interface",
+            "interfaceDef": {
+              "extends": [],
+              "constructors": [],
+              "methods": [],
+              "properties": [
+                {
+                  "name": "baseReportMessageOptions",
+                  "location": {
+                    "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+                    "line": 115,
+                    "col": 8,
+                    "byteIndex": 4704
+                  },
+                  "params": [],
+                  "computed": false,
+                  "optional": true,
+                  "tsType": {
+                    "repr": "",
+                    "kind": "union",
+                    "union": [
+                      {
+                        "repr": "BaseMessageOptions",
+                        "kind": "typeRef",
+                        "typeRef": {
+                          "typeParams": null,
+                          "typeName": "BaseMessageOptions"
+                        }
+                      },
+                      {
+                        "repr": "",
+                        "kind": "parenthesized",
+                        "parenthesized": {
+                          "repr": "",
+                          "kind": "fnOrConstructor",
+                          "fnOrConstructor": {
+                            "constructor": false,
+                            "tsType": {
+                              "repr": "Awaitable",
+                              "kind": "typeRef",
+                              "typeRef": {
+                                "typeParams": [
+                                  {
+                                    "repr": "BaseMessageOptions",
+                                    "kind": "typeRef",
+                                    "typeRef": {
+                                      "typeParams": null,
+                                      "typeName": "BaseMessageOptions"
+                                    }
+                                  }
+                                ],
+                                "typeName": "Awaitable"
+                              }
+                            },
+                            "params": [
+                              {
+                                "kind": "identifier",
+                                "name": "reason",
+                                "optional": false,
+                                "tsType": {
+                                  "repr": "any",
+                                  "kind": "keyword",
+                                  "keyword": "any"
+                                }
+                              }
+                            ],
+                            "typeParams": []
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "typeParams": []
+                },
+                {
+                  "name": "reportChannels",
+                  "location": {
+                    "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+                    "line": 116,
+                    "col": 8,
+                    "byteIndex": 4808
+                  },
+                  "params": [],
+                  "computed": false,
+                  "optional": true,
+                  "tsType": {
+                    "repr": "",
+                    "kind": "array",
+                    "array": {
+                      "repr": "",
+                      "kind": "parenthesized",
+                      "parenthesized": {
+                        "repr": "",
+                        "kind": "union",
+                        "union": [
+                          {
+                            "repr": "string",
+                            "kind": "keyword",
+                            "keyword": "string"
+                          },
+                          {
+                            "repr": "",
+                            "kind": "typeLiteral",
+                            "typeLiteral": {
+                              "constructors": [],
+                              "methods": [],
+                              "properties": [
+                                {
+                                  "name": "id",
+                                  "location": {
+                                    "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+                                    "line": 116,
+                                    "col": 35,
+                                    "byteIndex": 4835
+                                  },
+                                  "params": [],
+                                  "computed": false,
+                                  "optional": false,
+                                  "tsType": {
+                                    "repr": "string",
+                                    "kind": "keyword",
+                                    "keyword": "string"
+                                  },
+                                  "typeParams": []
+                                }
+                              ],
+                              "callSignatures": [],
+                              "indexSignatures": []
+                            }
+                          },
+                          {
+                            "repr": "SendableChannels",
+                            "kind": "typeRef",
+                            "typeRef": {
+                              "typeParams": null,
+                              "typeName": "SendableChannels"
+                            }
+                          },
+                          {
+                            "repr": "",
+                            "kind": "parenthesized",
+                            "parenthesized": {
+                              "repr": "",
+                              "kind": "fnOrConstructor",
+                              "fnOrConstructor": {
+                                "constructor": false,
+                                "tsType": {
+                                  "repr": "Awaitable",
+                                  "kind": "typeRef",
+                                  "typeRef": {
+                                    "typeParams": [
+                                      {
+                                        "repr": "SendableChannels",
+                                        "kind": "typeRef",
+                                        "typeRef": {
+                                          "typeParams": null,
+                                          "typeName": "SendableChannels"
+                                        }
+                                      }
+                                    ],
+                                    "typeName": "Awaitable"
+                                  }
+                                },
+                                "params": [],
+                                "typeParams": []
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "typeParams": []
+                }
+              ],
+              "callSignatures": [],
+              "indexSignatures": [],
+              "typeParams": []
+            }
+          },
+          {
+            "name": "Report",
+            "isDefault": false,
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "line": 119,
+              "col": 4,
+              "byteIndex": 4917
+            },
+            "declarationKind": "export",
+            "kind": "interface",
+            "interfaceDef": {
+              "extends": [],
+              "constructors": [],
+              "methods": [],
+              "properties": [
+                {
+                  "name": "message",
+                  "location": {
+                    "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+                    "line": 120,
+                    "col": 8,
+                    "byteIndex": 4951
+                  },
+                  "params": [],
+                  "computed": false,
+                  "optional": true,
+                  "tsType": {
+                    "repr": "Message",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": null,
+                      "typeName": "Message"
+                    }
+                  },
+                  "typeParams": []
+                },
+                {
+                  "name": "stackTrace",
+                  "location": {
+                    "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+                    "line": 121,
+                    "col": 8,
+                    "byteIndex": 4978
+                  },
+                  "params": [],
+                  "computed": false,
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  },
+                  "typeParams": []
+                },
+                {
+                  "name": "timestamp",
+                  "location": {
+                    "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+                    "line": 122,
+                    "col": 8,
+                    "byteIndex": 5006
+                  },
+                  "params": [],
+                  "computed": false,
+                  "optional": false,
+                  "tsType": {
+                    "repr": "number",
+                    "kind": "keyword",
+                    "keyword": "number"
+                  },
+                  "typeParams": []
+                }
+              ],
+              "callSignatures": [],
+              "indexSignatures": [],
+              "typeParams": []
+            }
+          },
+          {
+            "name": "BaseMessageOptions",
+            "isDefault": false,
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+              "line": 125,
+              "col": 4,
+              "byteIndex": 5036
+            },
+            "declarationKind": "export",
+            "kind": "interface",
+            "interfaceDef": {
+              "extends": [
+                {
+                  "repr": "DJSBaseMessageOptions",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": null,
+                    "typeName": "DJSBaseMessageOptions"
+                  }
+                }
+              ],
+              "constructors": [],
+              "methods": [],
+              "properties": [
+                {
+                  "name": "replaceEmbeds",
+                  "location": {
+                    "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+                    "line": 126,
+                    "col": 8,
+                    "byteIndex": 5112
+                  },
+                  "params": [],
+                  "computed": false,
+                  "optional": true,
+                  "tsType": {
+                    "repr": "",
+                    "kind": "union",
+                    "union": [
+                      {
+                        "repr": "merge",
+                        "kind": "literal",
+                        "literal": {
+                          "kind": "string",
+                          "string": "merge"
+                        }
+                      },
+                      {
+                        "repr": "boolean",
+                        "kind": "keyword",
+                        "keyword": "boolean"
+                      }
+                    ]
+                  },
+                  "typeParams": []
+                },
+                {
+                  "name": "replaceFiles",
+                  "location": {
+                    "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleAnticrash.ts",
+                    "line": 127,
+                    "col": 8,
+                    "byteIndex": 5153
+                  },
+                  "params": [],
+                  "computed": false,
+                  "optional": true,
+                  "tsType": {
+                    "repr": "",
+                    "kind": "union",
+                    "union": [
+                      {
+                        "repr": "merge",
+                        "kind": "literal",
+                        "literal": {
+                          "kind": "string",
+                          "string": "merge"
+                        }
+                      },
+                      {
+                        "repr": "boolean",
+                        "kind": "keyword",
+                        "keyword": "boolean"
+                      }
+                    ]
+                  },
+                  "typeParams": []
+                }
+              ],
+              "callSignatures": [],
+              "indexSignatures": [],
+              "typeParams": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecipleInteractionEvents",
+      "isDefault": false,
+      "location": {
+        "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+        "line": 6,
+        "col": 0,
+        "byteIndex": 288
+      },
+      "declarationKind": "export",
+      "kind": "class",
+      "classDef": {
+        "isAbstract": false,
+        "constructors": [
+          {
+            "accessibility": null,
+            "hasBody": true,
+            "name": "constructor",
+            "params": [
+              {
+                "kind": "assign",
+                "left": {
+                  "kind": "identifier",
+                  "name": "options",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "RecipleInteractionEvents.Options",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": null,
+                      "typeName": "RecipleInteractionEvents.Options"
+                    }
+                  }
+                },
+                "right": "[UNSUPPORTED]",
+                "tsType": null
+              }
+            ],
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+              "line": 15,
+              "col": 4,
+              "byteIndex": 878
+            }
+          }
+        ],
+        "properties": [
+          {
+            "tsType": {
+              "repr": "string",
+              "kind": "keyword",
+              "keyword": "string"
+            },
+            "readonly": true,
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "id",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+              "line": 7,
+              "col": 4,
+              "byteIndex": 423
+            }
+          },
+          {
+            "tsType": {
+              "repr": "interactionCreate",
+              "kind": "literal",
+              "literal": {
+                "kind": "string",
+                "string": "interactionCreate"
+              }
+            },
+            "readonly": false,
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "event",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+              "line": 8,
+              "col": 4,
+              "byteIndex": 493
+            }
+          },
+          {
+            "tsType": {
+              "repr": "",
+              "kind": "union",
+              "union": [
+                {
+                  "repr": "string",
+                  "kind": "keyword",
+                  "keyword": "string"
+                },
+                {
+                  "repr": "",
+                  "kind": "array",
+                  "array": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                }
+              ]
+            },
+            "readonly": false,
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "moduleEventListenersProperty",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+              "line": 9,
+              "col": 4,
+              "byteIndex": 542
+            }
+          },
+          {
+            "tsType": {
+              "repr": "",
+              "kind": "fnOrConstructor",
+              "fnOrConstructor": {
+                "constructor": false,
+                "tsType": {
+                  "repr": "Awaitable",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": [
+                      {
+                        "repr": "boolean",
+                        "kind": "keyword",
+                        "keyword": "boolean"
+                      }
+                    ],
+                    "typeName": "Awaitable"
+                  }
+                },
+                "params": [
+                  {
+                    "kind": "identifier",
+                    "name": "module",
+                    "optional": false,
+                    "tsType": {
+                      "repr": "AnyModule",
+                      "kind": "typeRef",
+                      "typeRef": {
+                        "typeParams": null,
+                        "typeName": "AnyModule"
+                      }
+                    }
+                  }
+                ],
+                "typeParams": []
+              }
+            },
+            "readonly": false,
+            "accessibility": "public",
+            "optional": true,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "ignoredModules",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+              "line": 10,
+              "col": 4,
+              "byteIndex": 617
+            }
+          },
+          {
+            "tsType": {
+              "repr": "Collection",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": [
+                  {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  },
+                  {
+                    "repr": "InteractionListener",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": [
+                        {
+                          "repr": "InteractionListenerType",
+                          "kind": "typeRef",
+                          "typeRef": {
+                            "typeParams": null,
+                            "typeName": "InteractionListenerType"
+                          }
+                        }
+                      ],
+                      "typeName": "InteractionListener"
+                    }
+                  }
+                ],
+                "typeName": "Collection"
+              }
+            },
+            "readonly": false,
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "listeners",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+              "line": 11,
+              "col": 4,
+              "byteIndex": 688
+            }
+          },
+          {
+            "tsType": null,
+            "readonly": true,
+            "accessibility": "private",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "logger",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+              "line": 13,
+              "col": 4,
+              "byteIndex": 796
+            }
+          }
+        ],
+        "indexSignatures": [],
+        "methods": [
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "onReady",
+            "kind": "method",
+            "functionDef": {
+              "params": [],
+              "returnType": {
+                "repr": "Promise",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": [
+                    {
+                      "repr": "void",
+                      "kind": "keyword",
+                      "keyword": "void"
+                    }
+                  ],
+                  "typeName": "Promise"
+                }
+              },
+              "hasBody": true,
+              "isAsync": true,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+              "line": 21,
+              "col": 4,
+              "byteIndex": 1007
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "onEvent",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "interaction",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "Interaction",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": [
+                        {
+                          "repr": "CacheType",
+                          "kind": "typeRef",
+                          "typeRef": {
+                            "typeParams": null,
+                            "typeName": "CacheType"
+                          }
+                        }
+                      ],
+                      "typeName": "Interaction"
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "Promise",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": [
+                    {
+                      "repr": "void",
+                      "kind": "keyword",
+                      "keyword": "void"
+                    }
+                  ],
+                  "typeName": "Promise"
+                }
+              },
+              "hasBody": true,
+              "isAsync": true,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+              "line": 39,
+              "col": 4,
+              "byteIndex": 1690
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "resolveListeners",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "customModules",
+                  "optional": true,
+                  "tsType": {
+                    "repr": "",
+                    "kind": "array",
+                    "array": {
+                      "repr": "AnyModule",
+                      "kind": "typeRef",
+                      "typeRef": {
+                        "typeParams": null,
+                        "typeName": "AnyModule"
+                      }
+                    }
+                  }
+                }
+              ],
+              "returnType": null,
+              "hasBody": true,
+              "isAsync": true,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+              "line": 57,
+              "col": 4,
+              "byteIndex": 2502
+            }
+          }
+        ],
+        "extends": "ClientEventModule",
+        "implements": [
+          {
+            "repr": "[RecipleInteractionEvents.Options]",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": null,
+              "typeName": "[RecipleInteractionEvents.Options]"
+            }
+          }
+        ],
+        "typeParams": [],
+        "superTypeParams": [
+          {
+            "repr": "interactionCreate",
+            "kind": "literal",
+            "literal": {
+              "kind": "string",
+              "string": "interactionCreate"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecipleInteractionEvents",
+      "isDefault": false,
+      "location": {
+        "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+        "line": 93,
+        "col": 0,
+        "byteIndex": 4307
+      },
+      "declarationKind": "export",
+      "kind": "namespace",
+      "namespaceDef": {
+        "elements": [
+          {
+            "name": "Options",
+            "isDefault": false,
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+              "line": 94,
+              "col": 4,
+              "byteIndex": 4355
+            },
+            "declarationKind": "export",
+            "kind": "interface",
+            "interfaceDef": {
+              "extends": [],
+              "constructors": [],
+              "methods": [],
+              "properties": [
+                {
+                  "name": "moduleEventListenersProperty",
+                  "jsDoc": {
+                    "doc": "The property that is scanned from modules to get interaction listeners."
+                  },
+                  "location": {
+                    "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+                    "line": 98,
+                    "col": 8,
+                    "byteIndex": 4497
+                  },
+                  "params": [],
+                  "computed": false,
+                  "optional": true,
+                  "tsType": {
+                    "repr": "",
+                    "kind": "union",
+                    "union": [
+                      {
+                        "repr": "string",
+                        "kind": "keyword",
+                        "keyword": "string"
+                      },
+                      {
+                        "repr": "",
+                        "kind": "array",
+                        "array": {
+                          "repr": "string",
+                          "kind": "keyword",
+                          "keyword": "string"
+                        }
+                      }
+                    ]
+                  },
+                  "typeParams": []
+                },
+                {
+                  "name": "ignoredModules",
+                  "jsDoc": {
+                    "doc": "Filter modules that should be ignored."
+                  },
+                  "location": {
+                    "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+                    "line": 102,
+                    "col": 8,
+                    "byteIndex": 4627
+                  },
+                  "params": [],
+                  "computed": false,
+                  "optional": true,
+                  "tsType": {
+                    "repr": "",
+                    "kind": "fnOrConstructor",
+                    "fnOrConstructor": {
+                      "constructor": false,
+                      "tsType": {
+                        "repr": "Awaitable",
+                        "kind": "typeRef",
+                        "typeRef": {
+                          "typeParams": [
+                            {
+                              "repr": "boolean",
+                              "kind": "keyword",
+                              "keyword": "boolean"
+                            }
+                          ],
+                          "typeName": "Awaitable"
+                        }
+                      },
+                      "params": [
+                        {
+                          "kind": "identifier",
+                          "name": "module",
+                          "optional": false,
+                          "tsType": {
+                            "repr": "AnyModule",
+                            "kind": "typeRef",
+                            "typeRef": {
+                              "typeParams": null,
+                              "typeName": "AnyModule"
+                            }
+                          }
+                        }
+                      ],
+                      "typeParams": []
+                    }
+                  },
+                  "typeParams": []
+                }
+              ],
+              "callSignatures": [],
+              "indexSignatures": [],
+              "typeParams": []
+            }
+          },
+          {
+            "name": "ListenerModule",
+            "isDefault": false,
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+              "line": 105,
+              "col": 4,
+              "byteIndex": 4698
+            },
+            "declarationKind": "export",
+            "kind": "typeAlias",
+            "typeAliasDef": {
+              "tsType": {
+                "repr": "",
+                "kind": "intersection",
+                "intersection": [
+                  {
+                    "repr": "AnyModule",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": null,
+                      "typeName": "AnyModule"
+                    }
+                  },
+                  {
+                    "repr": "Record",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": [
+                        {
+                          "repr": "P",
+                          "kind": "typeRef",
+                          "typeRef": {
+                            "typeParams": null,
+                            "typeName": "P"
+                          }
+                        },
+                        {
+                          "repr": "",
+                          "kind": "array",
+                          "array": {
+                            "repr": "InteractionListener.Resolvable",
+                            "kind": "typeRef",
+                            "typeRef": {
+                              "typeParams": [
+                                {
+                                  "repr": "T",
+                                  "kind": "typeRef",
+                                  "typeRef": {
+                                    "typeParams": null,
+                                    "typeName": "T"
+                                  }
+                                }
+                              ],
+                              "typeName": "InteractionListener.Resolvable"
+                            }
+                          }
+                        }
+                      ],
+                      "typeName": "Record"
+                    }
+                  }
+                ]
+              },
+              "typeParams": [
+                {
+                  "name": "P",
+                  "constraint": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  }
+                },
+                {
+                  "name": "T",
+                  "constraint": {
+                    "repr": "InteractionListenerType",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": null,
+                      "typeName": "InteractionListenerType"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "getInteractionTypeFromInteraction",
+            "isDefault": false,
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleInteractionEvents.ts",
+              "line": 107,
+              "col": 4,
+              "byteIndex": 4845
+            },
+            "declarationKind": "export",
+            "kind": "function",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "interaction",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "Interaction",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": null,
+                      "typeName": "Interaction"
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "InteractionListenerType",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": null,
+                  "typeName": "InteractionListenerType"
+                }
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecipleRegistryCache",
+      "isDefault": false,
+      "location": {
+        "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+        "line": 6,
+        "col": 0,
+        "byteIndex": 252
+      },
+      "declarationKind": "export",
+      "kind": "class",
+      "classDef": {
+        "isAbstract": false,
+        "constructors": [
+          {
+            "accessibility": null,
+            "hasBody": true,
+            "name": "constructor",
+            "params": [
+              {
+                "kind": "identifier",
+                "name": "options",
+                "optional": true,
+                "tsType": {
+                  "repr": "RecipleRegistryCache.Options",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": null,
+                    "typeName": "RecipleRegistryCache.Options"
+                  }
+                }
+              }
+            ],
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "line": 17,
+              "col": 4,
+              "byteIndex": 774
+            }
+          }
+        ],
+        "properties": [
+          {
+            "tsType": {
+              "repr": "string",
+              "kind": "keyword",
+              "keyword": "string"
+            },
+            "readonly": true,
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "id",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "line": 7,
+              "col": 4,
+              "byteIndex": 351
+            }
+          },
+          {
+            "tsType": {
+              "repr": "boolean",
+              "kind": "keyword",
+              "keyword": "boolean"
+            },
+            "readonly": false,
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "createCacheEntryEvenIfDisabled",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "line": 9,
+              "col": 4,
+              "byteIndex": 418
+            }
+          },
+          {
+            "tsType": {
+              "repr": "string",
+              "kind": "keyword",
+              "keyword": "string"
+            },
+            "readonly": false,
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "cacheDir",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "line": 10,
+              "col": 4,
+              "byteIndex": 477
+            }
+          },
+          {
+            "tsType": {
+              "repr": "number",
+              "kind": "keyword",
+              "keyword": "number"
+            },
+            "readonly": false,
+            "accessibility": "public",
+            "optional": true,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "maxCacheAgeMs",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "line": 11,
+              "col": 4,
+              "byteIndex": 561
+            }
+          },
+          {
+            "tsType": {
+              "repr": "string",
+              "kind": "keyword",
+              "keyword": "string"
+            },
+            "readonly": false,
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "cacheEnabledEnv",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "line": 12,
+              "col": 4,
+              "byteIndex": 596
+            }
+          },
+          {
+            "tsType": {
+              "repr": "boolean",
+              "kind": "keyword",
+              "keyword": "boolean"
+            },
+            "readonly": false,
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "cached",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "line": 13,
+              "col": 4,
+              "byteIndex": 659
+            }
+          },
+          {
+            "tsType": null,
+            "readonly": true,
+            "accessibility": "private",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "logger",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "line": 15,
+              "col": 4,
+              "byteIndex": 696
+            }
+          }
+        ],
+        "indexSignatures": [],
+        "methods": [
+          {
+            "accessibility": null,
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "cachePath",
+            "kind": "getter",
+            "functionDef": {
+              "params": [],
+              "returnType": {
+                "repr": "string",
+                "kind": "keyword",
+                "keyword": "string"
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "line": 22,
+              "col": 4,
+              "byteIndex": 900
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "onReady",
+            "kind": "method",
+            "functionDef": {
+              "params": [],
+              "returnType": {
+                "repr": "Promise",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": [
+                    {
+                      "repr": "void",
+                      "kind": "keyword",
+                      "keyword": "void"
+                    }
+                  ],
+                  "typeName": "Promise"
+                }
+              },
+              "hasBody": true,
+              "isAsync": true,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "line": 26,
+              "col": 4,
+              "byteIndex": 1023
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "readCacheEntry",
+            "kind": "method",
+            "functionDef": {
+              "params": [],
+              "returnType": {
+                "repr": "Promise",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": [
+                    {
+                      "repr": "",
+                      "kind": "union",
+                      "union": [
+                        {
+                          "repr": "RecipleRegistryCache.CacheEntry",
+                          "kind": "typeRef",
+                          "typeRef": {
+                            "typeParams": null,
+                            "typeName": "RecipleRegistryCache.CacheEntry"
+                          }
+                        },
+                        {
+                          "repr": "null",
+                          "kind": "keyword",
+                          "keyword": "null"
+                        }
+                      ]
+                    }
+                  ],
+                  "typeName": "Promise"
+                }
+              },
+              "hasBody": true,
+              "isAsync": true,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "line": 64,
+              "col": 4,
+              "byteIndex": 2429
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "writeCacheEntry",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "entry",
+                  "optional": true,
+                  "tsType": {
+                    "repr": "RecipleRegistryCache.CacheEntry",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": null,
+                      "typeName": "RecipleRegistryCache.CacheEntry"
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "Promise",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": [
+                    {
+                      "repr": "void",
+                      "kind": "keyword",
+                      "keyword": "void"
+                    }
+                  ],
+                  "typeName": "Promise"
+                }
+              },
+              "hasBody": true,
+              "isAsync": true,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "line": 71,
+              "col": 4,
+              "byteIndex": 2712
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "clearCacheEntry",
+            "kind": "method",
+            "functionDef": {
+              "params": [],
+              "returnType": {
+                "repr": "Promise",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": [
+                    {
+                      "repr": "void",
+                      "kind": "keyword",
+                      "keyword": "void"
+                    }
+                  ],
+                  "typeName": "Promise"
+                }
+              },
+              "hasBody": true,
+              "isAsync": true,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "line": 81,
+              "col": 4,
+              "byteIndex": 3169
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "createCacheEntry",
+            "kind": "method",
+            "functionDef": {
+              "params": [],
+              "returnType": {
+                "repr": "Promise",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": [
+                    {
+                      "repr": "RecipleRegistryCache.CacheEntry",
+                      "kind": "typeRef",
+                      "typeRef": {
+                        "typeParams": null,
+                        "typeName": "RecipleRegistryCache.CacheEntry"
+                      }
+                    }
+                  ],
+                  "typeName": "Promise"
+                }
+              },
+              "hasBody": true,
+              "isAsync": true,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "line": 85,
+              "col": 4,
+              "byteIndex": 3280
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "isCacheHit",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "cached",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "RecipleRegistryCache.CacheEntry",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": null,
+                      "typeName": "RecipleRegistryCache.CacheEntry"
+                    }
+                  }
+                },
+                {
+                  "kind": "identifier",
+                  "name": "current",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "RecipleRegistryCache.CacheEntry",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": null,
+                      "typeName": "RecipleRegistryCache.CacheEntry"
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "boolean",
+                "kind": "keyword",
+                "keyword": "boolean"
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "line": 107,
+              "col": 4,
+              "byteIndex": 4232
+            }
+          },
+          {
+            "accessibility": "private",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "isEnabled",
+            "kind": "method",
+            "functionDef": {
+              "params": [],
+              "returnType": {
+                "repr": "boolean",
+                "kind": "keyword",
+                "keyword": "boolean"
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "line": 130,
+              "col": 4,
+              "byteIndex": 5348
+            }
+          }
+        ],
+        "extends": "BaseModule",
+        "implements": [
+          {
+            "repr": "[RecipleRegistryCache.Options]",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": null,
+              "typeName": "[RecipleRegistryCache.Options]"
+            }
+          }
+        ],
+        "typeParams": [],
+        "superTypeParams": []
+      }
+    },
+    {
+      "name": "RecipleRegistryCache",
+      "isDefault": false,
+      "location": {
+        "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+        "line": 139,
+        "col": 0,
+        "byteIndex": 5615
+      },
+      "declarationKind": "export",
+      "kind": "namespace",
+      "namespaceDef": {
+        "elements": [
+          {
+            "name": "Options",
+            "isDefault": false,
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "line": 140,
+              "col": 4,
+              "byteIndex": 5659
+            },
+            "declarationKind": "export",
+            "kind": "interface",
+            "interfaceDef": {
+              "extends": [],
+              "constructors": [],
+              "methods": [],
+              "properties": [
+                {
+                  "name": "createCacheEntryEvenIfDisabled",
+                  "jsDoc": {
+                    "tags": [
+                      {
+                        "kind": "unsupported",
+                        "value": "@default true"
+                      }
+                    ]
+                  },
+                  "location": {
+                    "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+                    "line": 144,
+                    "col": 8,
+                    "byteIndex": 5743
+                  },
+                  "params": [],
+                  "computed": false,
+                  "optional": true,
+                  "tsType": {
+                    "repr": "boolean",
+                    "kind": "keyword",
+                    "keyword": "boolean"
+                  },
+                  "typeParams": []
+                },
+                {
+                  "name": "cacheDir",
+                  "jsDoc": {
+                    "tags": [
+                      {
+                        "kind": "unsupported",
+                        "value": "@default '.cache/reciple-registry/'"
+                      }
+                    ]
+                  },
+                  "location": {
+                    "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+                    "line": 148,
+                    "col": 8,
+                    "byteIndex": 5864
+                  },
+                  "params": [],
+                  "computed": false,
+                  "optional": true,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  },
+                  "typeParams": []
+                },
+                {
+                  "name": "maxCacheAgeMs",
+                  "jsDoc": {
+                    "tags": [
+                      {
+                        "kind": "unsupported",
+                        "value": "@default 86400000 // 24 hours in milliseconds"
+                      }
+                    ]
+                  },
+                  "location": {
+                    "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+                    "line": 152,
+                    "col": 8,
+                    "byteIndex": 5972
+                  },
+                  "params": [],
+                  "computed": false,
+                  "optional": true,
+                  "tsType": {
+                    "repr": "number",
+                    "kind": "keyword",
+                    "keyword": "number"
+                  },
+                  "typeParams": []
+                },
+                {
+                  "name": "cacheEnabledEnv",
+                  "jsDoc": {
+                    "tags": [
+                      {
+                        "kind": "unsupported",
+                        "value": "@default 'RECIPLE_REGISTRY_CACHE'"
+                      }
+                    ]
+                  },
+                  "location": {
+                    "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+                    "line": 156,
+                    "col": 8,
+                    "byteIndex": 6073
+                  },
+                  "params": [],
+                  "computed": false,
+                  "optional": true,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  },
+                  "typeParams": []
+                }
+              ],
+              "callSignatures": [],
+              "indexSignatures": [],
+              "typeParams": []
+            }
+          },
+          {
+            "name": "CacheEntry",
+            "isDefault": false,
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "line": 159,
+              "col": 4,
+              "byteIndex": 6110
+            },
+            "declarationKind": "export",
+            "kind": "interface",
+            "interfaceDef": {
+              "extends": [],
+              "constructors": [],
+              "methods": [],
+              "properties": [
+                {
+                  "name": "commandsHash",
+                  "location": {
+                    "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+                    "line": 160,
+                    "col": 8,
+                    "byteIndex": 6148
+                  },
+                  "params": [],
+                  "computed": false,
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  },
+                  "typeParams": []
+                },
+                {
+                  "name": "configHash",
+                  "location": {
+                    "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+                    "line": 161,
+                    "col": 8,
+                    "byteIndex": 6178
+                  },
+                  "params": [],
+                  "computed": false,
+                  "optional": false,
+                  "tsType": {
+                    "repr": "string",
+                    "kind": "keyword",
+                    "keyword": "string"
+                  },
+                  "typeParams": []
+                },
+                {
+                  "name": "createdAt",
+                  "location": {
+                    "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+                    "line": 162,
+                    "col": 8,
+                    "byteIndex": 6206
+                  },
+                  "params": [],
+                  "computed": false,
+                  "optional": false,
+                  "tsType": {
+                    "repr": "number",
+                    "kind": "keyword",
+                    "keyword": "number"
+                  },
+                  "typeParams": []
+                }
+              ],
+              "callSignatures": [],
+              "indexSignatures": [],
+              "typeParams": []
+            }
+          },
+          {
+            "name": "CommandData",
+            "isDefault": false,
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "line": 165,
+              "col": 4,
+              "byteIndex": 6236
+            },
+            "declarationKind": "export",
+            "kind": "typeAlias",
+            "typeAliasDef": {
+              "tsType": {
+                "repr": "Exclude",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": [
+                    {
+                      "repr": "AnyCommandData",
+                      "kind": "typeRef",
+                      "typeRef": {
+                        "typeParams": null,
+                        "typeName": "AnyCommandData"
+                      }
+                    },
+                    {
+                      "repr": "MessageCommand.Data",
+                      "kind": "typeRef",
+                      "typeRef": {
+                        "typeParams": null,
+                        "typeName": "MessageCommand.Data"
+                      }
+                    }
+                  ],
+                  "typeName": "Exclude"
+                }
+              },
+              "typeParams": []
+            }
+          },
+          {
+            "name": "checkClientIfEnabled",
+            "isDefault": false,
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "line": 167,
+              "col": 4,
+              "byteIndex": 6313
+            },
+            "declarationKind": "export",
+            "kind": "function",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "config",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "Config",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": null,
+                      "typeName": "Config"
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "boolean",
+                "kind": "keyword",
+                "keyword": "boolean"
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            }
+          },
+          {
+            "name": "createCommandsHash",
+            "isDefault": false,
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "line": 176,
+              "col": 4,
+              "byteIndex": 6732
+            },
+            "declarationKind": "export",
+            "kind": "function",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "commands",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "",
+                    "kind": "array",
+                    "array": {
+                      "repr": "Exclude",
+                      "kind": "typeRef",
+                      "typeRef": {
+                        "typeParams": [
+                          {
+                            "repr": "AnyCommandData",
+                            "kind": "typeRef",
+                            "typeRef": {
+                              "typeParams": null,
+                              "typeName": "AnyCommandData"
+                            }
+                          },
+                          {
+                            "repr": "MessageCommand.Data",
+                            "kind": "typeRef",
+                            "typeRef": {
+                              "typeParams": null,
+                              "typeName": "MessageCommand.Data"
+                            }
+                          }
+                        ],
+                        "typeName": "Exclude"
+                      }
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "string",
+                "kind": "keyword",
+                "keyword": "string"
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            }
+          },
+          {
+            "name": "createConfigHash",
+            "isDefault": false,
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "line": 184,
+              "col": 4,
+              "byteIndex": 6973
+            },
+            "declarationKind": "export",
+            "kind": "function",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "config",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "Config",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": null,
+                      "typeName": "Config"
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "string",
+                "kind": "keyword",
+                "keyword": "string"
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            }
+          },
+          {
+            "name": "stringifyValue",
+            "isDefault": false,
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/modules/RecipleRegistryCache.ts",
+              "line": 193,
+              "col": 4,
+              "byteIndex": 7276
+            },
+            "declarationKind": "export",
+            "kind": "function",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "object",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "any",
+                    "kind": "keyword",
+                    "keyword": "any"
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "string",
+                "kind": "keyword",
+                "keyword": "string"
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "InteractionListener",
+      "isDefault": false,
+      "location": {
+        "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/InteractionListener.ts",
+        "line": 6,
+        "col": 0,
+        "byteIndex": 292
+      },
+      "declarationKind": "export",
+      "kind": "class",
+      "classDef": {
+        "isAbstract": false,
+        "constructors": [
+          {
+            "accessibility": null,
+            "hasBody": true,
+            "name": "constructor",
+            "params": [
+              {
+                "kind": "identifier",
+                "name": "data",
+                "optional": false,
+                "tsType": {
+                  "repr": "InteractionListener.Resolvable",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": [
+                      {
+                        "repr": "T",
+                        "kind": "typeRef",
+                        "typeRef": {
+                          "typeParams": null,
+                          "typeName": "T"
+                        }
+                      }
+                    ],
+                    "typeName": "InteractionListener.Resolvable"
+                  }
+                }
+              }
+            ],
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/InteractionListener.ts",
+              "line": 12,
+              "col": 4,
+              "byteIndex": 583
+            }
+          }
+        ],
+        "properties": [
+          {
+            "tsType": {
+              "repr": "string",
+              "kind": "keyword",
+              "keyword": "string"
+            },
+            "readonly": true,
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "id",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/InteractionListener.ts",
+              "line": 7,
+              "col": 4,
+              "byteIndex": 404
+            }
+          },
+          {
+            "tsType": {
+              "repr": "string",
+              "kind": "keyword",
+              "keyword": "string"
+            },
+            "readonly": true,
+            "accessibility": "public",
+            "optional": true,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "moduleId",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/InteractionListener.ts",
+              "line": 8,
+              "col": 4,
+              "byteIndex": 477
+            }
+          },
+          {
+            "tsType": {
+              "repr": "T",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "T"
+              }
+            },
+            "readonly": true,
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "type",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/InteractionListener.ts",
+              "line": 9,
+              "col": 4,
+              "byteIndex": 516
+            }
+          },
+          {
+            "tsType": {
+              "repr": "boolean",
+              "kind": "keyword",
+              "keyword": "boolean"
+            },
+            "readonly": true,
+            "accessibility": "public",
+            "optional": true,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "once",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/InteractionListener.ts",
+              "line": 10,
+              "col": 4,
+              "byteIndex": 546
+            }
+          }
+        ],
+        "indexSignatures": [],
+        "methods": [
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "filter",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "interaction",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "InteractionFromListenerType",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": [
+                        {
+                          "repr": "T",
+                          "kind": "typeRef",
+                          "typeRef": {
+                            "typeParams": null,
+                            "typeName": "T"
+                          }
+                        }
+                      ],
+                      "typeName": "InteractionFromListenerType"
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "boolean",
+                "kind": "keyword",
+                "keyword": "boolean"
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/InteractionListener.ts",
+              "line": 16,
+              "col": 4,
+              "byteIndex": 724
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "execute",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "interaction",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "InteractionFromListenerType",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": [
+                        {
+                          "repr": "T",
+                          "kind": "typeRef",
+                          "typeRef": {
+                            "typeParams": null,
+                            "typeName": "T"
+                          }
+                        }
+                      ],
+                      "typeName": "InteractionFromListenerType"
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "Promise",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": [
+                    {
+                      "repr": "void",
+                      "kind": "keyword",
+                      "keyword": "void"
+                    }
+                  ],
+                  "typeName": "Promise"
+                }
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/InteractionListener.ts",
+              "line": 20,
+              "col": 4,
+              "byteIndex": 826
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": false,
+            "name": "toJSON",
+            "kind": "method",
+            "functionDef": {
+              "params": [],
+              "returnType": {
+                "repr": "InteractionListenerData",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": [
+                    {
+                      "repr": "T",
+                      "kind": "typeRef",
+                      "typeRef": {
+                        "typeParams": null,
+                        "typeName": "T"
+                      }
+                    }
+                  ],
+                  "typeName": "InteractionListenerData"
+                }
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": []
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/InteractionListener.ts",
+              "line": 24,
+              "col": 4,
+              "byteIndex": 948
+            }
+          },
+          {
+            "accessibility": "public",
+            "optional": false,
+            "isAbstract": false,
+            "isStatic": true,
+            "name": "from",
+            "kind": "method",
+            "functionDef": {
+              "params": [
+                {
+                  "kind": "identifier",
+                  "name": "data",
+                  "optional": false,
+                  "tsType": {
+                    "repr": "InteractionListener.Resolvable",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": [
+                        {
+                          "repr": "T",
+                          "kind": "typeRef",
+                          "typeRef": {
+                            "typeParams": null,
+                            "typeName": "T"
+                          }
+                        }
+                      ],
+                      "typeName": "InteractionListener.Resolvable"
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "repr": "InteractionListener",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": [
+                    {
+                      "repr": "T",
+                      "kind": "typeRef",
+                      "typeRef": {
+                        "typeParams": null,
+                        "typeName": "T"
+                      }
+                    }
+                  ],
+                  "typeName": "InteractionListener"
+                }
+              },
+              "hasBody": true,
+              "isAsync": false,
+              "isGenerator": false,
+              "typeParams": [
+                {
+                  "name": "T",
+                  "constraint": {
+                    "repr": "InteractionListenerType",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": null,
+                      "typeName": "InteractionListenerType"
+                    }
+                  }
+                }
+              ]
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/InteractionListener.ts",
+              "line": 33,
+              "col": 4,
+              "byteIndex": 1158
+            }
+          }
+        ],
+        "extends": null,
+        "implements": [
+          {
+            "repr": "InteractionListenerData",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": [
+                {
+                  "repr": "T",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": null,
+                    "typeName": "T"
+                  }
+                }
+              ],
+              "typeName": "InteractionListenerData"
+            }
+          }
+        ],
+        "typeParams": [
+          {
+            "name": "T",
+            "constraint": {
+              "repr": "InteractionListenerType",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "InteractionListenerType"
+              }
+            }
+          }
+        ],
+        "superTypeParams": []
+      }
+    },
+    {
+      "name": "InteractionListener",
+      "isDefault": false,
+      "location": {
+        "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/InteractionListener.ts",
+        "line": 38,
+        "col": 0,
+        "byteIndex": 1379
+      },
+      "declarationKind": "export",
+      "kind": "namespace",
+      "namespaceDef": {
+        "elements": [
+          {
+            "name": "Resolvable",
+            "isDefault": false,
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/classes/InteractionListener.ts",
+              "line": 39,
+              "col": 4,
+              "byteIndex": 1422
+            },
+            "declarationKind": "export",
+            "kind": "typeAlias",
+            "typeAliasDef": {
+              "tsType": {
+                "repr": "",
+                "kind": "union",
+                "union": [
+                  {
+                    "repr": "InteractionListener",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": [
+                        {
+                          "repr": "T",
+                          "kind": "typeRef",
+                          "typeRef": {
+                            "typeParams": null,
+                            "typeName": "T"
+                          }
+                        }
+                      ],
+                      "typeName": "InteractionListener"
+                    }
+                  },
+                  {
+                    "repr": "InteractionListenerData",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": [
+                        {
+                          "repr": "T",
+                          "kind": "typeRef",
+                          "typeRef": {
+                            "typeParams": null,
+                            "typeName": "T"
+                          }
+                        }
+                      ],
+                      "typeName": "InteractionListenerData"
+                    }
+                  },
+                  {
+                    "repr": "JSONEncodable",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": [
+                        {
+                          "repr": "InteractionListenerData",
+                          "kind": "typeRef",
+                          "typeRef": {
+                            "typeParams": [
+                              {
+                                "repr": "T",
+                                "kind": "typeRef",
+                                "typeRef": {
+                                  "typeParams": null,
+                                  "typeName": "T"
+                                }
+                              }
+                            ],
+                            "typeName": "InteractionListenerData"
+                          }
+                        }
+                      ],
+                      "typeName": "JSONEncodable"
+                    }
+                  }
+                ]
+              },
+              "typeParams": [
+                {
+                  "name": "T",
+                  "constraint": {
+                    "repr": "InteractionListenerType",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": null,
+                      "typeName": "InteractionListenerType"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "InteractionListenerType",
+      "isDefault": false,
+      "location": {
+        "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/helpers/constants.ts",
+        "line": 1,
+        "col": 0,
+        "byteIndex": 0
+      },
+      "declarationKind": "export",
+      "kind": "enum",
+      "enumDef": {
+        "members": [
+          {
+            "name": "Autocomplete",
+            "init": {
+              "repr": "1",
+              "kind": "literal",
+              "literal": {
+                "kind": "number",
+                "number": 1
+              }
+            },
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/helpers/constants.ts",
+              "line": 2,
+              "col": 4,
+              "byteIndex": 42
+            }
+          },
+          {
+            "name": "ContextMenu",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/helpers/constants.ts",
+              "line": 3,
+              "col": 4,
+              "byteIndex": 64
+            }
+          },
+          {
+            "name": "ChatInput",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/helpers/constants.ts",
+              "line": 4,
+              "col": 4,
+              "byteIndex": 81
+            }
+          },
+          {
+            "name": "Button",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/helpers/constants.ts",
+              "line": 5,
+              "col": 4,
+              "byteIndex": 96
+            }
+          },
+          {
+            "name": "ModalSubmit",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/helpers/constants.ts",
+              "line": 6,
+              "col": 4,
+              "byteIndex": 108
+            }
+          },
+          {
+            "name": "SelectMenu",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/helpers/constants.ts",
+              "line": 7,
+              "col": 4,
+              "byteIndex": 125
+            }
+          },
+          {
+            "name": "PrimaryEntryPoint",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/helpers/constants.ts",
+              "line": 8,
+              "col": 4,
+              "byteIndex": 141
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "InteractionListenerData",
+      "isDefault": false,
+      "location": {
+        "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/helpers/types.ts",
+        "line": 4,
+        "col": 0,
+        "byteIndex": 313
+      },
+      "declarationKind": "export",
+      "kind": "interface",
+      "interfaceDef": {
+        "extends": [],
+        "constructors": [],
+        "methods": [],
+        "properties": [
+          {
+            "name": "type",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/helpers/types.ts",
+              "line": 5,
+              "col": 4,
+              "byteIndex": 421
+            },
+            "params": [],
+            "computed": false,
+            "optional": false,
+            "tsType": {
+              "repr": "T",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "T"
+              }
+            },
+            "typeParams": []
+          },
+          {
+            "name": "once",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/helpers/types.ts",
+              "line": 6,
+              "col": 4,
+              "byteIndex": 434
+            },
+            "params": [],
+            "computed": false,
+            "optional": true,
+            "tsType": {
+              "repr": "boolean",
+              "kind": "keyword",
+              "keyword": "boolean"
+            },
+            "typeParams": []
+          },
+          {
+            "name": "filter",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/helpers/types.ts",
+              "line": 7,
+              "col": 4,
+              "byteIndex": 454
+            },
+            "params": [],
+            "computed": false,
+            "optional": true,
+            "tsType": {
+              "repr": "",
+              "kind": "fnOrConstructor",
+              "fnOrConstructor": {
+                "constructor": false,
+                "tsType": {
+                  "repr": "Awaitable",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": [
+                      {
+                        "repr": "boolean",
+                        "kind": "keyword",
+                        "keyword": "boolean"
+                      }
+                    ],
+                    "typeName": "Awaitable"
+                  }
+                },
+                "params": [
+                  {
+                    "kind": "identifier",
+                    "name": "interaction",
+                    "optional": false,
+                    "tsType": {
+                      "repr": "InteractionFromListenerType",
+                      "kind": "typeRef",
+                      "typeRef": {
+                        "typeParams": [
+                          {
+                            "repr": "T",
+                            "kind": "typeRef",
+                            "typeRef": {
+                              "typeParams": null,
+                              "typeName": "T"
+                            }
+                          }
+                        ],
+                        "typeName": "InteractionFromListenerType"
+                      }
+                    }
+                  }
+                ],
+                "typeParams": []
+              }
+            },
+            "typeParams": []
+          },
+          {
+            "name": "execute",
+            "location": {
+              "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/helpers/types.ts",
+              "line": 8,
+              "col": 4,
+              "byteIndex": 536
+            },
+            "params": [],
+            "computed": false,
+            "optional": false,
+            "tsType": {
+              "repr": "",
+              "kind": "fnOrConstructor",
+              "fnOrConstructor": {
+                "constructor": false,
+                "tsType": {
+                  "repr": "Awaitable",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": [
+                      {
+                        "repr": "void",
+                        "kind": "keyword",
+                        "keyword": "void"
+                      }
+                    ],
+                    "typeName": "Awaitable"
+                  }
+                },
+                "params": [
+                  {
+                    "kind": "identifier",
+                    "name": "interaction",
+                    "optional": false,
+                    "tsType": {
+                      "repr": "InteractionFromListenerType",
+                      "kind": "typeRef",
+                      "typeRef": {
+                        "typeParams": [
+                          {
+                            "repr": "T",
+                            "kind": "typeRef",
+                            "typeRef": {
+                              "typeParams": null,
+                              "typeName": "T"
+                            }
+                          }
+                        ],
+                        "typeName": "InteractionFromListenerType"
+                      }
+                    }
+                  }
+                ],
+                "typeParams": []
+              }
+            },
+            "typeParams": []
+          }
+        ],
+        "callSignatures": [],
+        "indexSignatures": [],
+        "typeParams": [
+          {
+            "name": "T",
+            "constraint": {
+              "repr": "InteractionListenerType",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "InteractionListenerType"
+              }
+            },
+            "default": {
+              "repr": "InteractionListenerType",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "InteractionListenerType"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "AnyCommandInteraction",
+      "isDefault": false,
+      "location": {
+        "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/helpers/types.ts",
+        "line": 11,
+        "col": 0,
+        "byteIndex": 614
+      },
+      "declarationKind": "export",
+      "kind": "typeAlias",
+      "typeAliasDef": {
+        "tsType": {
+          "repr": "",
+          "kind": "union",
+          "union": [
+            {
+              "repr": "AutocompleteInteraction",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "AutocompleteInteraction"
+              }
+            },
+            {
+              "repr": "ChatInputCommandInteraction",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "ChatInputCommandInteraction"
+              }
+            },
+            {
+              "repr": "ContextMenuCommandInteraction",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "ContextMenuCommandInteraction"
+              }
+            },
+            {
+              "repr": "PrimaryEntryPointCommandInteraction",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "PrimaryEntryPointCommandInteraction"
+              }
+            }
+          ]
+        },
+        "typeParams": []
+      }
+    },
+    {
+      "name": "AnyComponentInteraction",
+      "isDefault": false,
+      "location": {
+        "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/helpers/types.ts",
+        "line": 12,
+        "col": 0,
+        "byteIndex": 769
+      },
+      "declarationKind": "export",
+      "kind": "typeAlias",
+      "typeAliasDef": {
+        "tsType": {
+          "repr": "",
+          "kind": "union",
+          "union": [
+            {
+              "repr": "ButtonInteraction",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "ButtonInteraction"
+              }
+            },
+            {
+              "repr": "ModalSubmitInteraction",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "ModalSubmitInteraction"
+              }
+            },
+            {
+              "repr": "AnySelectMenuInteraction",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "AnySelectMenuInteraction"
+              }
+            }
+          ]
+        },
+        "typeParams": []
+      }
+    },
+    {
+      "name": "InteractionFromListenerType",
+      "isDefault": false,
+      "location": {
+        "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/helpers/types.ts",
+        "line": 14,
+        "col": 0,
+        "byteIndex": 875
+      },
+      "declarationKind": "export",
+      "kind": "typeAlias",
+      "typeAliasDef": {
+        "tsType": {
+          "repr": "",
+          "kind": "conditional",
+          "conditionalType": {
+            "checkType": {
+              "repr": "T",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "T"
+              }
+            },
+            "extendsType": {
+              "repr": "InteractionListenerType.Autocomplete",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "InteractionListenerType.Autocomplete"
+              }
+            },
+            "trueType": {
+              "repr": "AutocompleteInteraction",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "AutocompleteInteraction"
+              }
+            },
+            "falseType": {
+              "repr": "",
+              "kind": "conditional",
+              "conditionalType": {
+                "checkType": {
+                  "repr": "T",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": null,
+                    "typeName": "T"
+                  }
+                },
+                "extendsType": {
+                  "repr": "InteractionListenerType.ChatInput",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": null,
+                    "typeName": "InteractionListenerType.ChatInput"
+                  }
+                },
+                "trueType": {
+                  "repr": "ChatInputCommandInteraction",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": null,
+                    "typeName": "ChatInputCommandInteraction"
+                  }
+                },
+                "falseType": {
+                  "repr": "",
+                  "kind": "conditional",
+                  "conditionalType": {
+                    "checkType": {
+                      "repr": "T",
+                      "kind": "typeRef",
+                      "typeRef": {
+                        "typeParams": null,
+                        "typeName": "T"
+                      }
+                    },
+                    "extendsType": {
+                      "repr": "InteractionListenerType.ContextMenu",
+                      "kind": "typeRef",
+                      "typeRef": {
+                        "typeParams": null,
+                        "typeName": "InteractionListenerType.ContextMenu"
+                      }
+                    },
+                    "trueType": {
+                      "repr": "ContextMenuCommandInteraction",
+                      "kind": "typeRef",
+                      "typeRef": {
+                        "typeParams": null,
+                        "typeName": "ContextMenuCommandInteraction"
+                      }
+                    },
+                    "falseType": {
+                      "repr": "",
+                      "kind": "conditional",
+                      "conditionalType": {
+                        "checkType": {
+                          "repr": "T",
+                          "kind": "typeRef",
+                          "typeRef": {
+                            "typeParams": null,
+                            "typeName": "T"
+                          }
+                        },
+                        "extendsType": {
+                          "repr": "InteractionListenerType.Button",
+                          "kind": "typeRef",
+                          "typeRef": {
+                            "typeParams": null,
+                            "typeName": "InteractionListenerType.Button"
+                          }
+                        },
+                        "trueType": {
+                          "repr": "ButtonInteraction",
+                          "kind": "typeRef",
+                          "typeRef": {
+                            "typeParams": null,
+                            "typeName": "ButtonInteraction"
+                          }
+                        },
+                        "falseType": {
+                          "repr": "",
+                          "kind": "conditional",
+                          "conditionalType": {
+                            "checkType": {
+                              "repr": "T",
+                              "kind": "typeRef",
+                              "typeRef": {
+                                "typeParams": null,
+                                "typeName": "T"
+                              }
+                            },
+                            "extendsType": {
+                              "repr": "InteractionListenerType.ModalSubmit",
+                              "kind": "typeRef",
+                              "typeRef": {
+                                "typeParams": null,
+                                "typeName": "InteractionListenerType.ModalSubmit"
+                              }
+                            },
+                            "trueType": {
+                              "repr": "ModalSubmitInteraction",
+                              "kind": "typeRef",
+                              "typeRef": {
+                                "typeParams": null,
+                                "typeName": "ModalSubmitInteraction"
+                              }
+                            },
+                            "falseType": {
+                              "repr": "",
+                              "kind": "conditional",
+                              "conditionalType": {
+                                "checkType": {
+                                  "repr": "T",
+                                  "kind": "typeRef",
+                                  "typeRef": {
+                                    "typeParams": null,
+                                    "typeName": "T"
+                                  }
+                                },
+                                "extendsType": {
+                                  "repr": "InteractionListenerType.SelectMenu",
+                                  "kind": "typeRef",
+                                  "typeRef": {
+                                    "typeParams": null,
+                                    "typeName": "InteractionListenerType.SelectMenu"
+                                  }
+                                },
+                                "trueType": {
+                                  "repr": "AnySelectMenuInteraction",
+                                  "kind": "typeRef",
+                                  "typeRef": {
+                                    "typeParams": null,
+                                    "typeName": "AnySelectMenuInteraction"
+                                  }
+                                },
+                                "falseType": {
+                                  "repr": "",
+                                  "kind": "conditional",
+                                  "conditionalType": {
+                                    "checkType": {
+                                      "repr": "T",
+                                      "kind": "typeRef",
+                                      "typeRef": {
+                                        "typeParams": null,
+                                        "typeName": "T"
+                                      }
+                                    },
+                                    "extendsType": {
+                                      "repr": "InteractionListenerType.PrimaryEntryPoint",
+                                      "kind": "typeRef",
+                                      "typeRef": {
+                                        "typeParams": null,
+                                        "typeName": "InteractionListenerType.PrimaryEntryPoint"
+                                      }
+                                    },
+                                    "trueType": {
+                                      "repr": "PrimaryEntryPointCommandInteraction",
+                                      "kind": "typeRef",
+                                      "typeRef": {
+                                        "typeParams": null,
+                                        "typeName": "PrimaryEntryPointCommandInteraction"
+                                      }
+                                    },
+                                    "falseType": {
+                                      "repr": "Interaction",
+                                      "kind": "typeRef",
+                                      "typeRef": {
+                                        "typeParams": null,
+                                        "typeName": "Interaction"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "typeParams": [
+          {
+            "name": "T",
+            "constraint": {
+              "repr": "InteractionListenerType",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "InteractionListenerType"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "ListenerTypeFromInteraction",
+      "isDefault": false,
+      "location": {
+        "filename": "https://github.com/reciplejs/reciple/blob/e52d418be12d9538e899540abe2fba2667d67f0f/packages/modules/src/helpers/types.ts",
+        "line": 30,
+        "col": 0,
+        "byteIndex": 1723
+      },
+      "declarationKind": "export",
+      "kind": "typeAlias",
+      "typeAliasDef": {
+        "tsType": {
+          "repr": "",
+          "kind": "conditional",
+          "conditionalType": {
+            "checkType": {
+              "repr": "T",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "T"
+              }
+            },
+            "extendsType": {
+              "repr": "AutocompleteInteraction",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "AutocompleteInteraction"
+              }
+            },
+            "trueType": {
+              "repr": "InteractionListenerType.Autocomplete",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "InteractionListenerType.Autocomplete"
+              }
+            },
+            "falseType": {
+              "repr": "",
+              "kind": "conditional",
+              "conditionalType": {
+                "checkType": {
+                  "repr": "T",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": null,
+                    "typeName": "T"
+                  }
+                },
+                "extendsType": {
+                  "repr": "ChatInputCommandInteraction",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": null,
+                    "typeName": "ChatInputCommandInteraction"
+                  }
+                },
+                "trueType": {
+                  "repr": "InteractionListenerType.ChatInput",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": null,
+                    "typeName": "InteractionListenerType.ChatInput"
+                  }
+                },
+                "falseType": {
+                  "repr": "",
+                  "kind": "conditional",
+                  "conditionalType": {
+                    "checkType": {
+                      "repr": "T",
+                      "kind": "typeRef",
+                      "typeRef": {
+                        "typeParams": null,
+                        "typeName": "T"
+                      }
+                    },
+                    "extendsType": {
+                      "repr": "ContextMenuCommandInteraction",
+                      "kind": "typeRef",
+                      "typeRef": {
+                        "typeParams": null,
+                        "typeName": "ContextMenuCommandInteraction"
+                      }
+                    },
+                    "trueType": {
+                      "repr": "InteractionListenerType.ContextMenu",
+                      "kind": "typeRef",
+                      "typeRef": {
+                        "typeParams": null,
+                        "typeName": "InteractionListenerType.ContextMenu"
+                      }
+                    },
+                    "falseType": {
+                      "repr": "",
+                      "kind": "conditional",
+                      "conditionalType": {
+                        "checkType": {
+                          "repr": "T",
+                          "kind": "typeRef",
+                          "typeRef": {
+                            "typeParams": null,
+                            "typeName": "T"
+                          }
+                        },
+                        "extendsType": {
+                          "repr": "ButtonInteraction",
+                          "kind": "typeRef",
+                          "typeRef": {
+                            "typeParams": null,
+                            "typeName": "ButtonInteraction"
+                          }
+                        },
+                        "trueType": {
+                          "repr": "InteractionListenerType.Button",
+                          "kind": "typeRef",
+                          "typeRef": {
+                            "typeParams": null,
+                            "typeName": "InteractionListenerType.Button"
+                          }
+                        },
+                        "falseType": {
+                          "repr": "",
+                          "kind": "conditional",
+                          "conditionalType": {
+                            "checkType": {
+                              "repr": "T",
+                              "kind": "typeRef",
+                              "typeRef": {
+                                "typeParams": null,
+                                "typeName": "T"
+                              }
+                            },
+                            "extendsType": {
+                              "repr": "ModalSubmitInteraction",
+                              "kind": "typeRef",
+                              "typeRef": {
+                                "typeParams": null,
+                                "typeName": "ModalSubmitInteraction"
+                              }
+                            },
+                            "trueType": {
+                              "repr": "InteractionListenerType.ModalSubmit",
+                              "kind": "typeRef",
+                              "typeRef": {
+                                "typeParams": null,
+                                "typeName": "InteractionListenerType.ModalSubmit"
+                              }
+                            },
+                            "falseType": {
+                              "repr": "",
+                              "kind": "conditional",
+                              "conditionalType": {
+                                "checkType": {
+                                  "repr": "T",
+                                  "kind": "typeRef",
+                                  "typeRef": {
+                                    "typeParams": null,
+                                    "typeName": "T"
+                                  }
+                                },
+                                "extendsType": {
+                                  "repr": "AnySelectMenuInteraction",
+                                  "kind": "typeRef",
+                                  "typeRef": {
+                                    "typeParams": null,
+                                    "typeName": "AnySelectMenuInteraction"
+                                  }
+                                },
+                                "trueType": {
+                                  "repr": "InteractionListenerType.SelectMenu",
+                                  "kind": "typeRef",
+                                  "typeRef": {
+                                    "typeParams": null,
+                                    "typeName": "InteractionListenerType.SelectMenu"
+                                  }
+                                },
+                                "falseType": {
+                                  "repr": "",
+                                  "kind": "conditional",
+                                  "conditionalType": {
+                                    "checkType": {
+                                      "repr": "T",
+                                      "kind": "typeRef",
+                                      "typeRef": {
+                                        "typeParams": null,
+                                        "typeName": "T"
+                                      }
+                                    },
+                                    "extendsType": {
+                                      "repr": "PrimaryEntryPointCommandInteraction",
+                                      "kind": "typeRef",
+                                      "typeRef": {
+                                        "typeParams": null,
+                                        "typeName": "PrimaryEntryPointCommandInteraction"
+                                      }
+                                    },
+                                    "trueType": {
+                                      "repr": "InteractionListenerType.PrimaryEntryPoint",
+                                      "kind": "typeRef",
+                                      "typeRef": {
+                                        "typeParams": null,
+                                        "typeName": "InteractionListenerType.PrimaryEntryPoint"
+                                      }
+                                    },
+                                    "falseType": {
+                                      "repr": "InteractionListenerType",
+                                      "kind": "typeRef",
+                                      "typeRef": {
+                                        "typeParams": null,
+                                        "typeName": "InteractionListenerType"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "typeParams": [
+          {
+            "name": "T",
+            "constraint": {
+              "repr": "InteractionFromListenerType",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": [
+                  {
+                    "repr": "InteractionListenerType",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": null,
+                      "typeName": "InteractionListenerType"
+                    }
+                  }
+                ],
+                "typeName": "InteractionFromListenerType"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "readme": "<div align=\"center\">\n    <img src=\"https://i.imgur.com/C3gWxwc.png\" width=\"50%\">\n    <p align=\"center\">\n        <b>A Discord.js framework that just works.</b>\n    </p>\n    <br>\n</div>\n\n<h3 align=\"center\">\n    <a href=\"https://discord.gg/KxfPZYuTGV\">\n        <img src=\"https://img.shields.io/discord/1453743492722458708?color=5865F2&logo=discord&logoColor=white\">\n    </a>\n    <a href=\"https://npmjs.org/package/@reciple/modules\">\n        <img src=\"https://img.shields.io/npm/v/@reciple/modules?label=npm\">\n    </a>\n    <a href=\"https://github.com/reciplejs/reciple/tree/main/packages/modules\">\n        <img src=\"https://img.shields.io/npm/dt/@reciple/modules?maxAge=3600\">\n    </a>\n    <a href=\"https://www.codefactor.io/repository/github/reciplejs/reciple\">\n        <img src=\"https://www.codefactor.io/repository/github/reciplejs/reciple/badge\">\n    </a>\n    <br>\n    <div style=\"padding-top: 1rem\">\n        <a href=\"https://discord.gg/KxfPZYuTGV\">\n            <img src=\"http://invidget.switchblade.xyz/KxfPZYuTGV\">\n        </a>\n    </div>\n</h3>\n\n## About\n\n`@reciple/modules` A JSX wrapper for [Discord.js](https://discord.js.org/) builders.\n\n## Installation\n\n```bash\nnpm install @reciple/modules\nyarn add @reciple/modules\npnpm add @reciple/modules\nbun install @reciple/modules\ndeno install npm:@reciple/modules\n```\n\n## Usage\n\nCreate a new reciple module file then create a new module instance as the default export.\n\n### Anticrash\n\nA module that catches process and client errors that cause the bot to crash then logs them to a channel if specified.\n\n```js\n// example/src/addons/antiCrash.js\nimport { RecipleAnticrash } from '@reciple/modules';\n\nexport default new RecipleAnticrash({\n    // The channels to report errors to\n    reportChannels: ['000000000000000000'],\n\n    // The base options for the report message\n    baseReportMessageOptions: {\n        content: 'An error has occurred!',\n    }\n});\n```\n\n### Registry Cache\n\nA module that caches the application commands to prevent unnecessary requests to the Discord API when registering commands that haven't changed.\n\n```js\n// example/src/addons/registryCache.js\nimport { RecipleRegistryCache } from '@reciple/modules';\n\nexport default new RecipleRegistryCache({\n    // Cache duration in milliseconds\n    maxCacheAgeMs: 24 * 60 * 60 * 1000,\n\n    // The directory to store the cache in\n    cacheDir: '.cache/reciple-registry/',\n\n    // The environment variable to check if the cache is enabled\n    cacheEnabledEnv: 'RECIPLE_REGISTRY_CACHE',\n\n    // Create a cache entry even if the cache is disabled\n    createCacheEntryEvenIfDisabled: true\n});\n```\n\n### Interaction Events\n\nA module that handles interaction events and executes listeners based on the interaction type. The listeners are resolved from the specified module property.\n\n```js\n// example/src/addons/interactionEvents.js\nimport { RecipleInteractionEvents } from '@reciple/modules';\n\nexport default new RecipleInteractionEvents({\n    // Filters the modules to resolve listeners from\n    ignoredModules: (module) => module.id === 'ignored_id',\n\n    // The module property to resolve listeners from\n    moduleEventListenersProperty: ['interactions']\n});\n```\n\n```js\n// example/src/commands/ping.js\nimport { InteractionListenerBuilder, InteractionListenerType } from '@reciple/modules';\nimport { ActionRowBuilder, ButtonBuilder, ButtonStyle } from 'discord.js';\nimport { SlashCommandBuilder, SlashCommandModule, type SlashCommand } from 'reciple';\n\nexport class ButtonPingCommand extends SlashCommandModule {\n    data = new SlashCommandBuilder()\n        .setName('ping')\n        .setDescription('Test ping command')\n        .toJSON();\n\n    /**\n     * @type {InteractionListenerBuilder[]}\n     */\n    interactions = [\n        new InteractionListenerBuilder()\n            .setType(InteractionListenerType.Button)\n            .setFilter(interaction => interaction.customId === 'ping')\n            .setExecute(async interaction => {\n                await interaction.reply({\n                    content: 'Pong!',\n                    ephemeral: true\n                });\n            })\n    ];\n\n    /**\n     * @param {SlashCommand.ExecuteData} data\n     */\n    async execute(data) {\n        await data.interaction.reply({\n            components: [\n                new ActionRowBuilder()\n                    .addComponents(\n                        new ButtonBuilder()\n                            .setCustomId('ping')\n                            .setLabel('Ping')\n                            .setStyle(ButtonStyle.Primary)\n                    )\n            ]\n        });\n    }\n}\n\nexport default new ButtonPingCommand();\n```\n\n## Links\n\n- [Website](https://reciple.js.org)\n- [Discord](https://discord.gg/KxfPZYuTGV)\n- [Github](https://github.com/reciplejs/reciple/tree/main/packages/modules)\n- [NPM](https://npmjs.org/package/@reciple/modules)\n"
+}
