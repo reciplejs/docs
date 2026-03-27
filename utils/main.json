@@ -1,14 +1,279 @@
 {
   "version": 2,
   "nodes": {
-    "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/index.ts": {
+    "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/index.ts": {
       "symbols": [
+        {
+          "name": "DeferredPromise",
+          "declarations": [
+            {
+              "location": {
+                "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/classes/DeferredPromise.ts",
+                "line": 0,
+                "col": 0,
+                "byteIndex": 0
+              },
+              "declarationKind": "export",
+              "kind": "class",
+              "def": {
+                "constructors": [
+                  {
+                    "hasBody": true,
+                    "name": "constructor",
+                    "params": [],
+                    "location": {
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/classes/DeferredPromise.ts",
+                      "line": 6,
+                      "col": 4,
+                      "byteIndex": 185
+                    }
+                  }
+                ],
+                "properties": [
+                  {
+                    "tsType": {
+                      "repr": "Promise",
+                      "kind": "typeRef",
+                      "value": {
+                        "typeParams": [
+                          {
+                            "repr": "T",
+                            "kind": "typeRef",
+                            "value": {
+                              "typeName": "T",
+                              "resolution": {
+                                "kind": "typeParam",
+                                "declaringName": "DeferredPromise",
+                                "declaringKind": "class"
+                              }
+                            }
+                          }
+                        ],
+                        "typeName": "Promise"
+                      }
+                    },
+                    "readonly": true,
+                    "accessibility": "public",
+                    "name": "promise",
+                    "location": {
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/classes/DeferredPromise.ts",
+                      "line": 1,
+                      "col": 4,
+                      "byteIndex": 38
+                    }
+                  },
+                  {
+                    "tsType": {
+                      "kind": "fnOrConstructor",
+                      "value": {
+                        "constructor": false,
+                        "tsType": {
+                          "repr": "void",
+                          "kind": "keyword",
+                          "value": "void"
+                        },
+                        "params": [
+                          {
+                            "kind": "identifier",
+                            "name": "value",
+                            "optional": false,
+                            "tsType": {
+                              "kind": "union",
+                              "value": [
+                                {
+                                  "repr": "T",
+                                  "kind": "typeRef",
+                                  "value": {
+                                    "typeName": "T",
+                                    "resolution": {
+                                      "kind": "typeParam",
+                                      "declaringName": "DeferredPromise",
+                                      "declaringKind": "class"
+                                    }
+                                  }
+                                },
+                                {
+                                  "repr": "PromiseLike",
+                                  "kind": "typeRef",
+                                  "value": {
+                                    "typeParams": [
+                                      {
+                                        "repr": "T",
+                                        "kind": "typeRef",
+                                        "value": {
+                                          "typeName": "T",
+                                          "resolution": {
+                                            "kind": "typeParam",
+                                            "declaringName": "DeferredPromise",
+                                            "declaringKind": "class"
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "typeName": "PromiseLike"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "accessibility": "private",
+                    "name": "_resolve",
+                    "location": {
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/classes/DeferredPromise.ts",
+                      "line": 3,
+                      "col": 4,
+                      "byteIndex": 80
+                    }
+                  },
+                  {
+                    "tsType": {
+                      "kind": "fnOrConstructor",
+                      "value": {
+                        "constructor": false,
+                        "tsType": {
+                          "repr": "void",
+                          "kind": "keyword",
+                          "value": "void"
+                        },
+                        "params": [
+                          {
+                            "kind": "identifier",
+                            "name": "reason",
+                            "optional": true,
+                            "tsType": {
+                              "repr": "any",
+                              "kind": "keyword",
+                              "value": "any"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "accessibility": "private",
+                    "name": "_reject",
+                    "location": {
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/classes/DeferredPromise.ts",
+                      "line": 4,
+                      "col": 4,
+                      "byteIndex": 138
+                    }
+                  }
+                ],
+                "methods": [
+                  {
+                    "accessibility": "public",
+                    "name": "resolve",
+                    "kind": "method",
+                    "functionDef": {
+                      "params": [
+                        {
+                          "kind": "identifier",
+                          "name": "value",
+                          "optional": false,
+                          "tsType": {
+                            "kind": "union",
+                            "value": [
+                              {
+                                "repr": "T",
+                                "kind": "typeRef",
+                                "value": {
+                                  "typeName": "T",
+                                  "resolution": {
+                                    "kind": "typeParam",
+                                    "declaringName": "DeferredPromise",
+                                    "declaringKind": "class"
+                                  }
+                                }
+                              },
+                              {
+                                "repr": "PromiseLike",
+                                "kind": "typeRef",
+                                "value": {
+                                  "typeParams": [
+                                    {
+                                      "repr": "T",
+                                      "kind": "typeRef",
+                                      "value": {
+                                        "typeName": "T",
+                                        "resolution": {
+                                          "kind": "typeParam",
+                                          "declaringName": "DeferredPromise",
+                                          "declaringKind": "class"
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "typeName": "PromiseLike"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "returnType": {
+                        "repr": "void",
+                        "kind": "keyword",
+                        "value": "void"
+                      },
+                      "hasBody": true
+                    },
+                    "location": {
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/classes/DeferredPromise.ts",
+                      "line": 13,
+                      "col": 4,
+                      "byteIndex": 357
+                    }
+                  },
+                  {
+                    "accessibility": "public",
+                    "name": "reject",
+                    "kind": "method",
+                    "functionDef": {
+                      "params": [
+                        {
+                          "kind": "identifier",
+                          "name": "reason",
+                          "optional": true,
+                          "tsType": {
+                            "repr": "any",
+                            "kind": "keyword",
+                            "value": "any"
+                          }
+                        }
+                      ],
+                      "returnType": {
+                        "repr": "void",
+                        "kind": "keyword",
+                        "value": "void"
+                      },
+                      "hasBody": true
+                    },
+                    "location": {
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/classes/DeferredPromise.ts",
+                      "line": 17,
+                      "col": 4,
+                      "byteIndex": 446
+                    }
+                  }
+                ],
+                "typeParams": [
+                  {
+                    "name": "T"
+                  }
+                ]
+              }
+            }
+          ]
+        },
         {
           "name": "PackageJsonBuilder",
           "declarations": [
             {
               "location": {
-                "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/classes/PackageJsonBuilder.ts",
+                "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/classes/PackageJsonBuilder.ts",
                 "line": 8,
                 "col": 0,
                 "byteIndex": 250
@@ -61,7 +326,7 @@
                       }
                     ],
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/classes/PackageJsonBuilder.ts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/classes/PackageJsonBuilder.ts",
                       "line": 17,
                       "col": 4,
                       "byteIndex": 469
@@ -88,7 +353,7 @@
                     "accessibility": "public",
                     "name": "data",
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/classes/PackageJsonBuilder.ts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/classes/PackageJsonBuilder.ts",
                       "line": 12,
                       "col": 4,
                       "byteIndex": 340
@@ -126,7 +391,7 @@
                       "hasBody": true
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/classes/PackageJsonBuilder.ts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/classes/PackageJsonBuilder.ts",
                       "line": 25,
                       "col": 4,
                       "byteIndex": 661
@@ -196,7 +461,7 @@
                       "isAsync": true
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/classes/PackageJsonBuilder.ts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/classes/PackageJsonBuilder.ts",
                       "line": 35,
                       "col": 4,
                       "byteIndex": 1019
@@ -250,7 +515,7 @@
                       "isAsync": true
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/classes/PackageJsonBuilder.ts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/classes/PackageJsonBuilder.ts",
                       "line": 48,
                       "col": 4,
                       "byteIndex": 1577
@@ -310,7 +575,7 @@
                       "hasBody": true
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/classes/PackageJsonBuilder.ts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/classes/PackageJsonBuilder.ts",
                       "line": 58,
                       "col": 4,
                       "byteIndex": 1907
@@ -367,7 +632,7 @@
                       "hasBody": true
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/classes/PackageJsonBuilder.ts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/classes/PackageJsonBuilder.ts",
                       "line": 68,
                       "col": 4,
                       "byteIndex": 2190
@@ -425,7 +690,7 @@
                       "hasBody": true
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/classes/PackageJsonBuilder.ts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/classes/PackageJsonBuilder.ts",
                       "line": 78,
                       "col": 4,
                       "byteIndex": 2442
@@ -484,7 +749,7 @@
                       "hasBody": true
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/classes/PackageJsonBuilder.ts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/classes/PackageJsonBuilder.ts",
                       "line": 89,
                       "col": 4,
                       "byteIndex": 2772
@@ -528,7 +793,7 @@
                       "hasBody": true
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/classes/PackageJsonBuilder.ts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/classes/PackageJsonBuilder.ts",
                       "line": 100,
                       "col": 4,
                       "byteIndex": 3088
@@ -586,7 +851,7 @@
                       "hasBody": true
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/classes/PackageJsonBuilder.ts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/classes/PackageJsonBuilder.ts",
                       "line": 111,
                       "col": 4,
                       "byteIndex": 3394
@@ -665,7 +930,7 @@
                       "hasBody": true
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/classes/PackageJsonBuilder.ts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/classes/PackageJsonBuilder.ts",
                       "line": 123,
                       "col": 4,
                       "byteIndex": 3819
@@ -729,7 +994,7 @@
                       "hasBody": true
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/classes/PackageJsonBuilder.ts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/classes/PackageJsonBuilder.ts",
                       "line": 135,
                       "col": 4,
                       "byteIndex": 4250
@@ -831,7 +1096,7 @@
                       "isAsync": true
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/classes/PackageJsonBuilder.ts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/classes/PackageJsonBuilder.ts",
                       "line": 147,
                       "col": 4,
                       "byteIndex": 4773
@@ -842,7 +1107,7 @@
             },
             {
               "location": {
-                "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/classes/PackageJsonBuilder.ts",
+                "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/classes/PackageJsonBuilder.ts",
                 "line": 165,
                 "col": 0,
                 "byteIndex": 5524
@@ -856,7 +1121,7 @@
                     "declarations": [
                       {
                         "location": {
-                          "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/classes/PackageJsonBuilder.ts",
+                          "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/classes/PackageJsonBuilder.ts",
                           "line": 169,
                           "col": 17,
                           "byteIndex": 5632
@@ -894,7 +1159,7 @@
           "declarations": [
             {
               "location": {
-                "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                 "line": 114,
                 "col": 0,
                 "byteIndex": 4779
@@ -909,7 +1174,7 @@
                       "doc": "The name is what your thing is called.\nSome rules:\n- The name must be less than or equal to 214 characters. This includes the scope for scoped packages.\n- The name can’t start with a dot or an underscore.\n- New packages must not have uppercase letters in the name.\n- The name ends up being part of a URL, an argument on the command line, and a folder name. Therefore, the name can’t contain any non-URL-safe characters."
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 123,
                       "col": 4,
                       "byteIndex": 5289
@@ -927,7 +1192,7 @@
                       "doc": "Version must be parseable by `node-semver`, which is bundled with npm as a dependency. (`npm install semver` to use it yourself.)"
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 127,
                       "col": 4,
                       "byteIndex": 5461
@@ -945,7 +1210,7 @@
                       "doc": "Put a description in it. It’s a string. This helps people discover your package, as it’s listed in `npm search`."
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 131,
                       "col": 4,
                       "byteIndex": 5623
@@ -963,7 +1228,7 @@
                       "doc": "Put keywords in it. It’s an array of strings. This helps people discover your package as it’s listed in `npm search`."
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 135,
                       "col": 4,
                       "byteIndex": 5794
@@ -984,7 +1249,7 @@
                       "doc": "The url to the project homepage."
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 139,
                       "col": 4,
                       "byteIndex": 5875
@@ -1002,7 +1267,7 @@
                       "doc": "The url to your project’s issue tracker and / or the email address to which issues should be reported. These are helpful for people who encounter issues with your package."
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 143,
                       "col": 4,
                       "byteIndex": 6095
@@ -1023,7 +1288,7 @@
                               {
                                 "name": "url",
                                 "location": {
-                                  "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                                  "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                                   "line": 144,
                                   "col": 8,
                                   "byteIndex": 6121
@@ -1038,7 +1303,7 @@
                               {
                                 "name": "email",
                                 "location": {
-                                  "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                                  "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                                   "line": 145,
                                   "col": 8,
                                   "byteIndex": 6143
@@ -1062,7 +1327,7 @@
                       "doc": "You should specify a license for your package so that people know how they are permitted to use it, and any restrictions you’re placing on it."
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 150,
                       "col": 4,
                       "byteIndex": 6338
@@ -1080,7 +1345,7 @@
                       "doc": "Specify the place where your code lives. This is helpful for people who want to contribute. If the git repo is on GitHub, then the `npm docs` command will be able to find you.\nFor GitHub, GitHub gist, Bitbucket, or GitLab repositories you can use the same shortcut syntax you use for npm install:"
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 155,
                       "col": 4,
                       "byteIndex": 6687
@@ -1101,7 +1366,7 @@
                               {
                                 "name": "type",
                                 "location": {
-                                  "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                                  "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                                   "line": 156,
                                   "col": 8,
                                   "byteIndex": 6719
@@ -1115,7 +1380,7 @@
                               {
                                 "name": "url",
                                 "location": {
-                                  "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                                  "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                                   "line": 157,
                                   "col": 8,
                                   "byteIndex": 6741
@@ -1132,7 +1397,7 @@
                                   "doc": "If the `package.json` for your package is not in the root directory (for example if it is part of a monorepo), you can specify the directory in which it lives:"
                                 },
                                 "location": {
-                                  "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                                  "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                                   "line": 161,
                                   "col": 8,
                                   "byteIndex": 6957
@@ -1156,7 +1421,7 @@
                       "doc": "The `scripts` field is a dictionary containing script commands that are run at various times in the lifecycle of your package."
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 166,
                       "col": 4,
                       "byteIndex": 7138
@@ -1179,7 +1444,7 @@
                       "doc": "If you set `\"private\": true` in your package.json, then npm will refuse to publish it."
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 170,
                       "col": 4,
                       "byteIndex": 7282
@@ -1197,7 +1462,7 @@
                       "doc": "The “author” is one person."
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 174,
                       "col": 4,
                       "byteIndex": 7360
@@ -1220,7 +1485,7 @@
                       "doc": "“contributors” is an array of people."
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 178,
                       "col": 4,
                       "byteIndex": 7457
@@ -1246,7 +1511,7 @@
                       "doc": "An object containing a URL that provides up-to-date information\nabout ways to help fund development of your package,\na string URL, or an array of objects and string URLs"
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 184,
                       "col": 4,
                       "byteIndex": 7704
@@ -1287,7 +1552,7 @@
                       "doc": "The optional `files` field is an array of file patterns that describes the entries to be included when your package is installed as a dependency. File patterns follow a similar syntax to `.gitignore`, but reversed: including a file, directory, or glob pattern (`*`, `**\\/*`, and such) will make it so that file is included in the tarball when it’s packed. Omitting the field will make it default to `[\"*\"]`, which means it will include all files."
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 188,
                       "col": 4,
                       "byteIndex": 8233
@@ -1308,7 +1573,7 @@
                       "doc": "The main field is a module ID that is the primary entry point to your program. That is, if your package is named `foo`, and a user installs it, and then does `require(\"foo\")`, then your main module’s exports object will be returned.\nThis should be a module ID relative to the root of your package folder.\nFor most modules, it makes the most sense to have a main script and often not much else."
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 194,
                       "col": 4,
                       "byteIndex": 8688
@@ -1326,7 +1591,7 @@
                       "doc": "If your module is meant to be used client-side the browser field should be used instead of the main field. This is helpful to hint users that it might rely on primitives that aren’t available in Node.js modules. (e.g. window)"
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 198,
                       "col": 4,
                       "byteIndex": 8958
@@ -1381,7 +1646,7 @@
                       "doc": "The `unpkg` field is used to specify the URL to a UMD module for your package. This is used by default in the unpkg.com CDN service."
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 202,
                       "col": 4,
                       "byteIndex": 9169
@@ -1399,7 +1664,7 @@
                       "doc": "A map of command name to local file name. On install, npm will symlink that file into `prefix/bin` for global installs, or `./node_modules/.bin/` for local installs."
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 206,
                       "col": 4,
                       "byteIndex": 9378
@@ -1441,7 +1706,7 @@
                       "doc": "Specify either a single file or an array of filenames to put in place for the `man` program to find."
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 210,
                       "col": 4,
                       "byteIndex": 9545
@@ -1472,7 +1737,7 @@
                       "doc": "Dependencies are specified in a simple object that maps a package name to a version range. The version range is a string which has one or more space-separated descriptors. Dependencies can also be identified with a tarball or git URL."
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 214,
                       "col": 4,
                       "byteIndex": 9832
@@ -1504,7 +1769,7 @@
                       "doc": "If someone is planning on downloading and using your module in their program, then they probably don’t want or need to download and build the external test or documentation framework that you use.\nIn this case, it’s best to map these additional items in a `devDependencies` object."
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 219,
                       "col": 4,
                       "byteIndex": 10191
@@ -1536,7 +1801,7 @@
                       "doc": "If a dependency can be used, but you would like npm to proceed if it cannot be found or fails to install, then you may put it in the `optionalDependencies` object. This is a map of package name to version or url, just like the `dependencies` object. The difference is that build failures do not cause installation to fail."
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 223,
                       "col": 4,
                       "byteIndex": 10583
@@ -1568,7 +1833,7 @@
                       "doc": "In some cases, you want to express the compatibility of your package with a host tool or library, while not necessarily doing a `require` of this host. This is usually referred to as a plugin. Notably, your module may be exposing a specific interface, expected and specified by the host documentation."
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 227,
                       "col": 4,
                       "byteIndex": 10959
@@ -1600,7 +1865,7 @@
                       "doc": "TypeScript typings, typically ending by `.d.ts`."
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 231,
                       "col": 4,
                       "byteIndex": 11078
@@ -1618,7 +1883,7 @@
                       "doc": "This field is synonymous with `types`."
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 235,
                       "col": 4,
                       "byteIndex": 11160
@@ -1636,7 +1901,7 @@
                       "doc": "Non-Standard Node.js alternate entry-point to main.\nAn initial implementation for supporting CJS packages (from main), and use module for ESM modules."
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 240,
                       "col": 4,
                       "byteIndex": 11363
@@ -1664,7 +1929,7 @@
                       ]
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 250,
                       "col": 4,
                       "byteIndex": 11669
@@ -1704,7 +1969,7 @@
                       ]
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 261,
                       "col": 4,
                       "byteIndex": 12015
@@ -1727,7 +1992,7 @@
                       "doc": "Docs:\n - https://nodejs.org/api/packages.html#imports"
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 266,
                       "col": 4,
                       "byteIndex": 12134
@@ -1783,7 +2048,7 @@
                       "doc": "The field is used to define a set of sub-packages (or workspaces) within a monorepo.\n\nThis field is an array of glob patterns or an object with specific configurations for managing\nmultiple packages in a single repository."
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 273,
                       "col": 4,
                       "byteIndex": 12463
@@ -1810,7 +2075,7 @@
                                   "doc": "Workspace package paths. Glob patterns are supported."
                                 },
                                 "location": {
-                                  "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                                  "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                                   "line": 277,
                                   "col": 8,
                                   "byteIndex": 12586
@@ -1831,7 +2096,7 @@
                                   "doc": "Packages to block from hoisting to the workspace root.\nUses glob patterns to match module paths in the dependency tree.\n\nDocs:\n- https://classic.yarnpkg.com/blog/2018/02/15/nohoist/"
                                 },
                                 "location": {
-                                  "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                                  "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                                   "line": 285,
                                   "col": 8,
                                   "byteIndex": 12875
@@ -1858,7 +2123,7 @@
                       "doc": "The field is used to specify different TypeScript declaration files for\ndifferent versions of TypeScript, allowing for version-specific type definitions."
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 291,
                       "col": 4,
                       "byteIndex": 13090
@@ -1907,7 +2172,7 @@
                       "doc": "You can specify which operating systems your module will run on:\n```json\n{\n  \"os\": [\"darwin\", \"linux\"]\n}\n```\nYou can also block instead of allowing operating systems, just prepend the blocked os with a '!':\n```json\n{\n  \"os\": [\"!win32\"]\n}\n```\nThe host operating system is determined by `process.platform`\nIt is allowed to both block and allow an item, although there isn't any good reason to do this."
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 308,
                       "col": 4,
                       "byteIndex": 13666
@@ -1928,7 +2193,7 @@
                       "doc": "If your code only runs on certain cpu architectures, you can specify which ones.\n```json\n{\n  \"cpu\": [\"x64\", \"ia32\"]\n}\n```\nLike the `os` option, you can also block architectures:\n```json\n{\n  \"cpu\": [\"!arm\", \"!mips\"]\n}\n```\nThe host architecture is determined by `process.arch`"
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 324,
                       "col": 4,
                       "byteIndex": 14067
@@ -1949,7 +2214,7 @@
                       "doc": "This is a set of config values that will be used at publish-time."
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 328,
                       "col": 4,
                       "byteIndex": 14176
@@ -1968,7 +2233,7 @@
                                   "doc": "The registry that will be used if the package is published."
                                 },
                                 "location": {
-                                  "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                                  "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                                   "line": 332,
                                   "col": 8,
                                   "byteIndex": 14297
@@ -1986,7 +2251,7 @@
                                   "doc": "The tag that will be used if the package is published."
                                 },
                                 "location": {
-                                  "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                                  "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                                   "line": 336,
                                   "col": 8,
                                   "byteIndex": 14414
@@ -2004,7 +2269,7 @@
                                   "doc": "The access level that will be used if the package is published."
                                 },
                                 "location": {
-                                  "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                                  "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                                   "line": 340,
                                   "col": 8,
                                   "byteIndex": 14535
@@ -2038,7 +2303,7 @@
                                   "doc": "**pnpm-only**\n\nBy default, for portability reasons, no files except those listed in\nthe bin field will be marked as executable in the resulting package\narchive. The executableFiles field lets you declare additional fields\nthat must have the executable flag (+x) set even if\nthey aren't directly accessible through the bin field."
                                 },
                                 "location": {
-                                  "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                                  "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                                   "line": 350,
                                   "col": 8,
                                   "byteIndex": 15006
@@ -2059,7 +2324,7 @@
                                   "doc": "**pnpm-only**\n\nYou also can use the field `publishConfig.directory` to customize\nthe published subdirectory relative to the current `package.json`.\n\nIt is expected to have a modified version of the current package in\nthe specified directory (usually using third party build tools)."
                                 },
                                 "location": {
-                                  "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                                  "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                                   "line": 360,
                                   "col": 8,
                                   "byteIndex": 15423
@@ -2083,7 +2348,7 @@
                                   ]
                                 },
                                 "location": {
-                                  "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                                  "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                                   "line": 368,
                                   "col": 8,
                                   "byteIndex": 15678
@@ -2219,7 +2484,7 @@
                       "doc": "See: https://nodejs.org/api/packages.html#packagemanager\nThis field defines which package manager is expected to be used when working on the current project.\nShould be of the format: `<name>@<version>[#hash]`"
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 375,
                       "col": 4,
                       "byteIndex": 16096
@@ -2252,7 +2517,7 @@
                       "value": "any"
                     },
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/node_modules/pkg-types/dist/index.d.mts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/node_modules/pkg-types/dist/index.d.mts",
                       "line": 376,
                       "col": 4,
                       "byteIndex": 16125
@@ -2268,10 +2533,10 @@
           "declarations": [
             {
               "location": {
-                "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/helpers/functions.ts",
-                "line": 7,
+                "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/helpers/functions.ts",
+                "line": 8,
                 "col": 0,
-                "byteIndex": 231
+                "byteIndex": 275
               },
               "declarationKind": "export",
               "jsDoc": {
@@ -2301,10 +2566,10 @@
           "declarations": [
             {
               "location": {
-                "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/helpers/functions.ts",
-                "line": 16,
+                "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/helpers/functions.ts",
+                "line": 17,
                 "col": 0,
-                "byteIndex": 501
+                "byteIndex": 545
               },
               "declarationKind": "export",
               "jsDoc": {
@@ -2415,10 +2680,10 @@
           "declarations": [
             {
               "location": {
-                "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/helpers/functions.ts",
-                "line": 31,
+                "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/helpers/functions.ts",
+                "line": 32,
                 "col": 0,
-                "byteIndex": 930
+                "byteIndex": 974
               },
               "declarationKind": "export",
               "jsDoc": {
@@ -2464,10 +2729,10 @@
           "declarations": [
             {
               "location": {
-                "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/helpers/functions.ts",
-                "line": 41,
+                "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/helpers/functions.ts",
+                "line": 42,
                 "col": 0,
-                "byteIndex": 1225
+                "byteIndex": 1269
               },
               "declarationKind": "export",
               "jsDoc": {
@@ -2620,10 +2885,10 @@
           "declarations": [
             {
               "location": {
-                "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/helpers/functions.ts",
-                "line": 55,
+                "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/helpers/functions.ts",
+                "line": 56,
                 "col": 0,
-                "byteIndex": 1649
+                "byteIndex": 1693
               },
               "declarationKind": "export",
               "jsDoc": {
@@ -2678,10 +2943,10 @@
           "declarations": [
             {
               "location": {
-                "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/helpers/functions.ts",
-                "line": 67,
+                "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/helpers/functions.ts",
+                "line": 68,
                 "col": 0,
-                "byteIndex": 2125
+                "byteIndex": 2169
               },
               "declarationKind": "export",
               "jsDoc": {
@@ -2744,10 +3009,10 @@
           "declarations": [
             {
               "location": {
-                "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/helpers/functions.ts",
-                "line": 77,
+                "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/helpers/functions.ts",
+                "line": 78,
                 "col": 0,
-                "byteIndex": 2498
+                "byteIndex": 2542
               },
               "declarationKind": "export",
               "jsDoc": {
@@ -2824,10 +3089,10 @@
           "declarations": [
             {
               "location": {
-                "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/helpers/functions.ts",
-                "line": 86,
+                "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/helpers/functions.ts",
+                "line": 88,
                 "col": 0,
-                "byteIndex": 2920
+                "byteIndex": 3019
               },
               "declarationKind": "export",
               "jsDoc": {
@@ -2836,6 +3101,10 @@
                   {
                     "kind": "return",
                     "doc": "An object containing the promise, and its resolve and reject functions"
+                  },
+                  {
+                    "kind": "deprecated",
+                    "doc": "Use the `DeferredPromise` class instead"
                   }
                 ]
               },
@@ -2888,7 +3157,7 @@
           "declarations": [
             {
               "location": {
-                "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/helpers/types.ts",
+                "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/helpers/types.ts",
                 "line": 0,
                 "col": 0,
                 "byteIndex": 0
@@ -2927,7 +3196,7 @@
           "declarations": [
             {
               "location": {
-                "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/helpers/types.ts",
+                "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/helpers/types.ts",
                 "line": 2,
                 "col": 0,
                 "byteIndex": 50
@@ -2987,7 +3256,7 @@
           "declarations": [
             {
               "location": {
-                "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/helpers/types.ts",
+                "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/helpers/types.ts",
                 "line": 3,
                 "col": 0,
                 "byteIndex": 95
@@ -2999,7 +3268,7 @@
                   {
                     "name": "default",
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/helpers/types.ts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/helpers/types.ts",
                       "line": 4,
                       "col": 4,
                       "byteIndex": 148
@@ -3067,7 +3336,7 @@
           "declarations": [
             {
               "location": {
-                "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/helpers/types.ts",
+                "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/helpers/types.ts",
                 "line": 7,
                 "col": 0,
                 "byteIndex": 184
@@ -3079,7 +3348,7 @@
                   {
                     "name": "promise",
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/helpers/types.ts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/helpers/types.ts",
                       "line": 8,
                       "col": 4,
                       "byteIndex": 237
@@ -3109,7 +3378,7 @@
                   {
                     "name": "resolve",
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/helpers/types.ts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/helpers/types.ts",
                       "line": 9,
                       "col": 4,
                       "byteIndex": 262
@@ -3148,7 +3417,7 @@
                   {
                     "name": "reject",
                     "location": {
-                      "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/helpers/types.ts",
+                      "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/helpers/types.ts",
                       "line": 10,
                       "col": 4,
                       "byteIndex": 295
@@ -3197,7 +3466,7 @@
           "declarations": [
             {
               "location": {
-                "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/structures/Format.ts",
+                "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/structures/Format.ts",
                 "line": 0,
                 "col": 0,
                 "byteIndex": 0
@@ -3211,7 +3480,7 @@
                     "declarations": [
                       {
                         "location": {
-                          "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/structures/Format.ts",
+                          "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/structures/Format.ts",
                           "line": 1,
                           "col": 4,
                           "byteIndex": 30
@@ -3260,7 +3529,7 @@
                     "declarations": [
                       {
                         "location": {
-                          "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/structures/Format.ts",
+                          "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/structures/Format.ts",
                           "line": 13,
                           "col": 4,
                           "byteIndex": 436
@@ -3295,7 +3564,7 @@
                     "declarations": [
                       {
                         "location": {
-                          "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/structures/Format.ts",
+                          "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/structures/Format.ts",
                           "line": 32,
                           "col": 4,
                           "byteIndex": 1107
@@ -3344,7 +3613,7 @@
                       },
                       {
                         "location": {
-                          "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/structures/Format.ts",
+                          "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/structures/Format.ts",
                           "line": 33,
                           "col": 4,
                           "byteIndex": 1192
@@ -3393,7 +3662,7 @@
                       },
                       {
                         "location": {
-                          "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/structures/Format.ts",
+                          "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/structures/Format.ts",
                           "line": 34,
                           "col": 4,
                           "byteIndex": 1281
@@ -3452,7 +3721,7 @@
                       },
                       {
                         "location": {
-                          "filename": "https://github.com/reciplejs/reciple/blob/095bd329a746617340ae359cd1ece25c79eff80f/packages/utils/src/structures/Format.ts",
+                          "filename": "https://github.com/reciplejs/reciple/blob/5e38c44bd7e92c9a269ff3c3200aa661e5a79a62/packages/utils/src/structures/Format.ts",
                           "line": 35,
                           "col": 4,
                           "byteIndex": 1385
